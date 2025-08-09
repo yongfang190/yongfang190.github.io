@@ -1,114 +1,61 @@
 ---
-const now = new Date();
-const currentYear = now.getFullYear();
-const years = Array.from({ length: 5 }, (_, i) => currentYear - i);
+import { useState, useEffect } from 'react';
+
+const [indexData, setIndexData] = useState(null);
+const [selectedYear, setSelectedYear] = useState(new Date().getFullYear());
+const [papers, setPapers] = useState([]);
+
+useEffect(() => {
+  fetch('/data/ndss/index.json')
+    .then(res => res.json())
+    .then(data => {
+      setIndexData(data);
+      if (data.years[selectedYear]) {
+        loadYear(selectedYear);
+      }
+    });
+}, []);
+
+function loadYear(year) {
+  setSelectedYear(year);
+  fetch(`/data/ndss/${year}.json`)
+    .then(res => res.json())
+    .then(data => setPapers(data.items || []));
+}
 ---
 
-<html lang="zh">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>NDSS — Security Papers</title>
-    <style>
-      body { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; }
-      .row { display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; }
-      select, input { padding:.5rem .6rem; border-radius:8px; border:1px solid color-mix(in oklab, CanvasText 20%, transparent); }
-      .grid { display:grid; gap:1rem; margin-top:1rem; }
-      .card { border:1px solid color-mix(in oklab, CanvasText 20%, transparent); border-radius:12px; padding:1rem; }
-      .title { margin:0 0 .25rem; font-size:1.05rem; }
-      .meta { opacity:.75; font-size:.9rem; margin:0 0 .5rem; }
-      .empty { opacity:.65; margin-top:1rem; }
-    </style>
+    <meta charset="UTF-8" />
+    <title>NDSS Papers</title>
   </head>
   <body>
-    <h1>NDSS</h1>
-    <div class="row">
-      <label>Year:
-        <select id="yearSel">
-          {years.map((y) => <option value={y}>{y}</option>)}
+    <h1>NDSS Papers</h1>
+
+    {indexData && (
+      <div>
+        <label for="yearSelect">Select Year:</label>
+        <select id="yearSelect" value={selectedYear} onChange={(e) => loadYear(parseInt(e.target.value))}>
+          {Object.entries(indexData.years)
+            .sort((a, b) => b[0] - a[0])
+            .map(([year, info]) => (
+              <option value={year}>{year} ({info.count})</option>
+            ))}
         </select>
-      </label>
-      <input id="qInput" placeholder="Search title/author/tag…" />
-      <span id="count" style="opacity:.7"></span>
-    </div>
+        <div style="font-size:0.9em;color:gray;">
+          Last updated: {new Date(indexData.last_updated).toLocaleString()}
+        </div>
+      </div>
+    )}
 
-    <section id="cards" class="grid"></section>
-
-    <script>
-      const yearSel = document.getElementById('yearSel');
-      const qInput  = document.getElementById('qInput');
-      const cards   = document.getElementById('cards');
-      const countEl = document.getElementById('count');
-
-      // init from URL
-      const params = new URLSearchParams(location.search);
-      const nowYear = new Date().getFullYear();
-      let year = Number(params.get('year') || nowYear);
-      let q = (params.get('q') || '').toLowerCase();
-      yearSel.value = String(year);
-      qInput.value = q;
-
-      async function fetchYear(y) {
-        const res = await fetch(`/data/ndss/${y}.json?ts=` + Date.now());
-        if (!res.ok) return { items: [] };
-        return res.json();
-      }
-
-      function render(list) {
-        if (!list.length) {
-          cards.innerHTML = `<p class="empty">No results.</p>`;
-          countEl.textContent = '0 results';
-          return;
-        }
-        const html = list.map(p => {
-          const authors = (p.authors || []).join(', ');
-          const date = p.published_at || p.year || '';
-          const href = p.pdf_url || '#';
-          return `
-            <article class="card">
-              <h3 class="title"><a href="${href}" target="_blank" rel="noopener">${p.title || ''}</a></h3>
-              <p class="meta">${authors} • ${date}</p>
-              ${p.llm_summary_zh ? `<p>${p.llm_summary_zh}</p>` : ''}
-            </article>`;
-        }).join('');
-        cards.innerHTML = html;
-        countEl.textContent = list.length + ' results';
-      }
-
-      async function load() {
-        const data = await fetchYear(year);
-        const items = (data.items || []).filter((p) => {
-          if (!q) return true;
-          const hay = [
-            p.title || '',
-            ...(p.authors || []),
-            ...(p.tags || []),
-            p.llm_summary_zh || ''
-          ].join(' ').toLowerCase();
-          return hay.includes(q);
-        });
-        render(items);
-      }
-
-      function syncUrl() {
-        const u = new URL(location.href);
-        u.searchParams.set('year', String(year));
-        q ? u.searchParams.set('q', q) : u.searchParams.delete('q');
-        history.replaceState(null, '', u);
-      }
-
-      yearSel.addEventListener('change', () => {
-        year = Number(yearSel.value);
-        syncUrl();
-        load();
-      });
-      qInput.addEventListener('input', () => {
-        q = qInput.value.toLowerCase();
-        syncUrl();
-        load();
-      });
-
-      load();
-    </script>
+    <ul>
+      {papers.map((paper) => (
+        <li>
+          <strong>{paper.title}</strong>
+          <div>Authors: {paper.authors.join(', ')}</div>
+          {paper.pdf_url && <a href={paper.pdf_url} target="_blank">PDF</a>}
+        </li>
+      ))}
+    </ul>
   </body>
 </html>
