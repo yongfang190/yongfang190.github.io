@@ -1,25 +1,6 @@
 ---
-import { loadConference } from '../lib/fetchData';
-import PaperCard from '../components/PaperCard.astro';
-
-const currentYear = new Date().getFullYear();
-const qs = Astro.url.searchParams;
-const selectedYear = Number(qs.get('year') ?? currentYear);
-const q = (qs.get('q') ?? '').toLowerCase();
-
-const data = await loadConference('ndss', selectedYear);
-const items = (data.items ?? []).filter((p) => {
-  if (!q) return true;
-  const hay = [
-    p.title || '',
-    ...(p.authors || []),
-    ...(p.tags || []),
-    p.llm_summary_zh || ''
-  ].join(' ').toLowerCase();
-  return hay.includes(q);
-});
-
-// 年份下拉近5年
+const now = new Date();
+const currentYear = now.getFullYear();
 const years = Array.from({ length: 5 }, (_, i) => currentYear - i);
 ---
 
@@ -27,62 +8,119 @@ const years = Array.from({ length: 5 }, (_, i) => currentYear - i);
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>NDSS {selectedYear} 论文快览</title>
+    <title>NDSS 论文快览</title>
     <style>
       :root { color-scheme: light dark; }
-      body { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial; }
-      header h1 { font-size: 1.8rem; margin: 0 0 .25rem; }
-      header p { opacity: .8; margin: 0 0 .75rem; }
-      .toolbar { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; margin: .5rem 0 1rem; }
-      select, input { padding: .55rem .65rem; border-radius: 10px; border: 1px solid color-mix(in oklab, CanvasText 20%, transparent); }
-      .grid { display: grid; gap: 1rem; }
-      .empty { opacity: .6; padding: 1rem 0; }
-      .hint { opacity: .7; font-size: .9rem; margin-top: .25rem; }
-      a.clean { text-decoration: none; border: 1px solid color-mix(in oklab, CanvasText 20%, transparent); padding: .4rem .7rem; border-radius: 10px; }
-      a.clean:hover { outline: 2px solid color-mix(in oklab, CanvasText 35%, transparent); }
+      body { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; }
+      header h1 { font-size: 1.9rem; margin: 0 0 .4rem; }
+      header p { opacity: .8; margin: 0 0 .9rem; }
+      .toolbar { display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; }
+      select, input { padding:.55rem .65rem; border-radius:10px; border:1px solid color-mix(in oklab, CanvasText 20%, transparent); }
+      .grid { display:grid; gap:1rem; margin-top:1rem; }
+      .card { border:1px solid color-mix(in oklab, CanvasText 20%, transparent); border-radius:12px; padding:1rem; }
+      .title { margin:0 0 .25rem; font-size:1.05rem; }
+      .meta { opacity:.75; font-size:.9rem; margin:0 0 .5rem; }
+      .empty { opacity:.65; margin-top:1rem; }
+      nav a.clean { text-decoration:none; border:1px solid color-mix(in oklab, CanvasText 20%, transparent); padding:.35rem .65rem; border-radius:10px; }
+      nav a.clean:hover { outline:2px solid color-mix(in oklab, CanvasText 35%, transparent); }
     </style>
   </head>
   <body>
     <header>
-      <h1>NDSS {selectedYear} 论文快览</h1>
-      <p>自动抓取 NDSS 近年论文，支持关键词搜索与年份筛选。</p>
-      <nav class="hint">
-        也可查看：<a class="clean" href="/conf/ndss">会议页</a>
+      <h1>NDSS 论文快览</h1>
+      <p>自动抓取近年 NDSS 论文，支持年份筛选与关键词搜索。</p>
+      <nav>
+        <a class="clean" href="/conf/ndss">进入会议页 /conf/ndss</a>
       </nav>
     </header>
 
     <div class="toolbar">
       <label>年份：
         <select id="yearSel">
-          {years.map(y => <option value={y} selected={y===selectedYear}>{y}</option>)}
+          {years.map((y) => <option value={y}>{y}</option>)}
         </select>
       </label>
-      <input id="qInput" placeholder="搜索 标题/作者/标签…" value={q} />
-      <span class="hint">{items.length} 条结果</span>
+      <input id="qInput" placeholder="搜索 标题 / 作者 / 标签…" />
+      <span id="count" style="opacity:.7"></span>
     </div>
 
-    {items.length === 0 ? (
-      <p class="empty">本年暂无数据或筛选结果为空。可尝试更换年份或清空搜索。</p>
-    ) : (
-      <section class="grid">
-        {items.map((p) => <PaperCard paper={p} />)}
-      </section>
-    )}
+    <section id="cards" class="grid"></section>
 
     <script>
       const yearSel = document.getElementById('yearSel');
-      const qInput = document.getElementById('qInput');
-      function go() {
-        const y = encodeURIComponent(yearSel.value);
-        const q = qInput.value ? `&q=${encodeURIComponent(qInput.value)}` : '';
-        location.search = `?year=${y}${q}`;
+      const qInput  = document.getElementById('qInput');
+      const cards   = document.getElementById('cards');
+      const countEl = document.getElementById('count');
+
+      // 从 URL 初始化
+      const params = new URLSearchParams(location.search);
+      const nowYear = new Date().getFullYear();
+      let year = Number(params.get('year') || nowYear);
+      let q = (params.get('q') || '').toLowerCase();
+      yearSel.value = String(year);
+      qInput.value = q;
+
+      async function fetchYear(y) {
+        const res = await fetch(`/data/ndss/${y}.json?ts=` + Date.now());
+        if (!res.ok) return { items: [] };
+        return res.json();
       }
-      yearSel.addEventListener('change', go);
-      qInput.addEventListener('input', () => {
-        const y = encodeURIComponent(yearSel.value);
-        const q = qInput.value ? `&q=${encodeURIComponent(qInput.value)}` : '';
-        history.replaceState(null, '', `?year=${y}${q}`);
+
+      function render(list) {
+        if (!list.length) {
+          cards.innerHTML = `<p class="empty">暂无结果，可更换年份或调整关键词。</p>`;
+          countEl.textContent = '0 条结果';
+          return;
+        }
+        const html = list.map(p => {
+          const authors = (p.authors || []).join(', ');
+          const date = p.published_at || p.year || '';
+          const href = p.pdf_url || '#';
+          return `
+            <article class="card">
+              <h3 class="title"><a href="${href}" target="_blank" rel="noopener">${p.title || ''}</a></h3>
+              <p class="meta">${authors} • ${date}</p>
+              ${p.llm_summary_zh ? `<p>${p.llm_summary_zh}</p>` : ''}
+            </article>`;
+        }).join('');
+        cards.innerHTML = html;
+        countEl.textContent = list.length + ' 条结果';
+      }
+
+      async function load() {
+        const data = await fetchYear(year);
+        const items = (data.items || []).filter((p) => {
+          if (!q) return true;
+          const hay = [
+            p.title || '',
+            ...(p.authors || []),
+            ...(p.tags || []),
+            p.llm_summary_zh || ''
+          ].join(' ').toLowerCase();
+          return hay.includes(q);
+        });
+        render(items);
+      }
+
+      function syncUrl() {
+        const u = new URL(location.href);
+        u.searchParams.set('year', String(year));
+        q ? u.searchParams.set('q', q) : u.searchParams.delete('q');
+        history.replaceState(null, '', u);
+      }
+
+      yearSel.addEventListener('change', () => {
+        year = Number(yearSel.value);
+        syncUrl();
+        load();
       });
+      qInput.addEventListener('input', () => {
+        q = qInput.value.toLowerCase();
+        syncUrl();
+        load();
+      });
+
+      load(); // 首次渲染
     </script>
   </body>
 </html>
