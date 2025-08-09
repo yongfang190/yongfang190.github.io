@@ -1,52 +1,114 @@
 ---
-import { loadConference } from "../../lib/fetchData";
-import PaperCard from "../../components/PaperCard.astro";
-
 const now = new Date();
 const currentYear = now.getFullYear();
-const data = await loadConference("ndss", currentYear);
-const years = Array.from({length: 5}, (_,i)=> currentYear - i);
-const selectedYear = Astro.url.searchParams.get('year') ?? String(data.year ?? currentYear);
-
-let items = data.items ?? [];
-if (Number(selectedYear) !== data.year) {
-  const other = await loadConference("ndss", Number(selectedYear));
-  items = other.items ?? [];
-}
-const q = Astro.url.searchParams.get('q')?.toLowerCase() ?? '';
-const filtered = items.filter(p => {
-  const hay = [p.title, ...(p.authors||[]), ...(p.tags||[]), p.llm_summary_zh||''].join(' ').toLowerCase();
-  return hay.includes(q);
-});
+const years = Array.from({ length: 5 }, (_, i) => currentYear - i);
 ---
-<html lang="en">
+
+<html lang="zh">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>NDSS — Security Papers</title>
     <style>
       body { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; }
-      .row { display:flex; gap: .75rem; align-items:center; flex-wrap: wrap; }
-      select, input { padding: .5rem .6rem; border-radius: 8px; border:1px solid color-mix(in oklab, CanvasText 20%, transparent); }
+      .row { display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; }
+      select, input { padding:.5rem .6rem; border-radius:8px; border:1px solid color-mix(in oklab, CanvasText 20%, transparent); }
       .grid { display:grid; gap:1rem; margin-top:1rem; }
+      .card { border:1px solid color-mix(in oklab, CanvasText 20%, transparent); border-radius:12px; padding:1rem; }
+      .title { margin:0 0 .25rem; font-size:1.05rem; }
+      .meta { opacity:.75; font-size:.9rem; margin:0 0 .5rem; }
+      .empty { opacity:.65; margin-top:1rem; }
     </style>
   </head>
   <body>
     <h1>NDSS</h1>
     <div class="row">
       <label>Year:
-        <select onchange="location.search='?year=' + this.value + (qEl.value?('&q='+encodeURIComponent(qEl.value)):'')">
-          {years.map(y => <option value={y} selected={String(y)===String(selectedYear)}>{y}</option>)}
+        <select id="yearSel">
+          {years.map((y) => <option value={y}>{y}</option>)}
         </select>
       </label>
-      <input id="q" placeholder="Search title/author/tag…" value={q} oninput="location.search='?year='+encodeURIComponent('{selectedYear}')+'&q='+encodeURIComponent(this.value)" />
+      <input id="qInput" placeholder="Search title/author/tag…" />
+      <span id="count" style="opacity:.7"></span>
     </div>
-    <p style="opacity:.7;margin:.5rem 0 0">{filtered.length} results</p>
-    <section class="grid">
-      {filtered.map(p => <PaperCard paper={p} />)}
-    </section>
+
+    <section id="cards" class="grid"></section>
+
     <script>
-      const qEl = document.getElementById('q');
+      const yearSel = document.getElementById('yearSel');
+      const qInput  = document.getElementById('qInput');
+      const cards   = document.getElementById('cards');
+      const countEl = document.getElementById('count');
+
+      // init from URL
+      const params = new URLSearchParams(location.search);
+      const nowYear = new Date().getFullYear();
+      let year = Number(params.get('year') || nowYear);
+      let q = (params.get('q') || '').toLowerCase();
+      yearSel.value = String(year);
+      qInput.value = q;
+
+      async function fetchYear(y) {
+        const res = await fetch(`/data/ndss/${y}.json?ts=` + Date.now());
+        if (!res.ok) return { items: [] };
+        return res.json();
+      }
+
+      function render(list) {
+        if (!list.length) {
+          cards.innerHTML = `<p class="empty">No results.</p>`;
+          countEl.textContent = '0 results';
+          return;
+        }
+        const html = list.map(p => {
+          const authors = (p.authors || []).join(', ');
+          const date = p.published_at || p.year || '';
+          const href = p.pdf_url || '#';
+          return `
+            <article class="card">
+              <h3 class="title"><a href="${href}" target="_blank" rel="noopener">${p.title || ''}</a></h3>
+              <p class="meta">${authors} • ${date}</p>
+              ${p.llm_summary_zh ? `<p>${p.llm_summary_zh}</p>` : ''}
+            </article>`;
+        }).join('');
+        cards.innerHTML = html;
+        countEl.textContent = list.length + ' results';
+      }
+
+      async function load() {
+        const data = await fetchYear(year);
+        const items = (data.items || []).filter((p) => {
+          if (!q) return true;
+          const hay = [
+            p.title || '',
+            ...(p.authors || []),
+            ...(p.tags || []),
+            p.llm_summary_zh || ''
+          ].join(' ').toLowerCase();
+          return hay.includes(q);
+        });
+        render(items);
+      }
+
+      function syncUrl() {
+        const u = new URL(location.href);
+        u.searchParams.set('year', String(year));
+        q ? u.searchParams.set('q', q) : u.searchParams.delete('q');
+        history.replaceState(null, '', u);
+      }
+
+      yearSel.addEventListener('change', () => {
+        year = Number(yearSel.value);
+        syncUrl();
+        load();
+      });
+      qInput.addEventListener('input', () => {
+        q = qInput.value.toLowerCase();
+        syncUrl();
+        load();
+      });
+
+      load();
     </script>
   </body>
 </html>
