@@ -1,0 +1,88 @@
+---
+import { loadConference } from '../lib/fetchData';
+import PaperCard from '../components/PaperCard.astro';
+
+const currentYear = new Date().getFullYear();
+const qs = Astro.url.searchParams;
+const selectedYear = Number(qs.get('year') ?? currentYear);
+const q = (qs.get('q') ?? '').toLowerCase();
+
+const data = await loadConference('ndss', selectedYear);
+const items = (data.items ?? []).filter((p) => {
+  if (!q) return true;
+  const hay = [
+    p.title || '',
+    ...(p.authors || []),
+    ...(p.tags || []),
+    p.llm_summary_zh || ''
+  ].join(' ').toLowerCase();
+  return hay.includes(q);
+});
+
+// 年份下拉近5年
+const years = Array.from({ length: 5 }, (_, i) => currentYear - i);
+---
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NDSS {selectedYear} 论文快览</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial; }
+      header h1 { font-size: 1.8rem; margin: 0 0 .25rem; }
+      header p { opacity: .8; margin: 0 0 .75rem; }
+      .toolbar { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; margin: .5rem 0 1rem; }
+      select, input { padding: .55rem .65rem; border-radius: 10px; border: 1px solid color-mix(in oklab, CanvasText 20%, transparent); }
+      .grid { display: grid; gap: 1rem; }
+      .empty { opacity: .6; padding: 1rem 0; }
+      .hint { opacity: .7; font-size: .9rem; margin-top: .25rem; }
+      a.clean { text-decoration: none; border: 1px solid color-mix(in oklab, CanvasText 20%, transparent); padding: .4rem .7rem; border-radius: 10px; }
+      a.clean:hover { outline: 2px solid color-mix(in oklab, CanvasText 35%, transparent); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>NDSS {selectedYear} 论文快览</h1>
+      <p>自动抓取 NDSS 近年论文，支持关键词搜索与年份筛选。</p>
+      <nav class="hint">
+        也可查看：<a class="clean" href="/conf/ndss">会议页</a>
+      </nav>
+    </header>
+
+    <div class="toolbar">
+      <label>年份：
+        <select id="yearSel">
+          {years.map(y => <option value={y} selected={y===selectedYear}>{y}</option>)}
+        </select>
+      </label>
+      <input id="qInput" placeholder="搜索 标题/作者/标签…" value={q} />
+      <span class="hint">{items.length} 条结果</span>
+    </div>
+
+    {items.length === 0 ? (
+      <p class="empty">本年暂无数据或筛选结果为空。可尝试更换年份或清空搜索。</p>
+    ) : (
+      <section class="grid">
+        {items.map((p) => <PaperCard paper={p} />)}
+      </section>
+    )}
+
+    <script>
+      const yearSel = document.getElementById('yearSel');
+      const qInput = document.getElementById('qInput');
+      function go() {
+        const y = encodeURIComponent(yearSel.value);
+        const q = qInput.value ? `&q=${encodeURIComponent(qInput.value)}` : '';
+        location.search = `?year=${y}${q}`;
+      }
+      yearSel.addEventListener('change', go);
+      qInput.addEventListener('input', () => {
+        const y = encodeURIComponent(yearSel.value);
+        const q = qInput.value ? `&q=${encodeURIComponent(qInput.value)}` : '';
+        history.replaceState(null, '', `?year=${y}${q}`);
+      });
+    </script>
+  </body>
+</html>

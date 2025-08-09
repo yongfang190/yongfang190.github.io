@@ -1,0 +1,22 @@
+---
+const { paper } = Astro.props;
+---
+<article class="paper">
+  <h3 class="title"><a href={paper.pdf_url || '#'} target="_blank" rel="noopener">{paper.title}</a></h3>
+  <p class="meta">
+    {paper.authors && paper.authors.length ? paper.authors.join(', ') : 'Unknown authors'}
+    • {paper.published_at || paper.year}
+  </p>
+  {paper.llm_summary_zh ? <p class="summary">{paper.llm_summary_zh}</p> : null}
+  <div class="tags">
+    {(paper.tags || []).slice(0, 6).map(t => <span class="tag">{t}</span>)}
+  </div>
+  <style>
+    .paper { border: 1px solid color-mix(in oklab, CanvasText 20%, transparent); border-radius: 12px; padding: 1rem; }
+    .title { margin: 0 0 .25rem; font-size: 1.05rem; }
+    .meta { opacity:.75; font-size:.9rem; margin: 0 0 .5rem; }
+    .summary { margin: .25rem 0 .5rem; }
+    .tags { display:flex; flex-wrap:wrap; gap:.5rem; }
+    .tag { font-size:.8rem; border:1px solid color-mix(in oklab, CanvasText 20%, transparent); padding:.1rem .4rem; border-radius:999px; }
+  </style>
+</article>
