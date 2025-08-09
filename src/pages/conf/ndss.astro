@@ -1,61 +1,157 @@
 ---
-import { useState, useEffect } from 'react';
-
-const [indexData, setIndexData] = useState(null);
-const [selectedYear, setSelectedYear] = useState(new Date().getFullYear());
-const [papers, setPapers] = useState([]);
-
-useEffect(() => {
-  fetch('/data/ndss/index.json')
-    .then(res => res.json())
-    .then(data => {
-      setIndexData(data);
-      if (data.years[selectedYear]) {
-        loadYear(selectedYear);
-      }
-    });
-}, []);
-
-function loadYear(year) {
-  setSelectedYear(year);
-  fetch(`/data/ndss/${year}.json`)
-    .then(res => res.json())
-    .then(data => setPapers(data.items || []));
-}
+const now = new Date();
+const currentYear = now.getFullYear();
+const defaultYears = Array.from({ length: 5 }, (_, i) => currentYear - i);
 ---
 
-<html lang="en">
+<html lang="zh">
   <head>
-    <meta charset="UTF-8" />
-    <title>NDSS Papers</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NDSS — Security Papers</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; }
+      header h1 { font-size: 1.9rem; margin: 0 0 .35rem; }
+      header .muted { opacity:.75; }
+      .row { display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; margin-top:.75rem; }
+      select, input { padding:.5rem .6rem; border-radius:10px; border:1px solid color-mix(in oklab, CanvasText 20%, transparent); }
+      .grid { display:grid; gap:1rem; margin-top:1rem; }
+      .card { border:1px solid color-mix(in oklab, CanvasText 20%, transparent); border-radius:12px; padding:1rem; }
+      .title { margin:0 0 .25rem; font-size:1.05rem; }
+      .meta { opacity:.75; font-size:.9rem; margin:0 0 .5rem; }
+      .empty { opacity:.65; margin-top:1rem; }
+      .badge { display:inline-block; font-size:.85rem; border:1px solid color-mix(in oklab, CanvasText 25%, transparent); padding:.15rem .5rem; border-radius:999px; margin-left:.35rem; }
+    </style>
   </head>
   <body>
-    <h1>NDSS Papers</h1>
+    <header>
+      <h1>NDSS</h1>
+      <div class="muted" id="health">加载年度统计中…</div>
+    </header>
 
-    {indexData && (
-      <div>
-        <label for="yearSelect">Select Year:</label>
-        <select id="yearSelect" value={selectedYear} onChange={(e) => loadYear(parseInt(e.target.value))}>
-          {Object.entries(indexData.years)
-            .sort((a, b) => b[0] - a[0])
-            .map(([year, info]) => (
-              <option value={year}>{year} ({info.count})</option>
-            ))}
+    <div class="row">
+      <label>Year:
+        <select id="yearSel">
+          {defaultYears.map((y) => <option value={y}>{y}</option>)}
         </select>
-        <div style="font-size:0.9em;color:gray;">
-          Last updated: {new Date(indexData.last_updated).toLocaleString()}
-        </div>
-      </div>
-    )}
+      </label>
+      <input id="qInput" placeholder="Search title / author / tag…" />
+      <span id="count" class="muted"></span>
+    </div>
 
-    <ul>
-      {papers.map((paper) => (
-        <li>
-          <strong>{paper.title}</strong>
-          <div>Authors: {paper.authors.join(', ')}</div>
-          {paper.pdf_url && <a href={paper.pdf_url} target="_blank">PDF</a>}
-        </li>
-      ))}
-    </ul>
+    <section id="cards" class="grid"></section>
+
+    <script>
+      const yearSel = document.getElementById('yearSel');
+      const qInput  = document.getElementById('qInput');
+      const cards   = document.getElementById('cards');
+      const countEl = document.getElementById('count');
+      const health  = document.getElementById('health');
+
+      // 1) 读取 index.json，用于角标与年份下拉
+      async function loadIndex() {
+        try {
+          const res = await fetch('/data/ndss/index.json?ts=' + Date.now());
+          if (!res.ok) throw new Error('no index');
+          const s = await res.json();
+
+          // 顶部角标
+          const list = Object.entries(s.years)
+            .sort((a,b)=> Number(b[0]) - Number(a[0]))
+            .map(([y, info]) => `${y}: ${(info?.count ?? 0)}`)
+            .join(' · ');
+          const ts = new Date(s.last_updated).toLocaleString();
+          health.innerHTML = `NDSS (${s.window_years || '5'}y) <span class="badge">${list}</span> <span class="badge">更新：${ts}</span>`;
+
+          // 下拉附数量
+          yearSel.innerHTML = Object.entries(s.years)
+            .sort((a,b)=> Number(b[0]) - Number(a[0]))
+            .map(([y, info]) => `<option value="${y}">${y} (${info?.count ?? 0})</option>`)
+            .join('');
+        } catch (e) {
+          health.textContent = 'NDSS（近 5 年）';
+        }
+      }
+
+      // 2) 拉取指定年份数据
+      async function fetchYear(y) {
+        const res = await fetch(`/data/ndss/${y}.json?ts=` + Date.now());
+        if (!res.ok) return { items: [] };
+        return res.json();
+      }
+
+      function render(list) {
+        if (!list.length) {
+          cards.innerHTML = `<p class="empty">No results.</p>`;
+          countEl.textContent = '0 results';
+          return;
+        }
+        const html = list.map(p => {
+          const authors = (p.authors || []).join(', ');
+          const date = p.published_at || p.year || '';
+          const href = p.pdf_url || '#';
+          return `
+            <article class="card">
+              <h3 class="title"><a href="${href}" target="_blank" rel="noopener">${p.title || ''}</a></h3>
+              <p class="meta">${authors} • ${date}</p>
+              ${p.llm_summary_zh ? `<p>${p.llm_summary_zh}</p>` : ''}
+            </article>`;
+        }).join('');
+        cards.innerHTML = html;
+        countEl.textContent = list.length + ' results';
+      }
+
+      // URL 状态
+      const params = new URLSearchParams(location.search);
+      const nowYear = new Date().getFullYear();
+      let year = Number(params.get('year') || nowYear);
+      let q = (params.get('q') || '').toLowerCase();
+
+      function syncUrl() {
+        const u = new URL(location.href);
+        u.searchParams.set('year', String(year));
+        q ? u.searchParams.set('q', q) : u.searchParams.delete('q');
+        history.replaceState(null, '', u);
+      }
+
+      async function load() {
+        const data = await fetchYear(year);
+        const items = (data.items || []).filter((p) => {
+          if (!q) return true;
+          const hay = [
+            p.title || '',
+            ...(p.authors || []),
+            ...(p.tags || []),
+            p.llm_summary_zh || ''
+          ].join(' ').toLowerCase();
+          return hay.includes(q);
+        });
+        render(items);
+      }
+
+      yearSel.addEventListener('change', () => {
+        year = Number(yearSel.value);
+        syncUrl();
+        load();
+      });
+      qInput.addEventListener('input', () => {
+        q = qInput.value.toLowerCase();
+        syncUrl();
+        load();
+      });
+
+      // 初始化
+      (async () => {
+        await loadIndex();
+        if ([...yearSel.options].length) {
+          const has = [...yearSel.options].some(o => Number(o.value) === year);
+          if (!has) year = Number(yearSel.options[0].value);
+        }
+        yearSel.value = String(year);
+        qInput.value = q;
+        load();
+      })();
+    </script>
   </body>
 </html>
