@@ -1,15 +1,19 @@
 name: ingest-and-deploy
 
 on:
-  workflow_dispatch:        # 手动触发
+  workflow_dispatch:          # 手动触发
   schedule:
-    - cron: '0 3 * * *'     # 可选：每天 03:00 UTC 自动跑
+    - cron: '0 3 * * *'       # 可选：每天 03:00 UTC 自动跑
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # 允许把数据提交回仓库
+      contents: write         # 允许把抓取的数据提交回仓库
     steps:
       - uses: actions/checkout@v4
 
@@ -46,16 +50,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          # cache: 'npm'            # 可选
+          # 没有 lockfile，就不要配置 cache
 
       - name: Install dependencies
-        run: npm install          # ✅ 用 npm install（无 lockfile 也能跑）
+        run: npm install
 
       - name: Build Astro site
-        run: npm run build
+        run: npm run build    # 产物目录：dist/
 
-      - name: Upload-pages artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist          # ✅ 一定要指定 dist
 
   deploy:
     runs-on: ubuntu-latest
