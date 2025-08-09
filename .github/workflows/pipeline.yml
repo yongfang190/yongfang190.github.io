@@ -9,7 +9,7 @@ jobs:
   ingest:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # 允许提交数据到仓库
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -66,8 +66,13 @@ jobs:
       - name: Build Astro site
         run: npm run build
 
+      - name: List build output
+        run: ls -R dist   # 🔍 调试：递归列出 dist 目录内容
+
       - name: Upload-pages artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
   deploy:
     runs-on: ubuntu-latest
