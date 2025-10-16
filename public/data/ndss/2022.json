@@ -696,7 +696,7 @@
       "authors": [
         "Jianfeng Li 0006",
         "Shuohan Wu",
-        "Hao Zhou 0009",
+        "Hao Zhou 0043",
         "Xiapu Luo",
         "Ting Wang 0006",
         "Yangyang Liu",
@@ -1489,7 +1489,7 @@
       "id": "ndss-2022-uncovering-cross-context-inconsistent-access-control-enforcement-in-android",
       "title": "Uncovering Cross-Context Inconsistent Access Control Enforcement in Android.",
       "authors": [
-        "Hao Zhou 0009",
+        "Hao Zhou 0043",
         "Haoyu Wang 0001",
         "Xiapu Luo",
         "Ting Chen 0002",
