@@ -2511,7 +2511,7 @@
       "id": "ndss-2024-printlistener-uncovering-the-vulnerability-of-fingerprint-authentication-via-the",
       "title": "PrintListener: Uncovering the Vulnerability of Fingerprint Authentication via the Finger Friction Sound.",
       "authors": [
-        "Man Zhou",
+        "Man Zhou 0004",
         "Shuao Su",
         "Qian Wang 0002",
         "Qi Li 0002",
