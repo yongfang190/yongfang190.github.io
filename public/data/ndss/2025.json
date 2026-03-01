@@ -3212,7 +3212,7 @@
       "id": "ndss-2025-isolategpt-an-execution-isolation-architecture-for-llm-based-agentic-systems",
       "title": "IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems.",
       "authors": [
-        "Yuhao Wu",
+        "Yuhao Wu 0006",
         "Franziska Roesner",
         "Tadayoshi Kohno",
         "Ning Zhang 0017",
