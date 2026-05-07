@@ -214,7 +214,7 @@
       "authors": [
         "Osama Bajaber",
         "Bo Ji 0001",
-        "Peng Gao"
+        "Peng Gao 0008"
       ],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/netcap-data-plane-capability-based-defense-against-token-theft-in-network-access/",
@@ -1613,7 +1613,7 @@
       "authors": [
         "Qingwen Li",
         "Song Bian 0001",
-        "Hui Li"
+        "Hui Li 0006"
       ],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/cwpsu-efficient-unbalanced-private-set-union-via-constant-weight-codes/",
@@ -1629,7 +1629,7 @@
       "authors": [
         "Songze Li",
         "Jiameng Cheng",
-        "Yiming Li",
+        "Yiming Li 0004",
         "Xiaojun Jia",
         "Dacheng Tao"
       ],
@@ -1737,7 +1737,7 @@
       "authors": [
         "Peiyang Li",
         "Fukun Mei",
-        "Ye Wang",
+        "Ye Wang 0002",
         "Zhuotao Liu",
         "Ke Xu 0002",
         "Chao Shen 0001",
@@ -1762,7 +1762,7 @@
         "Xiaochen Zou",
         "Shitong Zhu",
         "Qiushi Wu",
-        "Zheng Zhang",
+        "Zheng Zhang 0058",
         "Joshua Hsu",
         "Yue Dong",
         "Zhiyun Qian",
@@ -1814,7 +1814,7 @@
       "id": "ndss-2026-thinktrap-denial-of-service-attacks-against-black-box-llm-services-via-infinite-",
       "title": "ThinkTrap: Denial-of-Service Attacks against Black-box LLM Services via Infinite Thinking.",
       "authors": [
-        "Yunzhe Li",
+        "Yunzhe Li 0001",
         "Jianan Wang",
         "Hongzi Zhu",
         "James Lin 0001",
@@ -1985,7 +1985,7 @@
       "id": "ndss-2026-rethinking-fake-speech-detection-a-generalized-framework-leveraging-spectrogram-",
       "title": "Rethinking Fake Speech Detection: A Generalized Framework Leveraging Spectrogram Magnitude.",
       "authors": [
-        "Zihao Liu",
+        "Zihao Liu 0001",
         "Aobo Chen",
         "Yan Zhang 0133",
         "Wensheng Zhang",
@@ -2031,7 +2031,7 @@
         "Kecen Li",
         "Weichen Yu",
         "Matt Fredrikson",
-        "Tianhao Wang"
+        "Tianhao Wang 0001"
       ],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/privcode-when-code-generation-meets-differential-privacy/",
@@ -2743,7 +2743,7 @@
         "Cen Zhang",
         "Yaowen Zheng",
         "Puzhuo Liu",
-        "Jian Zhang",
+        "Jian Zhang 0087",
         "Yeting Li",
         "Weidong Zhang",
         "Yang Liu 0003",
@@ -2814,7 +2814,7 @@
         "Qinying Wang",
         "Marcel Busch",
         "Yuqing Zhang 0001",
-        "Chao Zhang",
+        "Chao Zhang 0008",
         "Mathias Payer"
       ],
       "abstract": "",
@@ -3142,7 +3142,7 @@
       "id": "ndss-2026-invertune-a-backdoor-defense-method-for-multimodal-contrastive-learning-via-back",
       "title": "InverTune: A Backdoor Defense Method for Multimodal Contrastive Learning via Backdoor-Adversarial Correlation Analysis.",
       "authors": [
-        "Mengyuan Sun",
+        "Mengyuan Sun 0001",
         "Yu Li 0006",
         "Yunjie Ge",
         "Yuchen Liu",
@@ -3232,7 +3232,7 @@
       "id": "ndss-2026-robust-fraud-transaction-detection-a-two-player-game-approach",
       "title": "Robust Fraud Transaction Detection: A Two-Player Game Approach.",
       "authors": [
-        "Qi Tan",
+        "Qi Tan 0003",
         "Yi Zhao 0011",
         "Laizhong Cui",
         "Qi Li 0002",
@@ -3379,11 +3379,11 @@
       "id": "ndss-2026-consensus-in-the-known-participation-model-with-byzantine-faults-and-sleepy-repl",
       "title": "Consensus in the Known Participation Model with Byzantine Faults and Sleepy Replicas.",
       "authors": [
-        "Chenxu Wang",
+        "Chenxu Wang 0008",
         "Sisi Duan",
         "Minghui Xu 0001",
-        "Feng Li",
-        "Xiuzhen Cheng 0001"
+        "Feng Li 0002",
+        "Xiuzhen Cheng"
       ],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/consensus-in-the-known-participation-model-with-byzantine-faults-and-sleepy-replicas/",
@@ -3606,7 +3606,7 @@
       "authors": [
         "Chenyang Wang",
         "Fan Shi 0003",
-        "Min Zhang",
+        "Min Zhang 0054",
         "Chengxi Xu",
         "Miao Hu",
         "Pengfei Xue",
@@ -3726,7 +3726,7 @@
         "Bo Liu 0001",
         "Ming Ding 0001",
         "Shengfang Zhai",
-        "Yansong Gao"
+        "Yansong Gao 0001"
       ],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/unshaken-by-weak-embedding-robust-probabilistic-watermarking-for-dataset-copyright-protection/",
@@ -3980,7 +3980,7 @@
         "Shilin Xiao",
         "Wenjun Zhu",
         "Yan Jiang",
-        "Kai Wang",
+        "Kai Wang 0073",
         "Peiwang Wang",
         "Chen Yan 0001",
         "Xiaoyu Ji 0001",
@@ -4054,7 +4054,7 @@
       "id": "ndss-2026-kangaroo-a-private-and-amortized-inference-framework-over-wan-for-large-scale-de",
       "title": "Kangaroo: A Private and Amortized Inference Framework over WAN for Large-Scale Decision Tree Evaluation.",
       "authors": [
-        "Wei Xu",
+        "Wei Xu 0042",
         "Hui Zhu 0001",
         "Yandong Zheng",
         "Song Bian 0001",
@@ -4130,8 +4130,8 @@
         "Jice Wang",
         "Shangru Zhao",
         "Qi Li 0002",
-        "Ruidong Li",
-        "He Wang",
+        "Ruidong Li 0001",
+        "He Wang 0014",
         "Yuqing Zhang 0001"
       ],
       "abstract": "",
@@ -4214,7 +4214,7 @@
         "Pengtao Shi",
         "DingYu Zhong",
         "Jie Yang 0003",
-        "Ting Chen",
+        "Ting Chen 0002",
         "Sheng Cao",
         "Yuntao Ren",
         "Yongyue Wu",
@@ -4252,7 +4252,7 @@
       "authors": [
         "Yaru Yang",
         "Yiming Zhang 0009",
-        "Tao Wan 0082",
+        "Tao Wan 0004",
         "Haixin Duan",
         "Deliang Chang",
         "Yishen Li",
@@ -4519,8 +4519,8 @@
       "id": "ndss-2026-llmbisect-breaking-barriers-in-bug-bisection-with-a-comparative-analysis-pipelin",
       "title": "LLMBisect: Breaking Barriers in Bug Bisection with A Comparative Analysis Pipeline.",
       "authors": [
-        "Zheng Zhang",
-        "Haonan Li",
+        "Zheng Zhang 0058",
+        "Haonan Li 0009",
         "Xingyu Li",
         "Hang Zhang 0012",
         "Zhiyun Qian"
@@ -4675,7 +4675,7 @@
         "Siew-Kei Lam",
         "Yi Xie 0011",
         "Kangjie Chen",
-        "Jie Zhang",
+        "Jie Zhang 0073",
         "Tianwei Zhang 0004"
       ],
       "abstract": "",
@@ -4735,7 +4735,7 @@
         "Yuhan Wu",
         "Li Lin",
         "Tianmin Song",
-        "Ying Yan",
+        "Ying Yan 0002",
         "Yanqing Yang",
         "Zhao Zhang 0009",
         "Cheqing Jin",
@@ -4778,11 +4778,11 @@
         "Yanyan Zou 0002",
         "Jiaxu Zhao 0004",
         "Jinwei Dong",
-        "Yang Xiao",
+        "Yang Xiao 0011",
         "Bingwei Peng",
         "Yeting Li",
         "Wei Wang",
-        "Wei Huo"
+        "Wei Huo 0005"
       ],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/through-the-authentication-maze-detecting-authentication-bypass-vulnerabilities-in-firmware-binaries/",
