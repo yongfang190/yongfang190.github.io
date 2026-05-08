@@ -3821,7 +3821,7 @@
       "title": "ERW-Radar: An Adaptive Detection System against Evasive Ransomware by Contextual Behavior Detection and Fine-grained Content Analysis.",
       "authors": [
         "Lingbo Zhao",
-        "Yuhui Zhang",
+        "Yuhui Zhang 0011",
         "Zhilu Wang",
         "Fengkai Yuan",
         "Rui Hou 0001"
@@ -3899,7 +3899,7 @@
       "id": "ndss-2025-blackbox-fuzzing-of-distributed-systems-with-multi-dimensional-inputs-and-symmet",
       "title": "Blackbox Fuzzing of Distributed Systems with Multi-Dimensional Inputs and Symmetry-Based Feedback Pruning.",
       "authors": [
-        "Yong-Hao Zou",
+        "Yonghao Zou",
         "Jia-Ju Bai",
         "Zu-Ming Jiang",
         "Ming Zhao",
