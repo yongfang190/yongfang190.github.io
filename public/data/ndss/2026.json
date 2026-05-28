@@ -566,8 +566,8 @@
       "authors": [
         "Cheng Chu",
         "Qian Lou",
-        "Fan Chen",
-        "Lei Jiang"
+        "Fan Chen 0001",
+        "Lei Jiang 0001"
       ],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/qnbad-quantum-noise-induced-backdoor-attacks-against-zero-noise-extrapolation/",
@@ -2088,7 +2088,7 @@
         "Toan Tran",
         "Tianhao Wang 0001",
         "Hongsheng Hu",
-        "Shuo Wang",
+        "Shuo Wang 0012",
         "Li Xiong 0001"
       ],
       "abstract": "",
@@ -2409,11 +2409,7 @@
       "title": "KnowHow: Automatically Applying High-Level CTI Knowledge for Interpretable and Accurate Provenance Analysis.",
       "authors": [
         "Yuhan Meng",
-        "School of Computer Science",
-        "Peking University",
         "Shaofei Li",
-        "School of Computer Science",
-        "Peking University",
         "Jiaping Gui",
         "Peng Jiang 0007",
         "Ding Li 0001"
