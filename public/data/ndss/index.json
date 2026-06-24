@@ -2,20 +2,20 @@
   "conference": "NDSS",
   "years": {
     "2026": {
-      "count": 266
+      "count": 100
     },
     "2025": {
-      "count": 212
+      "count": 0
     },
     "2024": {
-      "count": 141
+      "count": 0
     },
     "2023": {
-      "count": 95
+      "count": 0
     },
     "2022": {
-      "count": 84
+      "count": 0
     }
   },
-  "last_updated": "2026-05-28T06:53:56.361417Z"
+  "last_updated": "2026-06-24T06:48:27.069596Z"
 }
