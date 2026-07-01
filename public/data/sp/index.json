@@ -3,22 +3,22 @@
   "name": "IEEE Symposium on Security and Privacy",
   "slug": "sp",
   "official_home": "https://www.ieee-security.org/TC/SP-Index.html",
-  "official_url_pattern": "https://www.ieee-security.org/TC/SP2026/program-papers.html",
+  "official_url_pattern": "https://sp2026.ieee-security.org/accepted-papers.html",
   "years": {
     "2026": {
-      "count": 40,
+      "count": 239,
       "source": "official",
-      "official_source_url": "https://www.ieee-security.org/TC/SP2026/program-papers.html"
+      "official_source_url": "https://sp2026.ieee-security.org/accepted-papers.html"
     },
     "2025": {
-      "count": 40,
+      "count": 243,
       "source": "official",
-      "official_source_url": "https://www.ieee-security.org/TC/SP2025/program-papers.html"
+      "official_source_url": "https://sp2025.ieee-security.org/accepted-papers.html"
     },
     "2024": {
-      "count": 40,
+      "count": 251,
       "source": "official",
-      "official_source_url": "https://www.ieee-security.org/TC/SP2024/program-papers.html"
+      "official_source_url": "https://sp2024.ieee-security.org/accepted-papers.html"
     },
     "2023": {
       "count": 186,
@@ -31,5 +31,5 @@
       "official_source_url": "https://www.ieee-security.org/TC/SP2022/program-papers.html"
     }
   },
-  "last_updated": "2026-07-01T00:51:59.357024Z"
+  "last_updated": "2026-07-01T06:27:53.902987Z"
 }

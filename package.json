@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "python3 scripts/fetch_security_conferences.py --conference sp --years 5 && astro build",
     "preview": "astro preview"
   },
   "dependencies": {

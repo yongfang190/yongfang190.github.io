@@ -20,7 +20,10 @@ from html.parser import HTMLParser
 from typing import Iterable
 from urllib.parse import urlencode, urljoin
 
-import requests
+try:
+    import requests
+except ImportError:  # Keep deployment builds independent from Python packages.
+    requests = None
 
 try:
     from bs4 import BeautifulSoup
@@ -109,7 +112,10 @@ def official_urls(conf: Conference, year: int) -> list[str]:
     if conf.slug == "ndss":
         return [f"https://www.ndss-symposium.org/ndss{year}/accepted-papers/"]
     if conf.slug == "sp":
-        return [f"https://www.ieee-security.org/TC/SP{year}/program-papers.html"]
+        urls = [f"https://www.ieee-security.org/TC/SP{year}/program-papers.html"]
+        if year >= 2024:
+            urls.insert(0, f"https://sp{year}.ieee-security.org/accepted-papers.html")
+        return urls
     if conf.slug == "usenix":
         return [f"https://www.usenix.org/conference/usenixsecurity{yy}/technical-sessions"]
     if conf.slug == "ccs":
@@ -148,44 +154,52 @@ def looks_like_title(text: str) -> bool:
 
 
 def fetch_json(url: str, params: dict[str, str | int]) -> dict:
+    full_url = f"{url}?{urlencode(params)}"
+    if requests is not None:
+        try:
+            res = requests.get(url, params=params, timeout=(8, 20), headers={"User-Agent": USER_AGENT})
+            res.raise_for_status()
+            return res.json()
+        except Exception as exc:
+            print(f"[WARN] requests JSON fetch failed, trying curl: {full_url} ({exc})", flush=True)
+    else:
+        print(f"[WARN] requests unavailable, trying curl: {full_url}", flush=True)
+
+    completed = subprocess.run(
+        ["curl", "-L", "--silent", "--show-error", "--max-time", "25", full_url],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return json.loads(completed.stdout)
+
+
+def fetch_html(url: str) -> str | None:
+    if requests is not None:
+        try:
+            res = requests.get(url, timeout=(8, 20), headers={"User-Agent": USER_AGENT})
+            if not 200 <= res.status_code < 300:
+                raise RuntimeError(f"HTTP {res.status_code}")
+            content_type = res.headers.get("content-type", "")
+            if "html" not in content_type.lower():
+                raise RuntimeError(f"unexpected content-type {content_type}")
+            return res.text
+        except Exception as exc:
+            print(f"[WARN] requests HTML fetch failed, trying curl: {url} ({exc})", flush=True)
+    else:
+        print(f"[WARN] requests unavailable, trying curl: {url}", flush=True)
+
     try:
-        res = requests.get(url, params=params, timeout=(8, 20), headers={"User-Agent": USER_AGENT})
-        res.raise_for_status()
-        return res.json()
-    except requests.RequestException as exc:
-        full_url = f"{url}?{urlencode(params)}"
-        print(f"[WARN] requests JSON fetch failed, trying curl: {full_url} ({exc})", flush=True)
         completed = subprocess.run(
-            ["curl", "-L", "--silent", "--show-error", "--max-time", "25", full_url],
+            ["curl", "-L", "--silent", "--show-error", "--max-time", "30", url],
             check=True,
             capture_output=True,
             text=True,
         )
-        return json.loads(completed.stdout)
-
-
-def fetch_html(url: str) -> str | None:
-    try:
-        res = requests.get(url, timeout=(8, 20), headers={"User-Agent": USER_AGENT})
-        if not 200 <= res.status_code < 300:
-            raise requests.RequestException(f"HTTP {res.status_code}")
-        content_type = res.headers.get("content-type", "")
-        if "html" not in content_type.lower():
-            raise requests.RequestException(f"unexpected content-type {content_type}")
-        return res.text
-    except requests.RequestException as exc:
-        print(f"[WARN] requests HTML fetch failed, trying curl: {url} ({exc})", flush=True)
-        try:
-            completed = subprocess.run(
-                ["curl", "-L", "--silent", "--show-error", "--max-time", "30", url],
-                check=True,
-                capture_output=True,
-                text=True,
-            )
-            return completed.stdout if "<html" in completed.stdout.lower() else None
-        except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as curl_exc:
-            print(f"[WARN] official fetch failed: {url} ({curl_exc})", flush=True)
-            return None
+        return completed.stdout if "<html" in completed.stdout.lower() else None
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as curl_exc:
+        print(f"[WARN] official fetch failed: {url} ({curl_exc})", flush=True)
+        return None
 
 
 class CandidateParser(HTMLParser):
@@ -218,7 +232,85 @@ class CandidateParser(HTMLParser):
             self.candidates.append((text, item["href"]))
 
 
+class SpAcceptedParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.item_depth = 0
+        self.title_depth = 0
+        self.item_parts: list[str] = []
+        self.title_parts: list[str] = []
+        self.records: list[tuple[str, str]] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attr_map = {key: value or "" for key, value in attrs}
+        classes = set(attr_map.get("class", "").split())
+        if self.item_depth == 0 and "list-group-item" in classes:
+            self.item_depth = 1
+            self.item_parts = []
+            self.title_parts = []
+            return
+        if self.item_depth:
+            self.item_depth += 1
+            if tag == "b" and self.title_depth == 0:
+                self.title_depth = 1
+            elif self.title_depth:
+                self.title_depth += 1
+
+    def handle_data(self, data: str) -> None:
+        if self.item_depth:
+            self.item_parts.append(data)
+        if self.title_depth:
+            self.title_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if not self.item_depth:
+            return
+        if self.title_depth:
+            self.title_depth -= 1
+        self.item_depth -= 1
+        if self.item_depth == 0:
+            title = clean_text(" ".join(self.title_parts))
+            full_text = clean_text(" ".join(self.item_parts))
+            if title and full_text:
+                self.records.append((title, full_text))
+
+
+def parse_sp_official_fallback(html: str, conf: Conference, year: int, source_url: str) -> list[dict]:
+    parser = SpAcceptedParser()
+    parser.feed(html)
+    seen: set[str] = set()
+    items: list[dict] = []
+    for title, full_text in parser.records:
+        if not looks_like_title(title):
+            continue
+        key = re.sub(r"\W+", "", title.lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        author_text = clean_text(full_text.removeprefix(title))
+        authors = [part.strip() for part in re.split(r"\),\s*", author_text) if part.strip()]
+        items.append(
+            {
+                "id": f"{conf.slug}-{year}-{slugify(title)}",
+                "title": title,
+                "authors": authors,
+                "abstract": "",
+                "pdf_url": source_url,
+                "doi": None,
+                "source": f"{conf.short_name} official",
+                "source_url": source_url,
+                "published_at": f"{year}-01-01",
+                "year": year,
+                "tags": [],
+            }
+        )
+    return items
+
+
 def parse_official_fallback(html: str, conf: Conference, year: int, source_url: str) -> list[dict]:
+    if conf.slug == "sp":
+        return parse_sp_official_fallback(html, conf, year, source_url)
+
     parser = CandidateParser(source_url)
     parser.feed(html)
     seen: set[str] = set()
