@@ -1,0 +1,3579 @@
+{
+  "conference": "IEEE S&P",
+  "name": "IEEE Symposium on Security and Privacy",
+  "slug": "sp",
+  "year": 2023,
+  "source": "official",
+  "official_source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+  "items": [
+    {
+      "id": "sp-2023-space-odyssey-an-experimental-software-security-analysis-of-satellites",
+      "title": "Space Odyssey: An Experimental Software Security Analysis of Satellites",
+      "authors": [
+        "Johannes Willbold ( Ruhr University Bochum",
+        "Moritz Schloegel ( Ruhr University Bochum",
+        "Manuel VÃ¶gele ( Ruhr University Bochum",
+        "Maximilian Gerhardt ( Ruhr University Bochum",
+        "Thorsten Holz ( CISPA Helmholtz Center for Information Security",
+        "Ali Abbasi ( CISPA Helmholtz Center for Information Security )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-scaphy-detecting-modern-ics-attacks-by-correlating-behaviors-in-scada-and-physic",
+      "title": "SCAPHY: Detecting Modern ICS Attacks by Correlating Behaviors in SCADA and PHYsical",
+      "authors": [
+        "Moses Ike ( Georgia Institute of Technology, USA",
+        "Kandy Phan ( Sandia National Labs, USA",
+        "Keaton Sadoski ( Sandia National Labs, USA",
+        "Romuald Valme ( Sandia National Labs, USA",
+        "Wenke Lee ( Georgia Institute of Technology, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-shedding-light-on-inconsistencies-in-grid-cybersecurity-disconnects-and-recommen",
+      "title": "Shedding Light on Inconsistencies in Grid Cybersecurity: Disconnects and Recommendations",
+      "authors": [
+        "Brian Singer ( Carnegie Mellon University",
+        "Amritanshu Pandey ( Carnegie Mellon University",
+        "Shimiao Li ( Carnegie Mellon University",
+        "Lujo Bauer ( Carnegie Mellon University",
+        "Craig Miller ( Carnegie Mellon University",
+        "Lawrence Pileggi ( Carnegie Mellon University",
+        "Vyas Sekar ( Carnegie Mellon University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-red-team-vs-blue-team-a-real-world-hardware-trojan-detection-case-study-across-f",
+      "title": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations",
+      "authors": [
+        "Endres Puschner ( Max Planck Institute for Security and Privacy, Germany",
+        "Thorben Moos ( UniversitÃ© catholique de Louvain, Belgium",
+        "Steffen Becker ( Ruhr University Bochum, Germany & Max Planck Institute for Security and Privacy, Germany",
+        "Christian Kison ( Bundeskriminalamt, Germany",
+        "Amir Moradi ( Ruhr University Bochum, Germany",
+        "Christof Paar ( Max Planck Institute for Security and Privacy, Germany )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sok-distributed-randomness-beacons",
+      "title": "SoK: Distributed Randomness Beacons",
+      "authors": [
+        "Kevin Choi ( New York University, USA",
+        "Aathira Manoj ( New York University, USA",
+        "Joseph Bonneau ( New York University, USA and a16z crypto research, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-werlman-to-tackle-whale-transactions-go-deep-rl",
+      "title": "WeRLman: To Tackle Whale (Transactions), Go Deep (RL)",
+      "authors": [
+        "Roi Bar-Zur ( Technion, IC3",
+        "Ameer Abu-Hanna ( Technion",
+        "Ittay Eyal ( Technion, IC3",
+        "Aviv Tamar ( Technion )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-three-birds-with-one-stone-efficient-partitioning-attacks-on-interdependent-cryp",
+      "title": "Three Birds with One Stone: Efficient Partitioning Attacks on Interdependent Cryptocurrency Networks",
+      "authors": [
+        "Muhammad Saad ( PayPal",
+        "David Mohaisen ( University of Central Florida )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-bitcoin-enhanced-proof-of-stake-security-possibilities-and-impossibilities",
+      "title": "Bitcoin-Enhanced Proof-of-Stake Security: Possibilities and Impossibilities",
+      "authors": [
+        "Ertem Nusret Tas ( Stanford University",
+        "David Tse ( Stanford University",
+        "Fangyu Gai ( BabylonChain Inc.",
+        "Sreeram Kannan ( University of Washington, Seattle",
+        "Mohammad Ali Maddah-Ali ( University of Minnesota",
+        "Fisher Yu ( BabylonChain Inc. )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-mega-malleable-encryption-goes-awry",
+      "title": "MEGA: Malleable Encryption Goes Awry",
+      "authors": [
+        "Matilda Backendal ( ETH Zurich",
+        "Haller Miro ( ETH Zurich",
+        "Kenneth G. Paterson ( ETH Zurich )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-practically-exploitable-cryptographic-vulnerabilities-in-matrix",
+      "title": "Practically-exploitable Cryptographic Vulnerabilities in Matrix",
+      "authors": [
+        "Martin R. Albrecht ( Kingâs College London",
+        "SofÃ­a Celi ( Brave Software",
+        "Benjamin Dowling ( Security of Advanced Systems Group, University of Sheffield",
+        "Daniel Jones ( Information Security Group, Royal Holloway, University of London )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-dbreach-stealing-from-databases-using-compression-side-channels",
+      "title": "DBREACH: Stealing from Databases Using Compression Side-Channels",
+      "authors": [
+        "Mathew Hogan ( Stanford University",
+        "Yan Michalevsky ( Anjuna Security, Inc and Cryptosat, Inc.",
+        "Saba Eskandarian ( UNC Chapel Hill )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-weak-fiat-shamir-attacks-on-modern-proof-systems",
+      "title": "Weak Fiat-Shamir Attacks on Modern Proof Systems",
+      "authors": [
+        "Quang Dao ( Carnegie Mellon University",
+        "Jim Miller ( Trail of Bits",
+        "Opal Wright ( Trail of Bits",
+        "Paul Grubbs ( University of Michigan )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-attitudes-towards-client-side-scanning-for-csam-terrorism-drug-trafficking-drug-",
+      "title": "Attitudes towards Client-Side Scanning for CSAM, Terrorism, Drug Trafficking, Drug Use and Tax Evasion in Germany",
+      "authors": [
+        "Lisa Geierhaas ( University of Bonn",
+        "Fabian Otto ( OmniQuest",
+        "Maximilian HÃ¤ring ( University of Bonn",
+        "Matthew Smith ( University of Bonn, Fraunhofer FKIE )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-deep-perceptual-hashing-algorithms-with-hidden-dual-purpose-when-client-side-sca",
+      "title": "Deep perceptual hashing algorithms with hidden dual purpose: when client-side scanning does facial recognition",
+      "authors": [
+        "Shubham Jain ( Imperial College London, United Kingdom",
+        "Ana-Maria Cretu ( Imperial College London, United Kingdom",
+        "Antoine Cully ( Imperial College London, United Kingdom",
+        "Yves-Alexandre de Montjoye ( Imperial College London, United Kingdom )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-public-verification-for-private-hash-matching",
+      "title": "Public Verification for Private Hash Matching",
+      "authors": [
+        "Sarah Scheffler ( Princeton University",
+        "Anunay Kulshrestha ( Princeton University",
+        "Jonathan Mayer ( Princeton University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-is-cryptographic-deniability-sufficient-non-expert-perceptions-of-deniability-in",
+      "title": "Is Cryptographic Deniability Sufficient? Non-Expert Perceptions of Deniability in Secure Messaging",
+      "authors": [
+        "Nathan Reitinger ( University of Maryland, United States",
+        "Nathan Malkin ( University of Maryland, United States",
+        "Omer Akgul ( University of Maryland, United States",
+        "Michelle L Mazurek ( University of Maryland, United States",
+        "Ian Miers ( University of Maryland, United States )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-on-the-evolution-of-hateful-memes-by-means-of-multimodal-contrastive-learning",
+      "title": "On the Evolution of (Hateful) Memes by Means of Multimodal Contrastive Learning",
+      "authors": [
+        "Yiting Qu ( CISPA Helmholtz Center for Information Security, Germany",
+        "Xinlei He ( CISPA Helmholtz Center for Information Security, Germany",
+        "Shannon Pierson ( London School of Economics and Political Science, UK",
+        "Michael Backes ( CISPA Helmholtz Center for Information Security, Germany",
+        "Yang Zhang ( CISPA Helmholtz Center for Information Security, Germany",
+        "Savvas Zannettou ( Delft University of Technology, Netherlands )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-lambretta-learning-to-rank-for-twitter-soft-moderation",
+      "title": "LAMBRETTA: Learning to Rank for Twitter Soft Moderation",
+      "authors": [
+        "Pujan Paudel ( Boston University",
+        "Jeremy Blackburn ( Binghamton University",
+        "Emiliano De Cristofaro ( University College London",
+        "Savvas Zannettou ( Delft University of Technology",
+        "Gianluca Stringhini ( Boston University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in",
+      "title": "SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning",
+      "authors": [
+        "Ahmed Salem ( Microsoft, United Kingdom",
+        "Giovanni Cherubin ( Microsoft, United Kingdom",
+        "David Evans ( University of Virginia, United States",
+        "Boris Koepf ( Microsoft, United Kingdom",
+        "Andrew Paverd ( Microsoft, United Kingdom",
+        "Anshuman Suri ( University of Virginia, United States",
+        "Shruti Tople ( Microsoft, United Kingdom",
+        "Santiago Zanella-Beguelin ( Microsoft, United Kingdom )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-analyzing-leakage-of-personally-identifiable-information-in-language-models",
+      "title": "Analyzing Leakage of Personally Identifiable Information in Language Models",
+      "authors": [
+        "Nils Lukas ( University of Waterloo",
+        "Ahmed Salem ( Microsoft Research",
+        "Robert Sim ( Microsoft Research",
+        "Shruti Tople ( Microsoft Research",
+        "Lukas Wutschitz ( Microsoft Research",
+        "Santiago Zanella-BÃ©guelin ( Microsoft Research )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-accuracy-privacy-trade-off-in-deep-ensemble-a-membership-inference-perspective",
+      "title": "Accuracy-Privacy Trade-off in Deep Ensemble: A Membership Inference Perspective",
+      "authors": [
+        "Shahbaz Rezaei ( University of California at Davis",
+        "Zubair Shafiq ( University of California at Davis",
+        "Xin Liu ( University of California at Davis )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-d-dae-defense-penetrating-model-extraction-attacks",
+      "title": "D-DAE: Defense-Penetrating Model Extraction Attacks",
+      "authors": [
+        "Yanjiao Chen ( Zhejiang University",
+        "Rui Guan ( Wuhan University",
+        "Xueluan Gong ( Wuhan University",
+        "Jianshuo Dong ( Wuhan University",
+        "Meng Xue ( Wuhan University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-snap-efficient-extraction-of-private-properties-with-poisoning",
+      "title": "SNAP: Efficient Extraction of Private Properties with Poisoning",
+      "authors": [
+        "Harsh Chaudhari ( Northeastern University",
+        "John Abascal ( Northeastern University",
+        "Alina Oprea ( Northeastern University",
+        "Matthew Jagielski ( Google Research",
+        "Florian TramÃ¨r ( ETH Zurich",
+        "Jonathan Ullman ( Northeastern University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-on-the-insecurity-of-peer-to-peer-decentralized-machine-learning",
+      "title": "On the (In)security of Peer-to-Peer Decentralized Machine Learning",
+      "authors": [
+        "Dario Pasquini ( SPRING Lab; EPFL, Switzerland",
+        "Mathilde Raynal ( SPRING Lab; EPFL, Switzerland",
+        "Carmela Troncoso ( SPRING Lab; EPFL, Switzerland )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-vectorized-batch-private-information-retrieval",
+      "title": "Vectorized Batch Private Information Retrieval",
+      "authors": [
+        "Muhammad Haris Mughees ( University of Illinois Urbana-Champaign, United States",
+        "Ling Ren ( University of Illinois Urbana-Champaign, United States )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-rofl-robustness-of-secure-federated-learning",
+      "title": "RoFL: Robustness of Secure Federated Learning",
+      "authors": [
+        "Hidde Lycklama ( ETH Zurich",
+        "Lukas Burkhalter ( ETH Zurich",
+        "Alexander Viand ( ETH Zurich",
+        "Nicolas KÃ¼chler ( ETH Zurich",
+        "Anwar Hithnawi ( ETH Zurich )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-flamingo-multi-round-single-server-secure-aggregation-with-applications-to-priva",
+      "title": "Flamingo: Multi-Round Single-Server Secure Aggregation with Applications to Private Federated Learning",
+      "authors": [
+        "Yiping Ma ( University of Pennsylvania",
+        "Jess Woods ( University of Pennsylvania",
+        "Sebastian Angel ( University of Pennsylvania, Microsoft Research",
+        "Antigoni Polychroniadou ( JP Morgan AI Research",
+        "Tal Rabin ( University of Pennsylvania )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sok-cryptographic-neural-network-computation",
+      "title": "SoK: Cryptographic Neural-Network Computation",
+      "authors": [
+        "Lucien K. L ( Georgia Institute of Technology",
+        "Sherman S. M. Chow ( Chinese University of Hong Kong )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-flute-fast-and-secure-lookup-table-evaluations",
+      "title": "FLUTE: Fast and Secure Lookup Table Evaluations",
+      "authors": [
+        "Andreas BrÃ¼ggemann ( Technical University of Darmstadt",
+        "Robin Hundt ( Technical University of Darmstadt",
+        "Thomas Schneider ( Technical University of Darmstadt",
+        "Ajith Suresh ( Technical University of Darmstadt",
+        "Hossein Yalame ( Technical University of Darmstadt )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-bicoptor-two-round-secure-three-party-non-linear-computation-without-preprocessi",
+      "title": "Bicoptor: Two-round Secure Three-party Non-linear Computation without Preprocessing for Privacy-preserving Machine Learning",
+      "authors": [
+        "Lijing Zhou ( Huawei Technology, China",
+        "Ziyu Wang ( Huawei Technology, China",
+        "Hongrui Cui ( Shanghai Jiao Tong University, China",
+        "Qingrui Song ( Huawei Technology, China",
+        "Yu Yu ( Shanghai Jiao Tong University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-investigating-the-password-policy-practices-of-website-administrators",
+      "title": "Investigating the Password Policy Practices of Website Administrators",
+      "authors": [
+        "Sena Sahin ( Georgia Institute of Technology, USA",
+        "Suood Al Roomi ( Georgia Institute of Technology, USA ; Kuwait University, Kuwait",
+        "Tara Poteat ( Georgia Institute of Technology, USA",
+        "Frank Li ( Georgia Institute of Technology, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-in-eighty-percent-of-the-cases-i-select-the-password-for-them-security-and-priva",
+      "title": "âIn Eighty Percent of the Cases, I Select the Password for Themâ: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
+      "authors": [
+        "Collins W. Munyendo ( The George Washington University",
+        "Yasemin Acar ( Paderborn University",
+        "Adam J. Aviv ( The George Washington University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-perceptions-of-distributed-ledger-technology-key-management--an-interview-study-",
+      "title": "Perceptions of Distributed Ledger Technology Key Management â An Interview Study with Finance Professionals",
+      "authors": [
+        "Carolyn Guthoff ( CISPA Helmholtz Center for Information Security, Germany, and Saarland University, Germany",
+        "Simon Anell ( CISPA Helmholtz Center for Information Security, Germany, and Saarland University, Germany",
+        "Johann Hainzinger ( Plutoneo Consulting GmbH, Germany",
+        "Adrian Dabrowski ( CISPA Helmholtz Center for Information Security, Germany",
+        "Katharina Krombholz ( CISPA Helmholtz Center for Information Security, Germany )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-towards-a-rigorous-statistical-analysis-of-empirical-password-datasets",
+      "title": "Towards a Rigorous Statistical Analysis of Empirical Password Datasets",
+      "authors": [
+        "Jeremiah Blocki ( Purdue University, USA",
+        "Peiyuan Liu ( Purdue University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-confident-monte-carlo-rigorous-analysis-of-guessing-curves-for-probabilistic-pas",
+      "title": "Confident Monte Carlo: Rigorous Analysis of Guessing Curves for Probabilistic Password Models",
+      "authors": [
+        "Peiyuan Liu ( Purdue University, USA",
+        "Jeremiah Blocki ( Purdue University, USA",
+        "Wenjie Bai ( Purdue University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-not-yet-another-digital-id-privacy-preserving-humanitarian-aid-distribution",
+      "title": "Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution",
+      "authors": [
+        "Boya Wang ( EPFL",
+        "Wouter Lueks ( CISPA Helmholtz Center for Information Security",
+        "Justinas Sukaitis ( International Committee for the Red Cross",
+        "Vincent Graf Narbel ( International Committee for the Red Cross",
+        "Carmela Troncoso ( EPFL )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-disguising-attacks-with-explanation-aware-backdoors",
+      "title": "Disguising Attacks with Explanation-Aware Backdoors",
+      "authors": [
+        "Maximilian Noppel ( KASTEL Security Research Labs, Karlsruhe Institute of Technology, Germany",
+        "Lukas Peter ( KASTEL Security Research Labs, Karlsruhe Institute of Technology, Germany",
+        "Christian Wressnegger ( KASTEL Security Research Labs, Karlsruhe Institute of Technology, Germany )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-selective-amnesia-on-efficient-high-fidelity-and-blind-suppression-of-backdoor-e",
+      "title": "Selective Amnesia: On Efficient, High-Fidelity and Blind Suppression of Backdoor Effects in Trojaned Machine Learning Models",
+      "authors": [
+        "Rui Zhu ( Indiana University Bloomington",
+        "Di Tang ( Indiana University Bloomington",
+        "Siyuan Tang ( Indiana University Bloomington",
+        "XiaoFeng Wang ( Indiana University Bloomington",
+        "Haixu Tang ( Indiana University Bloomington )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-ai-guardian-defeating-adversarial-attacks-using-backdoors",
+      "title": "AI-Guardian: Defeating Adversarial Attacks using Backdoors",
+      "authors": [
+        "Hong Zhu ( Chinese Academy of Sciences, China; University of Chinese Academy of Sciences, China",
+        "Shengzhi Zhang ( Boston University, USA",
+        "Kai Chen ( Chinese Academy of Sciences, China; University of Chinese Academy of Sciences, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-jigsaw-puzzle-selective-backdoor-attack-to-subvert-malware-classifiers",
+      "title": "Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers",
+      "authors": [
+        "Limin Yang ( University of Illinois at Urbana-Champaign",
+        "Zhi Chen ( University of Illinois at Urbana-Champaign",
+        "Jacopo Cortellazzi ( King's College London and University College London",
+        "Feargus Pendlebury ( University College London",
+        "Kevin Tu ( University of Illinois at Urbana-Champaign",
+        "Fabio Pierazzi ( King's College London",
+        "Lorenzo Cavallaro ( University College London",
+        "Gang Wang ( University of Illinois at Urbana-Champaign )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-baybfed-bayesian-backdoor-defense-for-federated-learning",
+      "title": "BayBFed: Bayesian Backdoor Defense for Federated Learning",
+      "authors": [
+        "Kavita Kumari ( Technical University of Darmstadt, Germany",
+        "Phillip Rieger ( Technical University of Darmstadt, Germany",
+        "Hossein Fereidooni ( Technical University of Darmstadt, Germany",
+        "Murtuza Jadliwala ( The University of Texas at San Antonio, United States",
+        "Ahmad-Reza Sadeghi ( Technical University of Darmstadt, Germany )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-redeem-myself-purifying-backdoors-in-deep-learning-models-using-self-attention-d",
+      "title": "REDEEM MYSELF: Purifying Backdoors in Deep Learning Models using Self Attention Distillation",
+      "authors": [
+        "Xueluan Gong ( School of Computer Science, Wuhan University, China",
+        "Yanjiao Chen ( College of Electrical Engineering, Zhejiang University, China",
+        "Wang Yang ( School of Cyber Science and Engineering, Wuhan University, China",
+        "Qian Wang ( School of Cyber Science and Engineering, Wuhan University, China",
+        "Yuzhe Gu ( School of Cyber Science and Engineering, Wuhan University, China",
+        "Huayang Huang ( School of Cyber Science and Engineering, Wuhan University, China",
+        "Chao Shen ( School of Cyber Science and Engineering, Xiâan Jiaotong University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-threshold-bbs-signatures-for-distributed-anonymous-credential-issuance",
+      "title": "Threshold BBS+ Signatures for Distributed Anonymous Credential Issuance",
+      "authors": [
+        "Jack Doerner ( Technion",
+        "Yashvanth Kondi ( Aarhus University",
+        "Eysa Lee ( Northeastern University",
+        "abhi shelat ( Northeastern University",
+        "LaKyah Tyner ( Northeastern University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-zk-creds-flexible-anonymous-credentials-from-zksnarks-and-existing-identity-infr",
+      "title": "zk-creds: Flexible Anonymous Credentials from zkSNARKs and Existing Identity Infrastructure",
+      "authors": [
+        "Michael Rosenberg ( University of Maryland",
+        "Jacob White ( Purdue University",
+        "Christina Garman ( Purdue University",
+        "Ian Miers ( University of Maryland )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-private-access-control-for-function-secret-sharing",
+      "title": "Private Access Control for Function Secret Sharing",
+      "authors": [
+        "Sacha Servan-Schreiber ( MIT CSAIL",
+        "Simon Beyzerov ( MIT PRIMES",
+        "Eli Yablon ( MIT PRIMES",
+        "Hyojae Park ( MIT PRIMES )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-mpcauth-multi-factor-authentication-for-distributed-trust-systems",
+      "title": "MPCAuth: Multi-factor Authentication for Distributed-trust Systems",
+      "authors": [
+        "Sijun Tan ( UC Berkeley",
+        "Weikeng Chen ( UC Berkeley",
+        "Ryan Deng ( UC Berkeley",
+        "Raluca Ada Popa ( UC Berkeley )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-silph-a-framework-for-scalable-and-accurate-generation-of-hybrid-mpc-protocols",
+      "title": "Silph: A Framework for Scalable and Accurate Generation of Hybrid MPC Protocols",
+      "authors": [
+        "Edward Chen ( Carnegie Mellon University; Stanford University",
+        "Jinhao Zhu ( Carnegie Mellon University",
+        "Alex Ozdemir ( Stanford Univesity",
+        "Riad Wahby ( Carnegie Mellon University",
+        "Fraser Brown ( Carnegie Mellon University",
+        "Wenting Zheng ( Carnegie Mellon University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sok-anti-facial-recognition-technology",
+      "title": "SoK: Anti-Facial Recognition Technology",
+      "authors": [
+        "Emily Wenger ( University of Chicago",
+        "Shawn Shan ( University of Chicago",
+        "Haitao Zheng ( University of Chicago",
+        "Ben Y. Zhao ( University of Chicago )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-spoofing-real-world-face-authentication-systems-through-optical-synthesis",
+      "title": "Spoofing Real-world Face Authentication Systems through Optical Synthesis",
+      "authors": [
+        "Yueli Yan ( ShanghaiTech University",
+        "Yuelin Liu ( ShanghaiTech University",
+        "Zhice Yang ( ShanghaiTech University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-imu-physical-impersonating-attack-for-face-recognition-system-with-natural-style",
+      "title": "ImU: Physical Impersonating Attack for Face Recognition System with Natural Style Changes",
+      "authors": [
+        "Shengwei An ( Purdue University, USA",
+        "Yuan Yao ( Nanjing University, China",
+        "Qiuling Xu ( Purdue University, USA",
+        "Shiqing Ma ( Rutgers University, USA",
+        "Guanhong Tao ( Purdue University, USA",
+        "Siyuan Cheng ( Purdue University, USA",
+        "Kaiyuan Zhang ( Purdue University, USA",
+        "Yingqi Liu ( Purdue University, USA",
+        "Guangyu Shen ( Purdue University, USA",
+        "Ian Kelk ( Clarifai Inc., USA",
+        "Xiangyu Zhang ( Purdue University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-depthfake-spoofing-3d-face-authentication-with-a-2d-photo",
+      "title": "DepthFake: Spoofing 3D Face Authentication with a 2D Photo",
+      "authors": [
+        "Zhihao Wu ( Zhejiang University, China",
+        "Yushi Cheng ( Tsinghua University, China",
+        "Jiahui Yang ( Zhejiang University, China",
+        "Xiaoyu Ji ( Zhejiang University, China",
+        "Wenyuan Xu ( Zhejiang University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-understanding-the-insecurity-of-cross-side-face-verification-systems-in-mobile-a",
+      "title": "Understanding the (In)Security of Cross-side Face Verification Systems in Mobile Apps: A System Perspective",
+      "authors": [
+        "Xiaohan Zhang ( Fudan University, China",
+        "Haoqi Ye ( Fudan University, China",
+        "Ziqi Huang ( Fudan University, China",
+        "Xiao Ye ( Fudan University, China",
+        "Yinzhi Cao ( Johns Hopkins University, USA",
+        "Yuan Zhang ( Fudan University, China",
+        "Min Yang ( Fudan University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-breaking-security-critical-voice-authentication",
+      "title": "Breaking Security-Critical Voice Authentication",
+      "authors": [
+        "Andre Kassis ( University of Waterloo, Canada",
+        "Urs Hengartner ( University of Waterloo, Canada )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sok-a-critical-evaluation-of-efficient-website-fingerprinting-defenses",
+      "title": "SoK: A Critical Evaluation of Efficient Website Fingerprinting Defenses",
+      "authors": [
+        "Nate Mathews ( Rochester Institute of Technology",
+        "James K Holland ( University of Minnesota",
+        "Se Eun Oh ( Ewha Womans University",
+        "Mohammad Saidur Rahman ( Rochester Institute of Technology",
+        "Nicholas Hopper ( University of Minnesota",
+        "Matthew Wright ( Rochester Institute of Technology )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-fashion-faux-pas-implicit-stylistic-fingerprints-for-bypassing-browsers-anti-fin",
+      "title": "Fashion Faux Pas: Implicit Stylistic Fingerprints for Bypassing Browsers' Anti-Fingerprinting Defenses",
+      "authors": [
+        "Xu Lin ( University of Illinois Chicago, United States",
+        "Frederico Araujo ( IBM Research, United States",
+        "Teryl Taylor ( IBM Research, United States",
+        "Jiyong Jang ( IBM Research, United States",
+        "Jason Polakis ( University of Illinois Chicago, United States )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-robust-multi-tab-website-fingerprinting-attacks-in-the-wild",
+      "title": "Robust Multi-tab Website Fingerprinting Attacks in the Wild",
+      "authors": [
+        "Xinhao Deng ( Tsinghua University, China",
+        "Qilei Yin ( Zhongguancun Laboratory, China",
+        "Zhuotao Liu ( Tsinghua University, China",
+        "Xiyuan Zhao ( Tsinghua University, China",
+        "Qi Li ( Tsinghua University, China",
+        "Mingwei Xu ( Tsinghua University, China",
+        "Ke Xu ( Tsinghua University, Beijing",
+        "Jianping Wu ( Tsinghua University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-only-pay-for-what-you-leak-leveraging-sandboxes-for-a-minimally-invasive-browser",
+      "title": "Only Pay for What You Leak: Leveraging Sandboxes for a Minimally Invasive Browser Fingerprinting Defense",
+      "authors": [
+        "Ryan Torok ( Princeton University",
+        "Amit Levy ( Princeton University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-its-dom-clobbering-time-attack-techniques-prevalence-and-defenses",
+      "title": "Itâs (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses",
+      "authors": [
+        "Soheil Khodayari ( CISPA Helmholtz Center for Information Security, Germany",
+        "Giancarlo Pellegrino ( CISPA Helmholtz Center for Information Security, Germany )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-scaling-javascript-abstract-interpretation-to-detect-and-exploit-nodejs-taint-st",
+      "title": "Scaling JavaScript Abstract Interpretation to Detect and Exploit Node.js Taint-style Vulnerability",
+      "authors": [
+        "Mingqing Kang ( Johns Hopkins University",
+        "Yichao Xu ( Johns Hopkins University",
+        "Song Li ( Zhejiang University",
+        "Rigel Gjomemo ( University of Illinois Chicago",
+        "Jianwei Hou ( Renmin University of China",
+        "V.N. Venkatakrishnan ( University of Illinois Chicago",
+        "Yinzhi Cao ( Johns Hopkins University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sound-verification-of-security-protocols-from-design-to-interoperable-implementa",
+      "title": "Sound Verification of Security Protocols: From Design to Interoperable Implementations",
+      "authors": [
+        "Linard Arquint ( ETH Zurich, Switzerland",
+        "Felix A. Wolf ( ETH Zurich, Switzerland",
+        "Joseph Lallemand ( Univ Rennes, CNRS, IRISA, France",
+        "Ralf Sasse ( ETH Zurich, Switzerland",
+        "Christoph Sprenger ( ETH Zurich, Switzerland",
+        "Sven N. Wiesner ( ETH Zurich, Switzerland",
+        "David Basin ( ETH Zurich, Switzerland",
+        "Peter MÃ¼ller ( ETH Zurich, Switzerland )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-typing-high-speed-cryptography-against-spectre-v1",
+      "title": "Typing High-Speed Cryptography against Spectre v1",
+      "authors": [
+        "Basavesh Ammanaghatta Shivakumar ( MPI-SP",
+        "Gilles Barthe ( MPI-SP and IMDEA Software Institute",
+        "Benjamin GrÃ©goire ( Inria and UniversitÃ© CÃ´te d'Azur",
+        "Vincent Laporte ( UniversitÃ© de Lorraine, CNRS and Inria",
+        "Tiago Oliviera ( MPI-SP",
+        "Swarn Priya ( Inria and UniversitÃ© CÃ´te d'Azur",
+        "Peter Schwabe ( MPI-SP & Radboud University",
+        "Lucas Tabary-Maujean ( ENS Paris-Saclay )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-less-is-more-refinement-proofs-for-probabilistic-proofs",
+      "title": "Less is more: refinement proofs for probabilistic proofs",
+      "authors": [
+        "Kunming Jiang ( Carnegie Mellon",
+        "Devora Chait-Roth ( NYU",
+        "Zachary DeStefano ( NYU",
+        "Michael Walfish ( NYU",
+        "Thomas Wies ( NYU )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-owl-compositional-verification-of-security-protocols-via-an-information-flow-typ",
+      "title": "OWL: Compositional Verification of Security Protocols via an Information-Flow Type System",
+      "authors": [
+        "Joshua Gancher ( Carnegie Mellon University, USA",
+        "Sydney Gibson ( Carnegie Mellon University, USA",
+        "Pratap Singh ( Carnegie Mellon University, USA",
+        "Samvid Dharanikota ( Carnegie Mellon University, USA",
+        "Bryan Parno ( Carnegie Mellon University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-auc-accountable-universal-composability",
+      "title": "AUC: Accountable Universal Composability",
+      "authors": [
+        "Mike Graf ( University of Stuttgart",
+        "Ralf KÃ¼sters ( University of Stuttgart",
+        "Daniel Rausch ( University of Stuttgart )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-high-order-masking-of-lattice-signatures-in-quasilinear-time",
+      "title": "High-Order Masking of Lattice Signatures in Quasilinear Time",
+      "authors": [
+        "RafaÃ«l del Pino ( PQShield SAS, France",
+        "Thomas Prest ( PQShield SAS, France",
+        "MÃ©lissa Rossi ( ANSSI, France",
+        "Markku-Juhani Saarinen ( PQShield LTD, UK )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-practical-timing-side-channel-attacks-on-memory-compression",
+      "title": "Practical Timing Side-Channel Attacks on Memory Compression",
+      "authors": [
+        "Martin Schwarzl ( Graz University of Technology",
+        "Pietro Borrello ( Sapienza University of Rome",
+        "Gururaj Saileshwar ( NVIDIA Research",
+        "Hanna MÃ¼ller ( Graz University of Technology",
+        "Michael Schwarz ( CISPA Helmholtz Center for Information Security",
+        "Daniel Gruss ( Graz University of Technology )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-teezz-fuzzing-trusted-applications-on-cots-android-devices",
+      "title": "TEEzz: Fuzzing Trusted Applications on COTS Android Devices",
+      "authors": [
+        "Marcel Busch ( EPFL",
+        "Aravind Machiry ( Purdue University",
+        "Chad Spensky ( Allthenticate",
+        "Giovanni Vigna ( University of California, Santa Barbara",
+        "Christopher Kruegel ( University of California, Santa Barbara",
+        "Mathias Payer ( EPFL )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-halfhalf-demystifying-intels-directional-branch-predictors-for-fast-secure-parti",
+      "title": "Half&Half: Demystifying Intelâs Directional Branch Predictors for Fast, Secure Partitioned Execution",
+      "authors": [
+        "Hosein Yavarzadeh ( University of California San Diego",
+        "Mohammadkazem Taram ( Purdue University",
+        "Shravan Narayan ( University of California San Diego",
+        "Deian Stefan ( University of California San Diego",
+        "Dean Tullsen ( University of California San Diego )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-improving-developers-understanding-of-regex-denial-of-service-tools-through-anti",
+      "title": "Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies",
+      "authors": [
+        "Sk Adnan Hassan ( Virginia Tech, U.S.A.",
+        "Zainab Aamir ( Stony Brook University, U.S.A.",
+        "Dongyoon Lee ( Stony Brook University, U.S.A.",
+        "James C. Davis ( Purdue University, U.S.A.",
+        "Francisco Servant ( University of MÃ¡laga, Spain )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-warpattack-bypassing-cfi-through-compiler-introduced-double-fetches",
+      "title": "WarpAttack: Bypassing CFI through Compiler-Introduced Double-Fetches",
+      "authors": [
+        "Jianhao Xu ( Nanjing University, China",
+        "Luca Di Bartolomeo ( EPFL, Switzerland",
+        "Flavio Toffalini ( EPFL, Switzerland",
+        "Bing Mao ( Nanjing University, China",
+        "Mathias Payer ( EPFL, Switzerland )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sok-certified-robustness-for-deep-neural-networks",
+      "title": "SoK: Certified Robustness for Deep Neural Networks",
+      "authors": [
+        "Linyi Li ( University of Illinois Urbana-Champaign, USA",
+        "Tao Xie ( Key Laboratory of High Confidence Software Technologies, MoE (Peking University",
+        "China",
+        "Bo Li ( University of Illinois Urbana-Champaign, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-rab-provable-robustness-against-backdoor-attacks",
+      "title": "RAB: Provable Robustness Against Backdoor Attacks",
+      "authors": [
+        "Maurice Weber ( ETH Zurich, Switzerland",
+        "Xiaojun Xu ( University of Illinois at Urbana-Champaign, USA",
+        "Bojan Karlas ( ETH Zurich, Switzerland",
+        "Ce Zhang ( ETH Zurich, Switzerland",
+        "Bo Li ( University of Illinois at Urbana-Champaign, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-objectseeker-certifiably-robust-object-detection-against-patch-hiding-attacks-vi",
+      "title": "ObjectSeeker: Certifiably Robust Object Detection against Patch Hiding Attacks via Patch-agnostic Masking",
+      "authors": [
+        "Chong Xiang ( Princeton University",
+        "Alexander Valtchanov ( Princeton University",
+        "Saeed Mahloujifar ( Princeton University",
+        "Prateek Mittal ( Princeton University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-publiccheck-public-integrity-verification-for-services-of-run-time-deep-models",
+      "title": "PublicCheck: Public Integrity Verification for Services of Run-time Deep Models",
+      "authors": [
+        "Shuo Wang ( CSIROâs Data61, Australia; Cybersecurity CRC, Australia",
+        "Sharif Abuadbba ( CSIROâs Data61, Australia; Cybersecurity CRC, Australia",
+        "Sidharth Agarwal ( Indian Institute of Technology Delhi, India",
+        "Kristen Moore ( CSIROâs Data61, Australia; Cybersecurity CRC, Australia",
+        "Ruoxi Sun ( CSIROâs Data61, Australia",
+        "Minhui Xue ( CSIROâs Data61, Australia; Cybersecurity CRC, Australia",
+        "Surya Nepal ( CSIROâs Data61, Australia; Cybersecurity CRC, Australia",
+        "Seyit Camtepe ( CSIROâs Data61, Australia; Cybersecurity CRC, Australia",
+        "Salil Kanhere ( University of New South Wales, Australia )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-fedrecover-recovering-from-poisoning-attacks-in-federated-learning-using-histori",
+      "title": "FedRecover: Recovering from Poisoning Attacks in Federated Learning using Historical Information",
+      "authors": [
+        "Xiaoyu Cao ( Duke University",
+        "Jinyuan Jia ( Duke University",
+        "Zaixi Zhang ( University of Science and Technology of China",
+        "Neil Zhenqiang Gong ( Duke University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-on-the-empirical-effectiveness-of-unrealistic-adversarial-hardening-against-real",
+      "title": "On The Empirical Effectiveness of Unrealistic Adversarial Hardening Against Realistic Adversarial Attacks",
+      "authors": [
+        "Salijona Dyrmishi ( University of Luxembourg, Luxembourg",
+        "Salah Ghamizi ( University of Luxembourg, Luxembourg",
+        "Thibault Simonetto ( University of Luxembourg, Luxembourg",
+        "Yves Le Traon ( University of Luxembourg, Luxembourg",
+        "Maxime Cordy ( University of Luxembourg, Luxembourg )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-rethinking-searchable-symmetric-encryption",
+      "title": "Rethinking Searchable Symmetric Encryption",
+      "authors": [
+        "Zichen Gui ( ETH Zurich, Switzerland",
+        "Kenneth G. Paterson ( ETH Zurich, Switzerland",
+        "Sikhar Patranabis ( IBM Research, India )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-private-collaborative-data-cleaning-via-non-equi-psi",
+      "title": "Private Collaborative Data Cleaning via Non-Equi PSI",
+      "authors": [
+        "Erik-Oliver Blass ( Airbus, Germany",
+        "Florian Kerschbaum ( University of Waterloo, Canada )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sphincsc-compressing-sphincs-with-almost-no-cost",
+      "title": "SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost",
+      "authors": [
+        "Andreas HÃ¼lsing ( TU Eindhoven",
+        "Mikhail Kudinov ( TU Eindhoven",
+        "Eyal Ronen ( Tel Aviv University",
+        "Eylon Yogev ( Bar-Ilan University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-threshold-signatures-in-the-multiverse",
+      "title": "Threshold Signatures in the Multiverse",
+      "authors": [
+        "Leemon Baird ( Swirlds Labs",
+        "Sanjam Garg ( University of California, Berkeley&NTT Research",
+        "Abhishek Jain ( Johns Hopkins University",
+        "Pratyay Mukherjee ( Supra Oracles",
+        "Rohit Sinha ( Meta",
+        "Mingyuan Wang ( University of California, Berkeley",
+        "Yinuo Zhang ( University of California, Berkeley )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-fido2-ctap-21-and-webauthn-2-provable-security-and-post-quantum-instantiation",
+      "title": "FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation",
+      "authors": [
+        "Nina Bindel ( SandboxAQ",
+        "Cas Cremers ( CISPA Helmholtz Center for Information Security",
+        "Mang Zhao ( CISPA Helmholtz Center for Information Security )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-token-meets-wallet-formalizing-privacy-and-revocation-for-fido2",
+      "title": "Token meets Wallet: Formalizing Privacy and Revocation for FIDO2",
+      "authors": [
+        "Lucjan Hanzlik ( CISPA Helmholtz Center for Information Security, Germany",
+        "Julian Loss ( CISPA Helmholtz Center for Information Security, Germany",
+        "Benedikt Wagner ( CISPA Helmholtz Center for Information Security, Germany and Saarland University, Germany )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sok-taxonomy-of-attacks-on-open-source-software-supply-chains",
+      "title": "SoK: Taxonomy of Attacks on Open-Source Software Supply Chains",
+      "authors": [
+        "Piergiorgio Ladisa ( SAP Security Research, UniversitÃ© de Rennes 1",
+        "Henrik Plate ( SAP Security Research",
+        "Matias Martinez ( UniversitÃ© Polytechnique Hauts-de-France",
+        "Olivier Barais ( UniversitÃ© de Rennes 1, Inria, IRISA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-its-like-flossing-your-teeth-on-the-importance-and-challenges-of-reproducible-bu",
+      "title": "Itâs like flossing your teeth: On the Importance and Challenges of Reproducible Builds for Software Supply Chain Security",
+      "authors": [
+        "Marcel FournÃ© ( Max Planck Institute for Security and Privacy, Bochum, Germany",
+        "Dominik Wermke ( CISPA Helmholtz Center for Information Security, Germany",
+        "William Enck ( North Carolina State University, Raleigh, North Carolina, USA",
+        "Sascha Fahl ( CISPA Helmholtz Center for Information Security, Germany",
+        "Yasemin Acar ( Paderborn University, Germany, George Washington University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-always-contribute-back-a-qualitative-study-on-security-challenges-of-the-open-so",
+      "title": "Always Contribute Back: A Qualitative Study on Security Challenges of the Open Source Supply Chain",
+      "authors": [
+        "Dominik Wermke ( CISPA Helmholtz Center for Information Security",
+        "Jan H. Klemmer ( Leibniz University Hannover",
+        "Noah WÃ¶hler ( CISPA Helmholtz Center for Information Security",
+        "Juliane SchmÃ¼ser ( CISPA Helmholtz Center for Information Security",
+        "Harshini Sri Ramulu ( Paderborn University",
+        "Yasemin Acar ( Paderborn University, George Washington University",
+        "Sascha Fahl ( CISPA Helmholtz Center for Information Security )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-continuous-intrusion-characterizing-the-security-of-continuous-integration-servi",
+      "title": "Continuous Intrusion: Characterizing the Security of Continuous Integration Services",
+      "authors": [
+        "Yacong Gu ( Qi An Xin Technology Research Institute, China",
+        "Lingyun Ying ( Qi An Xin Technology Research Institute, China",
+        "Huajun Chai ( Qi An Xin Technology Research Institute, China",
+        "Chu Qiao ( University of Delaware, USA",
+        "Haixin Duan ( Tsinghua University; Tsinghua University-QI-ANXIN Group JCNS, China",
+        "Xing Gao ( University of Delaware, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-investigating-package-related-security-threats-in-software-registries",
+      "title": "Investigating Package Related Security Threats in Software Registries",
+      "authors": [
+        "Yacong Gu ( QI-ANXIN Technology Research Institute, China",
+        "Lingyun Ying ( QI-ANXIN Technology Research Institute, China",
+        "Yingyuan Pu ( Ocean University of China; QI-ANXIN Technology Research Institute, China",
+        "Xiao Hu ( QI-ANXIN Technology Research Institute, China",
+        "Huajun Chai ( QI-ANXIN Technology Research Institute, China",
+        "Ruimin Wang ( Southeast University; QI-ANXIN Technology Research Institute, China",
+        "Xing Gao ( University of Delaware, USA",
+        "Haixin Duan ( Tsinghua University; Tsinghua University-QI-ANXIN Group JCNS, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-shadownet-a-secure-and-efficient-on-device-model-inference-system-for-convolutio",
+      "title": "ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks",
+      "authors": [
+        "Zhichuang Sun ( Google",
+        "Ruimin Sun ( Florida International University",
+        "Changming Liu ( Northeastern University",
+        "Amrita Roy Chowdhury ( University of California, San Diego",
+        "Long Lu ( Northeastern University",
+        "Somesh Jha ( University of Wisconsin-Madison )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-deepfake-text-detection-limitations-and-opportunities",
+      "title": "Deepfake Text Detection: Limitations and Opportunities",
+      "authors": [
+        "Jiameng Pu ( Virginia Tech, USA",
+        "Zain Sarwar ( University Of Chicago, USA",
+        "Sifat Muhammad Abdullah ( Virginia Tech, USA",
+        "Abdullah Rehman ( Virginia Tech, USA",
+        "Yoonjin Kim ( Virginia Tech, USA",
+        "Parantapa Bhattacharya ( University Of Virginia, USA",
+        "Mobin Javed ( LUMS, Pakistan",
+        "Bimal Viswanath ( Virginia Tech, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-stylefool-fooling-video-classification-systems-via-style-transfer",
+      "title": "StyleFool: Fooling Video Classification Systems via Style Transfer",
+      "authors": [
+        "Yuxin Cao ( Shenzhen International Graduate School, Tsinghua University, China",
+        "Xi Xiao ( Shenzhen International Graduate School, Tsinghua University, China",
+        "Ruoxi Sun ( CSIRO's Data61, Australia",
+        "Derui Wang ( CSIRO's Data61, Australia",
+        "Minhui Xue ( CSIRO's Data61, Australia",
+        "Sheng Wen ( Swinburne University of Technology, Australia )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-geesolver-a-generic-efficient-and-effortless-solver-with-self-supervised-learnin",
+      "title": "GeeSolver: A Generic, Efficient, and Effortless Solver with Self-Supervised Learning for Breaking Text Captchas",
+      "authors": [
+        "Ruijie Zhao ( Shanghai Jiao Tong University",
+        "Xianwen Deng ( Shanghai Jiao Tong University",
+        "Yanhao Wang ( QI-ANXIN",
+        "Zhicong Yan ( Shanghai Jiao Tong University",
+        "Zhengguang Han ( Shanghai Jiao Tong University",
+        "Libo Chen ( Shanghai Jiao Tong University",
+        "Zhi Xue ( Shanghai Jiao Tong University",
+        "Yijun Wang ( Shanghai Jiao Tong University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-trojanmodel-a-practical-trojan-attack-against-automatic-speech-recognition-syste",
+      "title": "TrojanModel: A Practical Trojan Attack against Automatic Speech Recognition Systems",
+      "authors": [
+        "Wei Zong ( University of Wollongong, Australia",
+        "Yang-Wai Chow ( University of Wollongong, Australia",
+        "Willy Susilo ( University of Wollongong, Australia",
+        "Kien Do ( Deakin University, Australia",
+        "Svetha Venkatesh ( Deakin University, Australia )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-rega-scalable-rowhammer-mitigation-with-refresh-generating-activations",
+      "title": "REGA: Scalable Rowhammer Mitigation with Refresh-Generating Activations",
+      "authors": [
+        "Michele Marazzi ( ETH Zurich",
+        "Flavien Solt ( ETH Zurich",
+        "Patrick Jattke ( ETH Zurich",
+        "Kubo Takashi ( Zentel Japan",
+        "Kaveh Razavi ( ETH Zurich )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-csirowhammer---cryptographic-security-and-integrity-against-rowhammer",
+      "title": "CSI:Rowhammer - Cryptographic Security and Integrity against Rowhammer",
+      "authors": [
+        "Jonas Juffinger ( Lamarr Security Research, Graz University of Technology, Austria",
+        "Lukas Lamster ( Graz University of Technology, Austria",
+        "Andreas Kogler ( Graz University of Technology, Austria",
+        "Maria Eichlseder ( Graz University of Technology, Austria",
+        "Moritz Lipp ( Amazon Web Services, Austria",
+        "Daniel Gruss ( Graz University of Technology, Austria )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-jolt-recovering-tls-signing-keys-via-rowhammer-faults",
+      "title": "Jolt: Recovering TLS Signing Keys via Rowhammer Faults",
+      "authors": [
+        "Koksal Mus ( Worcester Polytechnic Institute",
+        "YarkÄ±n DorÃ¶z ( Worcester Polytechnic Institute",
+        "M. Caner Tol ( Worcester Polytechnic Institute",
+        "Kristi Rahman ( Worcester Polytechnic Institute",
+        "Berk Sunar ( Worcester Polytechnic Institute )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-hide-and-seek-with-spectres-efficient-discovery-of-speculative-vulnerabilities-w",
+      "title": "Hide and Seek with Spectres: Efficient discovery of speculative vulnerabilities with random testing",
+      "authors": [
+        "Oleksii Oleksenko and Boris KÃ¶pf ( Microsoft Research",
+        "Marco Guarnieri ( IMDEA Software Institute",
+        "Mark Silberstein ( Technion )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-spectre-declassified-reading-from-the-right-place-at-the-wrong-time",
+      "title": "Spectre Declassified: Reading from the Right Place at the Wrong Time",
+      "authors": [
+        "Basavesh Ammanaghatta Shivakumar ( Max Planck Institute for Security and Privacy, Germany",
+        "Jack Barnes ( The University of Adelaide, Australia",
+        "Gilles Barthe ( Max Planck Institute for Security and Privacy, Germany; IMDEA Software Institute, Spain",
+        "Sunjay Cauligi ( Max Planck Institute for Security and Privacy, Germany",
+        "Chitchanok Chuengsatiansup ( The University of Adelaide, Australia",
+        "Daniel Genkin ( Georgia Institute of Technology, USA",
+        "Sioli O'Connell ( The University of Adelaide, Australia",
+        "Peter Schwabe ( Max Planck Institute for Security and Privacy, Germany; Radboud University, Netherlands",
+        "Rui Qi Sim ( The University of Adelaide, Australia",
+        "Yuval Yarom ( The University of Adelaide, Australia )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-volttack-control-iot-devices-by-manipulating-power-supply-voltage",
+      "title": "Volttack: Control IoT Devices by Manipulating Power Supply Voltage",
+      "authors": [
+        "Kai Wang ( Zhejiang University, China",
+        "Shilin Xiao ( Zhejiang University, China",
+        "Xiaoyu Ji ( Zhejiang University, China",
+        "Chen Yan ( Zhejiang University, China",
+        "Chaohao Li ( Hangzhou Hikvision Digital Technology Co., Ltd., China",
+        "Wenyuan Xu ( Zhejiang University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-inducing-wireless-chargers-to-voice-out-for-inaudible-command-attacks",
+      "title": "Inducing Wireless Chargers to Voice Out for Inaudible Command Attacks",
+      "authors": [
+        "Donghui Dai ( The Hong Kong Polytechnic University, China",
+        "Zhenlin An ( The Hong Kong Polytechnic University, China",
+        "Lei Yang ( The Hong Kong Polytechnic University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-mmspoof-resilient-spoofing-of-automotive-millimeter-wave-radars-using-reflect-ar",
+      "title": "mmSpoof: Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array",
+      "authors": [
+        "Rohith Reddy Vennam ( University of California San Diego",
+        "Ish Kumar Jain ( University of California San Diego",
+        "Kshitiz Bansal ( University of California San Diego",
+        "Joshua Orozco ( University of California San Diego",
+        "Puja Shukla ( University of California San Diego",
+        "Aanjhan Ranganathan ( Northeastern University",
+        "Dinesh Bharadia ( University of California San Diego )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-pla-lidar-physical-laser-attacks-against-lidar-based-3d-object-detection-in-auto",
+      "title": "PLA-LiDAR: Physical Laser Attacks against LiDAR-based 3D Object Detection in Autonomous Vehicle",
+      "authors": [
+        "Zizhi Jin ( Zhejiang University",
+        "Ji Xiaoyu ( Zhejiang University",
+        "Yushi Cheng ( Tsinghua University",
+        "Bo Yang ( Zhejiang University",
+        "Chen Yan ( Zhejiang University",
+        "Wenyuan Xu ( Zhejiang University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-mmecho-a-mmwave-based-acoustic-eavesdropping-method",
+      "title": "mmEcho: A mmWave-based Acoustic Eavesdropping Method",
+      "authors": [
+        "Pengfei Hu ( Shandong University",
+        "Wenhao Li ( Shandong University",
+        "Riccardo Spolaor ( Shandong University",
+        "Xiuzhen Cheng ( Shandong University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-side-eye-characterizing-the-limits-of-pov-acoustic-eavesdropping-from-smartphone",
+      "title": "Side Eye: Characterizing the Limits of POV Acoustic Eavesdropping from Smartphone Cameras with Rolling Shutters and Movable Lenses",
+      "authors": [
+        "Yan Long ( University of Michigan, USA",
+        "Pirouz Naghavi ( University of Florida, USA",
+        "Blas Kojusner ( University of Florida, USA",
+        "Kevin Butler ( University of Florida, USA",
+        "Sara Rampazzi ( University of Florida, USA",
+        "Kevin Fu ( University of Michigan, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-adi-adversarial-dominating-inputs-in-vertical-federated-learning-systems",
+      "title": "ADI: Adversarial Dominating Inputs in Vertical Federated Learning Systems",
+      "authors": [
+        "Qi Pang ( Carnegie Mellon University, USA",
+        "Yuanyuan Yuan ( Hong Kong University of Science and Technology, Hong Kong SAR",
+        "Shuai Wang ( Hong Kong University of Science and Technology, Hong Kong SAR",
+        "Wenting Zheng ( Carnegie Mellon University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-3dfed-adaptive-and-extensible-framework-for-covert-backdoor-attack-in-federated-",
+      "title": "3DFed: Adaptive and Extensible Framework for Covert Backdoor Attack in Federated Learning",
+      "authors": [
+        "Haoyang LI ( The Hong Kong Polytechnic University",
+        "Qingqing Ye ( The Hong Kong Polytechnic University",
+        "Haibo Hu ( The Hong Kong Polytechnic University",
+        "Jin Li ( Guangzhou University",
+        "Leixia Wang ( Renmin University of China",
+        "Chengfang Fang ( Huawei International, Singapore",
+        "Jie Shi ( Huawei International, Singapore )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-scalable-and-privacy-preserving-federated-principal-component-analysis",
+      "title": "Scalable and Privacy-Preserving Federated Principal Component Analysis",
+      "authors": [
+        "David Froelicher ( MIT, USA",
+        "Hyunghoon Cho ( Broad Institute of MIT and Harvard, USA",
+        "Manaswitha Edupalli ( Broad Institute of MIT and Harvard, USA",
+        "Joao Sa Sousa ( EPFL, Switzerland",
+        "Jean-Philippe Bossuat ( Tune Insight SA, Switzerland",
+        "Apostolos Pyrgelis ( EPFL, Switzerland",
+        "Juan R. Troncoso-Pastoriza ( Tune Insight SA, Switzerland",
+        "Bonnie Berger ( MIT, USA",
+        "Jean-Pierre Hubaux ( EPFL, Switzerland )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-private-efficient-and-accurate-protecting-models-trained-by-multi-party-learning",
+      "title": "Private, Efficient, and Accurate: Protecting Models Trained by Multi-party Learning with Differential Privacy",
+      "authors": [
+        "Wenqiang Ruan ( Fudan University, China",
+        "Mingxin Xu ( Fudan University, China",
+        "Wenjing Fnag ( Ant Group, China",
+        "Li Wang ( Ant Group, China",
+        "Lei Wang ( Ant Group, China",
+        "Weili Han ( Fudan University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-spectral-dp-differentially-private-deep-learning-through-spectral-perturbation-a",
+      "title": "Spectral-DP: Differentially Private Deep Learning through Spectral Perturbation and Filtering",
+      "authors": [
+        "Ce Feng ( Lehigh University",
+        "Nuo Xu ( Lehigh University",
+        "Wujie Wen ( Lehigh University",
+        "Parv Venkitasubramaniam ( Lehigh University",
+        "Caiwen Ding ( University of Connecticut )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-elsa-secure-aggregation-for-federated-learning-with-malicious-actors",
+      "title": "ELSA: Secure Aggregation for Federated Learning with Malicious Actors",
+      "authors": [
+        "Mayank Rathee ( University of California, Berkeley, USA",
+        "Conghao Shen ( Stanford University, USA",
+        "Sameer Wagh ( Devron Corporation, USA",
+        "Raluca Ada Popa ( University of California, Berkeley, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-no-one-drinks-from-the-firehose-how-organizations-filter-and-prioritize-vulnerab",
+      "title": "No One Drinks From the Firehose: How Organizations Filter and Prioritize Vulnerability Information",
+      "authors": [
+        "Stephanie de Smale ( National Cyber Security Centre, The Netherlands & Delft University of Technology, The Netherlands",
+        "Rik van Dijk ( National Cyber Security Centre, The Netherlands",
+        "Xander Bouwman ( Delft University of Technology, The Netherlands",
+        "Jeroen van der Ham ( National Cyber Security Centre, The Netherlands & University of Twente, The Netherlands",
+        "Michel van Eeten ( Delft University of Technology, The Netherlands )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-vulnerability-discovery-for-all-experiences-of-marginalization-in-vulnerability-",
+      "title": "Vulnerability Discovery for All: Experiences of Marginalization in Vulnerability Discovery",
+      "authors": [
+        "Kelsey R. Fulton ( University of Maryland",
+        "Samantha Katcher ( Tufts University",
+        "Kevin Song ( University of Chicago",
+        "Marshini Chetty ( University of Chicago",
+        "Michelle L. Mazurek ( University of Maryland",
+        "Daniel Votipka ( Tufts University",
+        "ChloÃ© Messdaghi ( Impactive Consulting )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-we-are-a-startup-to-the-core-a-qualitative-interview-study-on-the-security-and-p",
+      "title": "We are a startup to the core: A qualitative interview study on the security and privacy development practices in Turkish software startups",
+      "authors": [
+        "Dilara Kekulluoglu ( University of Edinburgh, UK",
+        "Yasemin Acar ( The George Washington University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-how-technical-do-you-get-im-an-english-teacher-teaching-and-learning-cybersecuri",
+      "title": "How technical do you get? I'm an English teacher: Teaching and Learning Cybersecurity and AI Ethics in High School",
+      "authors": [
+        "Zachary Kilhoffer ( University of Illinois at Urbana-Champaign, USA",
+        "Zhixuan Zhou ( University of Illinois at Urbana-Champaign, USA",
+        "Firmiana Wang ( University of Illinois Laboratory High School, USA",
+        "Fahad Tamton ( University of Illinois at Urbana-Champaign, USA",
+        "Yun Huang ( University of Illinois at Urbana-Champaign, USA",
+        "Pilyoung Kim ( University of Denver, USA",
+        "Tom Yeh ( University of Colorado Boulder, USA",
+        "Yang Wang ( University of Illinois at Urbana-Champaign, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-skilled-or-gullible-gender-stereotypes-related-to-computer-security-and-privacy",
+      "title": "Skilled or Gullible? Gender Stereotypes Related to Computer Security and Privacy",
+      "authors": [
+        "Miranda Wei ( University of Washington, USA",
+        "Pardis Emami-Naeini ( Duke University, USA",
+        "Franziska Roesner ( University of Washington, USA",
+        "Tadayoshi Kohno ( University of Washington, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-everybodys-got-ml-tell-me-what-else-you-have-practitioners-perception-of-ml-base",
+      "title": "Everybodyâs Got ML, Tell Me What Else You Have: Practitioners' Perception of ML-Based Security Tools and Explanations",
+      "authors": [
+        "Jaron Mink ( University of Illinois at Urbana-Champaign",
+        "Hadjer Benkraouda ( University of Illinois at Urbana-Champaign",
+        "Limin Yang ( University of Illinois at Urbana-Champaign",
+        "Arridhana Ciptadi ( Truera",
+        "Ali Ahmadzadeh ( Blue Hexagon",
+        "Daniel Votipka ( Tufts University",
+        "Gang Wang ( University of Illinois at Urbana-Champaign )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-precise-detection-of-kernel-data-races-with-probabilistic-lockset-analysis",
+      "title": "Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis",
+      "authors": [
+        "Gabriel Ryan ( Columbia University",
+        "Abhishek Shah ( Columbia University",
+        "Dongdong She ( Columbia University",
+        "Suman Jana ( Columbia University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-segfuzz-segmentizing-thread-interleaving-to-discover-kernel-concurrency-bugs-thr",
+      "title": "SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing",
+      "authors": [
+        "Dae R. Jeong ( School of Computing, KAIST",
+        "Byoungyoung Lee ( Department of Electrical and Computer Engineering, Seoul National University",
+        "Insik Shin ( School of Computing, KAIST",
+        "Youngjin Kwon ( School of Computing, KAIST )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-aem-facilitating-cross-version-exploitability-assessment-of-linux-kernel-vulnera",
+      "title": "AEM: Facilitating Cross-Version Exploitability Assessment of Linux Kernel Vulnerabilities",
+      "authors": [
+        "Zheyue Jiang ( Fudan University",
+        "Yuan Zhang ( Fudan University",
+        "Jun Xu ( University of Utah",
+        "Xinqian Sun ( Fudan University",
+        "Zhuang Liu ( Fudan University",
+        "Min Yang ( Fudan University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-when-top-down-meets-bottom-up-detecting-and-exploiting-use-after-cleanup-bugs-in",
+      "title": "When Top-down Meets Bottom-up: Detecting and Exploiting Use-After-Cleanup Bugs in Linux Kernel",
+      "authors": [
+        "Lin Ma ( Zhejiang University, China",
+        "Duoming Zhou ( Zhejiang University, China",
+        "Hanjie Wu ( Carnegie Mellon University, USA",
+        "Yajin Zhou ( Zhejiang University, China",
+        "Rui Chang ( Zhejiang University, China",
+        "Hao Xiong ( Zhejiang University, China",
+        "Lei Wu ( Zhejiang University, China",
+        "Kui Ren ( Zhejiang University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-rsfuzzer-discovering-deep-smi-handler-vulnerabilities-in-uefi-firmware-with-hybr",
+      "title": "RSFuzzer: Discovering Deep SMI Handler Vulnerabilities in UEFI Firmware with Hybrid Fuzzing",
+      "authors": [
+        "Jiawei Yin ( Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China and School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China; Key Laboratory of Network Assessment Technology, Chinese Academy of Sciences; Beijing Key Laboratory of Network Security and Protection Technology",
+        "Menghao Li ( Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China and School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China; Key Laboratory of Network Assessment Technology, Chinese Academy of Sciences; Beijing Key Laboratory of Network Security and Protection Technology",
+        "Yuekang Li ( Nanyang Technological University",
+        "Yong Yu ( Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China; Key Laboratory of Network Assessment Technology, Chinese Academy of Sciences; Beijing Key Laboratory of Network Security and Protection Technology",
+        "Boru Lin ( Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China and School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China; Key Laboratory of Network Assessment Technology, Chinese Academy of Sciences; Beijing Key Laboratory of Network Security and Protection Technology",
+        "Yanyan zou ( Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China and School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China; Key Laboratory of Network Assessment Technology, Chinese Academy of Sciences; Beijing Key Laboratory of Network Security and Protection Technology",
+        "Yang Liu ( Nanyang Technological University",
+        "Wei Huo ( nstitute of Information Engineering, Chinese Academy of Sciences, Beijing, China and School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China; Key Laboratory of Network Assessment Technology, Chinese Academy of Sciences; Beijing Key Laboratory of Network Security and Protection Technology",
+        "Jingling Xue ( UNSW Sydney )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-a-theory-to-instruct-differentially-private-learning-via-clipping-bias-reduction",
+      "title": "A Theory to Instruct Differentially-Private Learning via Clipping Bias Reduction",
+      "authors": [
+        "Hanshen Xiao ( MIT",
+        "Zihang Xiang ( KAUST",
+        "Di Wang ( KAUST",
+        "Srinivas Devadas ( MIT )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-continual-observation-under-user-level-differential-privacy",
+      "title": "Continual Observation under User-level Differential Privacy",
+      "authors": [
+        "Wei Dong ( Hong Kong University of Science and Technology, China",
+        "Qiyao Luo ( Hong Kong University of Science and Technology, China",
+        "Ke Yi ( Hong Kong University of Science and Technology, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-locally-differentially-private-frequency-estimation-based-on-convolution-framewo",
+      "title": "Locally Differentially Private Frequency Estimation Based on Convolution Framework",
+      "authors": [
+        "Huiyu Fang ( Southeast University",
+        "Liquan Chen ( Southeast University",
+        "Yali Liu ( Jiangsu Normal University",
+        "Yuan Gao ( Southeast University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-telepath-a-minecraft-based-covert-communication-system",
+      "title": "TELEPATH: A Minecraft-based Covert Communication System",
+      "authors": [
+        "Zhen Sun ( Cornell Tech",
+        "Vitaly Shmatikov ( Cornell Tech )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-discop-provably-secure-steganography-in-practice-based-on-distribution-copies",
+      "title": "Discop: Provably Secure Steganography in Practice Based on âDistribution Copiesâ",
+      "authors": [
+        "Jinyang Ding ( University of Science and Technology of China, China",
+        "Kejiang Chen ( University of Science and Technology of China, China",
+        "Yaofei Wang ( Hefei University of Technology, China",
+        "Na Zhao ( University of Science and Technology of China, China",
+        "Weiming Zhang ( University of Science and Technology of China, China",
+        "Nenghai Yu ( University of Science and Technology of China, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-scatter-and-split-securely-defeating-cache-contention-and-occupancy-attacks",
+      "title": "Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks",
+      "authors": [
+        "Lukas Giner ( Graz University of Technology, Austria",
+        "Stefan Steinegger ( Graz University of Technology, Austria",
+        "Antoon Purnal ( Ku Leuven, Belgium",
+        "Maria Eichlseder ( Graz University of Technology, Austria",
+        "Thomas Unterluggauer ( Intel Corporation",
+        "Stefan Mangard ( Graz University of Technology, Austria",
+        "Daniel Gruss ( Graz University of Technology, Austria )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-devious-device-driven-side-channel-attacks-on-the-iommu",
+      "title": "DevIOus: Device-Driven Side-Channel Attacks on the IOMMU",
+      "authors": [
+        "Taehun Kim ( Korea University, Republic of Korea",
+        "Hyeongjin Park ( Korea University, Republic of Korea",
+        "Seokmin Lee ( Korea University, Republic of Korea",
+        "Seunghee Shin ( The State University of New York at Binghamton, USA",
+        "Junbeom Hur ( Korea University, Republic of Korea",
+        "Youngjoo Shin ( Korea University, Republic of Korea )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-a-security-risc-microarchitectural-attacks-on-hardware-risc-v-cpus",
+      "title": "A Security RISC: Microarchitectural Attacks on Hardware RISC-V CPUs",
+      "authors": [
+        "Lukas Gerlach ( CISPA Helmholtz Center for Information Security",
+        "Daniel Weber ( CISPA Helmholtz Center for Information Security",
+        "Ruiyi Zhang ( CISPA Helmholtz Center for Information Security",
+        "Michael Schwarz ( CISPA Helmholtz Center for Information Security )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-examining-zero-shot-vulnerability-repair-with-large-language-models",
+      "title": "Examining Zero-Shot Vulnerability Repair with Large Language Models",
+      "authors": [
+        "Hammond Pearce ( New York University",
+        "Benjamin Tan ( University of Calgary",
+        "Baleegh Ahmad ( New York University",
+        "Ramesh Karri ( New York University",
+        "Brendan Dolan-Gavitt ( New York University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-callee-recovering-call-graphs-for-binaries-with-transfer-and-contrastive-learnin",
+      "title": "Callee: Recovering Call Graphs for Binaries with Transfer and Contrastive Learning",
+      "authors": [
+        "Wenyu Zhu ( Tsinghua University & BNRist, China",
+        "Zhiyao Feng ( Tsinghua University & BNRist, China",
+        "Zihan Zhang ( Tsinghua University & BNRist, China",
+        "Jianjun Chen ( Tsinghua University & Zhongguancun Laboratory, China",
+        "Zhijian Ou ( Tsinghua University, China",
+        "Min Yang ( Fudan University, China",
+        "Chao Zhang ( Tsinghua University & BNRist & Zhongguancun Laboratory, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-xfl-naming-functions-in-binaries-with-extreme-multi-label-learning",
+      "title": "XFL: Naming Functions in Binaries with Extreme Multi-label Learning",
+      "authors": [
+        "James Patrick-Evans ( Royal Holloway, University of London",
+        "Moritz Dannehl ( Bundeswehr University Munich",
+        "Johannes Kinder ( Bundeswehr University Munich )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-d-arm-disassembling-arm-binaries-by-lightweight-superset-instruction-interpretat",
+      "title": "D-ARM: Disassembling ARM Binaries by Lightweight Superset Instruction Interpretation and Graph Modeling",
+      "authors": [
+        "Yapeng Ye ( Purdue University, USA",
+        "Zhuo Zhang ( Purdue University, USA",
+        "Qingkai Shi ( Purdue University, USA",
+        "Yousra Aafer ( University of Waterloo, Canada",
+        "Xiangyu Zhang ( Purdue University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-graphspd-graph-based-security-patch-detection-with-enriched-code-semantics",
+      "title": "GraphSPD: Graph-Based Security Patch Detection with Enriched Code Semantics",
+      "authors": [
+        "Shu Wang ( George Mason University, USA",
+        "Xinda Wang ( George Mason University, USA",
+        "Kun Sun ( George Mason University, USA",
+        "Sushil Jajodia ( George Mason University, USA",
+        "Haining Wang ( Virginia Tech, USA",
+        "Qi Li ( Tsinghua University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-effective-redos-detection-by-principled-vulnerability-modeling-and-exploit-gener",
+      "title": "Effective ReDoS Detection by Principled Vulnerability Modeling and Exploit Generation",
+      "authors": [
+        "Xinyi Wang ( Institute of Information Engineering, Chinese Academy of Sciences, China",
+        "Cen Zhang ( Nanyang Technological University",
+        "Yeting Li ( Institute of Information Engineering, Chinese Academy of Sciences, China",
+        "Zhiwu Xu ( Shenzhen University",
+        "Shuailin Huang ( Institute of Information Engineering, Chinese Academy of Sciences, China",
+        "Yi Liu ( Nanyang Technological University",
+        "Yican Yao ( Institute of Information Engineering, Chinese Academy of Sciences, China",
+        "Yang Xiao ( Institute of Information Engineering, Chinese Academy of Sciences, China",
+        "Yanyan Zou ( Institute of Information Engineering, Chinese Academy of Sciences, China",
+        "Yang Liu ( Institute of Information Engineering, Chinese Academy of Sciences, China",
+        "Wei Huo ( Institute of Information Engineering, Chinese Academy of Sciences, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sok-decentralized-finance-defi-attacks",
+      "title": "SoK: Decentralized Finance (DeFi) Attacks",
+      "authors": [
+        "Liyi Zhou ( Imperial College London",
+        "Xihan Xiong ( Imperial College London",
+        "Jens Ernstberger ( Technical University of Munich",
+        "Stefanos Chaliasos ( Imperial College London",
+        "Zhipeng Wang ( Imperial College London",
+        "Ye Wang ( University of Macau",
+        "Kaihua Qin ( Imperial College London",
+        "Roger Wattenhofer ( ETH Zurich",
+        "Dawn Song ( UC Berkeley",
+        "Arthur Gervais ( University College London )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-blindhub-bitcoin-compatible-privacy-preserving-payment-channel-hubs-supporting-v",
+      "title": "BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts",
+      "authors": [
+        "Xianrui Qin ( The University of Hong Kong",
+        "Shimin Pan ( The University of Hong Kong",
+        "Arash Mirzaei ( Monash University",
+        "Zhimei Sui ( Monash University",
+        "Oguzhan Ersoy ( Radboud University and Delft University of Technology",
+        "Amin Sakzad ( Monash University",
+        "Muhammed Esgin ( Monash University and CSIROâs Data61",
+        "Joseph K. Liu ( Monash University",
+        "Jiangshan Yu ( Monash University",
+        "Tsz Hon Yuen ( The University of Hong Kong )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-optimistic-fast-confirmation-while-tolerating-malicious-majority-in-blockchains",
+      "title": "Optimistic Fast Confirmation While Tolerating Malicious Majority in Blockchains",
+      "authors": [
+        "Ruomu Hou ( National University of Singapore",
+        "Haifeng Yu ( National University of Singapore )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-clockwork-finance-automated-analysis-of-economic-security-in-smart-contracts",
+      "title": "Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts",
+      "authors": [
+        "Kushal Babel ( Cornell Tech",
+        "Philip Daian ( Cornell Tech",
+        "Mahimna Kelkar ( Cornell Tech",
+        "Ari Juels ( Cornell Tech )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-tyr-finding-consensus-failure-bugs-in-blockchain-system-with-behaviour-divergent",
+      "title": "Tyr: Finding Consensus Failure Bugs in Blockchain System with Behaviour Divergent Model",
+      "authors": [
+        "Yuanliang Chen ( Tsinghua University",
+        "Fuchen Ma ( Tsinghua University",
+        "Yuanhang Zhou ( Tsinghua University",
+        "Yu Jiang ( Tsinghua University",
+        "Ting Chen ( University of Electronic Science and Technology of China",
+        "Jiaguang Sun ( Tsinghua University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-leaking-arbitrarily-many-secrets-any-out-of-many-proofs-and-applications-to-ring",
+      "title": "Leaking Arbitrarily Many Secrets: Any-out-of-Many Proofs and Applications to RingCT Protocols",
+      "authors": [
+        "Tianyu Zheng ( The Hong Kong Polytechnic University",
+        "Shang Gao ( The Hong Kong Polytechnic University",
+        "Yubo Song ( Southeast University",
+        "Bin Xiao ( The Hong Kong Polytechnic University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-could-you-clean-up-the-internet-with-a-pit-of-tar-investigating-tarpit-feasibili",
+      "title": "Could you clean up the Internet with a Pit of Tar? Investigating tarpit feasibility on Internet worms",
+      "authors": [
+        "Harm Griffioen ( Hasso Plattner Institute for Digital Engineering, University of Potsdam",
+        "Christian Doerr ( Hasso Plattner Institute for Digital Engineering, University of Potsdam )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-beyond-phish-toward-detecting-fraudulent-e-commerce-websites-at-scale",
+      "title": "Beyond Phish: Toward Detecting Fraudulent e-Commerce Websites at Scale",
+      "authors": [
+        "Marzieh Bitaab ( Arizona State University",
+        "Haehyun Cho ( Soongsil University",
+        "Adam Oest ( PayPal, Inc.",
+        "Zhuoer Lyu ( Arizona State University",
+        "Wei Wang ( Palo Alto Networks",
+        "Jorij Abraham ( Scam Adviser",
+        "Ruoyu Wang ( Arizona State University",
+        "Tiffany Bao ( Arizona State University",
+        "Yan Shoshitaishvili ( Arizona State University",
+        "Adam DoupÃ© ( Arizona State University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-limits-of-io-based-ransomware-detection-an-imitation-based-attack",
+      "title": "Limits of I/O Based Ransomware Detection: An Imitation Based Attack",
+      "authors": [
+        "Chijin Zhou ( Tsinghua University, China",
+        "Lihua Guo ( Tsinghua University, China",
+        "Yiwei Hou ( Tsinghua University, China",
+        "Zhenya Ma ( Tsinghua University, China",
+        "Quan Zhang ( Tsinghua University, China",
+        "Mingzhe Wang ( Tsinghua University, China",
+        "Zhe Liu ( Nanjing University of Aeronautics and Astronautics, China",
+        "Yu Jiang ( Tsinghua University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-from-grim-reality-to-practical-solution-malware-classification-in-real-world-noi",
+      "title": "From Grim Reality to Practical Solution: Malware Classification in Real-World Noise",
+      "authors": [
+        "Xian Wu ( Northwestern University",
+        "Wenbo Guo ( UC Berkeley",
+        "Jia Yan ( Penn State",
+        "Baris Coskun ( AWS",
+        "Xinyu Xing ( Northwestern University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-sok-history-is-a-vast-early-warning-system-auditing-the-provenance-of-system-int",
+      "title": "SoK: History is a Vast Early Warning System: Auditing the Provenance of System Intrusions",
+      "authors": [
+        "Muhammad Adil Inam ( University of Illinois at Urbana-Champaign",
+        "Yinfang Chen ( University of Illinois at Urbana-Champaign",
+        "Akul Goyal ( University of Illinois at Urbana-Champaign",
+        "Jason Liu ( University of Illinois at Urbana-Champaign",
+        "Jaron Mink ( University of Illinois at Urbana-Champaign",
+        "Noor Michael ( University of Illinois at Urbana-Champaign",
+        "Sneha Gaur ( University of Illinois at Urbana-Champaign",
+        "Adam Bates ( University of Illinois at Urbana-Champaign",
+        "Wajih Ul Hassan ( University of Virginia )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-collaborative-ad-transparency-promises-and-limitations",
+      "title": "Collaborative Ad Transparency: Promises and Limitations",
+      "authors": [
+        "Eleni Gkiouzepi ( Technical University of Berlin, Germany",
+        "Athanasios Andreou ( Algorithmic Transparency Institute, USA",
+        "Oana Goga ( CNRS, Inria, Institut Polytechnique de Paris, France",
+        "Patrick Loiseau ( Inria, FairPlay team, France )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-toss-a-fault-to-your-witcher-applying-grey-box-coverage-guided-mutational-fuzzin",
+      "title": "Toss a Fault to Your Witcher: Applying Grey-box Coverage-Guided Mutational Fuzzing to Detect SQL and Command Injection Vulnerabilities",
+      "authors": [
+        "Erik Trickel ( Arizona State University",
+        "Fabio Pagani ( UC Santa Barbara",
+        "Chang Zhu ( Arizona State University",
+        "Lukas Dresel ( UC Santa Barbara",
+        "Giovanni Vigna ( UC Santa Barbara",
+        "Christopher Kruegel ( UC Santa Barbara",
+        "Ruoyu Wang ( Arizona State University",
+        "Tiffany Bao ( Arizona State University",
+        "Yan Shoshitaishvili ( Arizona State University",
+        "Adam Doupe ( Arizona State University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-utopia-automatic-generation-of-fuzz-driver-using-unit-tests",
+      "title": "UTOPIA: Automatic Generation of Fuzz Driver using Unit Tests",
+      "authors": [
+        "Bokdeuk Jeong ( Samsung Research, Republic of Korea",
+        "Joonun Jang ( Samsung Research, Republic of Korea",
+        "Hayoon Yi ( Samsung Research, Republic of Korea",
+        "Jiin Moon ( Samsung Research, Republic of Korea",
+        "Junsik Kim ( Samsung Research, Republic of Korea",
+        "Intae Jeon ( Samsung Research, Republic of Korea",
+        "Taesoo Kim ( Samsung Research, Republic of Korea; Georgia Institute of Technology, USA",
+        "WooChul Shim ( Samsung Research, Republic of Korea",
+        "Yong Ho Hwang ( Samsung Research, Republic of Korea )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-selectfuzz-efficient-directed-fuzzing-with-selective-path-exploration",
+      "title": "SelectFuzz: Efficient Directed Fuzzing with Selective Path Exploration",
+      "authors": [
+        "Changhua Luo ( Chinese University of Hong Kong",
+        "Wei Meng ( Chinese University of Hong Kong",
+        "Penghui Li ( Chinese University of Hong Kong )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-finding-specification-blind-spots-via-fuzz-testing",
+      "title": "Finding Specification Blind Spots via Fuzz Testing",
+      "authors": [
+        "Ru Ji ( University of Waterloo",
+        "Meng Xu ( University of Waterloo )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-oddfuzz-discovering-java-deserialization-vulnerabilities-via-structure-aware-dir",
+      "title": "ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing",
+      "authors": [
+        "Sicong Cao ( Yangzhou University, China",
+        "Biao He ( Ant Group, China",
+        "Xiaobing Sun ( Yangzhou University, China",
+        "Yu Ouyang ( Ant Group, China",
+        "Chao Zhang ( Tsinghua University, China",
+        "Xiaoxue Wu ( Yangzhou University, China",
+        "Ting Su ( East China Normal University",
+        "Lili Bo ( Yangzhou University, China",
+        "Bin Li ( Yangzhou University, China",
+        "Chuanlei Ma ( Ant Group, China",
+        "Jiajia Li ( Ant Group, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-the-leaky-web-automated-discovery-of-cross-site-information-leaks-in-browsers-an",
+      "title": "The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web",
+      "authors": [
+        "Jannis Rautenstrauch ( CISPA Helmholtz Center for Information Security, Germany",
+        "Giancarlo Pellegrino ( CISPA Helmholtz Center for Information Security, Germany",
+        "Ben Stock ( CISPA Helmholtz Center for Information Security, Germany )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-webspec-towards-machine-checked-analysis-of-browser-security-mechanisms",
+      "title": "WebSpec: Towards Machine-Checked Analysis of Browser Security Mechanisms",
+      "authors": [
+        "Lorenzo Veronese ( TU Wien",
+        "Benjamin Farinier ( Univ Rennes, Inria, CNRS, IRISA",
+        "Pedro Bernardo ( TU Wien",
+        "Mauro Tempesta ( TU Wien",
+        "Marco Squarcina ( TU Wien",
+        "Matteo Maffei ( TU Wien )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-detection-of-inconsistencies-in-privacy-practices-of-browser-extensions",
+      "title": "Detection of Inconsistencies in Privacy Practices of Browser Extensions",
+      "authors": [
+        "Duc Bui ( University of Michigan, United States of America",
+        "Brian Tang ( University of Michigan, United States of America",
+        "Kang G. Shin ( University of Michigan, United States of America )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-tesec-accurate-server-side-attack-investigation-for-web-applications",
+      "title": "TeSec: Accurate Server-side Attack Investigation for Web Applications",
+      "authors": [
+        "Ruihua Wang ( KLISS, TNList, School of Software, Tsinghua University",
+        "Yihao Peng ( KLISS, TNList, School of Software, Tsinghua University",
+        "Yilun Sun ( KLISS, TNList, School of Software, Tsinghua University",
+        "Xuancheng Zhang ( KLISS, TNList, School of Software, Tsinghua University",
+        "Hai Wan ( KLISS, TNList, School of Software, Tsinghua University",
+        "Xibin Zhao ( KLISS, TNList, School of Software, Tsinghua University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-rulekeeper-gdpr-aware-personal-data-compliance-for-web-frameworks",
+      "title": "RuleKeeper: GDPR-Aware Personal Data Compliance for Web Frameworks",
+      "authors": [
+        "Mafalda Ferreira ( INESC-ID / Instituto Superior TÃ©cnico, Universidade de Lisboa",
+        "Tiago Brito ( INESC-ID / Instituto Superior TÃ©cnico, Universidade de Lisboa",
+        "JosÃ© Fragoso Santos ( INESC-ID / Instituto Superior TÃ©cnico, Universidade de Lisboa",
+        "Nuno Santos ( INESC-ID / Instituto Superior TÃ©cnico, Universidade de Lisboa )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-design-and-evaluation-of-inclusive-email-security-indicators-for-people-with-vis",
+      "title": "Design and Evaluation of Inclusive Email Security Indicators for People with Visual Impairments",
+      "authors": [
+        "Yaman Yu ( University of Illinois at Urbana-Champaign, USA",
+        "Saidivya Ashok ( University of Illinois at Urbana-Champaign / CMU, USA",
+        "Smirity Kaushi ( University of Illinois at Urbana-Champaign, USA",
+        "Yang Wang ( University of Illinois at Urbana-Champaign, USA",
+        "Gang Wang ( University of Illinois at Urbana-Champaign, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-when-and-why-do-people-want-ad-targeting-explanations-evidence-from-a-four-week-",
+      "title": "When and Why Do People Want Ad Targeting Explanations? Evidence from a Four-Week, Mixed-Methods Field Study",
+      "authors": [
+        "Hao-Ping Lee ( Carnegie Mellon University, United States",
+        "Jacob Logas ( Georgia Institute of Technology, United States",
+        "Stephanie Yang ( Georgia Institute of Technology, United States",
+        "Zhouyu Li ( North Carolina State University, United States",
+        "NatÃ£ Barbosa ( University of Illinois at Urbana-Champaign, United States",
+        "Yang Wang ( University of Illinois at Urbana-Champaign, United States",
+        "Sauvik Das ( Carnegie Mellon University, United States )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-securecells-a-secure-compartmentalized-architecture",
+      "title": "SecureCells: A Secure Compartmentalized Architecture",
+      "authors": [
+        "Atri Bhattacharyya ( EPFL",
+        "Florian Hofhammer ( EPFL",
+        "Yuanlong Li ( EPFL",
+        "Siddharth Gupta ( EPFL",
+        "Andres Sanchez ( EPFL",
+        "Babak Falsafi ( EPFL",
+        "Mathias Payer ( EPFL )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-wave-a-verifiably-secure-webassembly-sandboxing-runtime",
+      "title": "WaVe: A Verifiably Secure WebAssembly Sandboxing Runtime",
+      "authors": [
+        "Evan Johnson ( UC San Diego, USA",
+        "Evan Laufer ( Stanford, USA",
+        "Zijie Zhao ( UIUC, USA",
+        "Dan Gohman ( Fastly Labs, USA",
+        "Shravan Narayan ( UC San Diego, USA",
+        "Stefan Savage ( UC San Diego, USA",
+        "Deian Stefan ( UC San Diego, USA",
+        "Fraser Brown ( Carnegie Mellon University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-uswitch-fast-kernel-context-isolation-with-implicit-context-switches",
+      "title": "uSWITCH: Fast Kernel Context Isolation with Implicit Context Switches",
+      "authors": [
+        "Dinglan Peng ( Purdue University",
+        "Congyu Liu ( Purdue University",
+        "Tapti Palit ( Purdue University",
+        "Pedro Fonseca ( Purdue University",
+        "Anjo Vahldiek-Oberwagner ( Intel Labs",
+        "Mona Vij ( Intel Labs )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-control-flow-and-pointer-integrity-enforcement-in-a-secure-tagged-architecture",
+      "title": "Control Flow and Pointer Integrity Enforcement in a Secure Tagged Architecture",
+      "authors": [
+        "Ravi Theja Gollapudi ( State University of New York at Binghamton",
+        "Gokturk Yuksek ( State University of New York at Binghamton",
+        "David Demicco ( State University of New York at Binghamton",
+        "Matthew Cole ( State University of New York at Binghamton",
+        "Gaurav N Kothari ( State University of New York at Binghamton",
+        "Rohit H Kulkarni ( State University of New York at Binghamton",
+        "Xin Zhang ( State University of New York at Binghamton",
+        "Kanad Ghose ( State University of New York at Binghamton",
+        "Aravind Prakash ( State University of New York at Binghamton",
+        "Zerksis Umrigar ( State University of New York at Binghamton )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-ec-embedded-systems-compartmentalization-via-intra-kernel-isolation",
+      "title": "EC: Embedded Systems Compartmentalization via Intra-Kernel Isolation",
+      "authors": [
+        "Arslan Khan ( Purdue University",
+        "Dongyan Xu ( Purdue University",
+        "Dave Tian ( Purdue University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-low-cost-privilege-separation-with-compile-time-compartmentalization-for-embedde",
+      "title": "Low-Cost Privilege Separation with Compile Time Compartmentalization for Embedded Systems",
+      "authors": [
+        "Arslan Khan ( Purdue University",
+        "Dongyan Xu ( Purdue University",
+        "Dave Tian ( Purdue University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-one-key-to-rule-them-all-secure-group-pairing-for-heterogeneous-iot-devices",
+      "title": "One Key to Rule Them All: Secure Group Pairing for Heterogeneous IoT Devices",
+      "authors": [
+        "Habiba Farrukh ( Purdue University, United States",
+        "Muslum Ozgur Ozmen ( Purdue University, United States",
+        "Faik Kerem Ors ( Purdue University, United States",
+        "Z. Berkay Celik ( Purdue University, United States )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-protected-or-porous-a-comparative-analysis-of-threat-detection-capability-of-iot",
+      "title": "Protected or Porous: A Comparative Analysis of Threat Detection Capability of IoT Safeguards",
+      "authors": [
+        "Anna Maria Mandalari ( University College London, UK",
+        "Hamed Haddadi ( Imperial College London, UK",
+        "Daniel J. Dubois ( Northeastern University, US",
+        "David Choffnes ( Northeastern University, US )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-lazytap-on-demand-data-minimization-for-trigger-action-applications",
+      "title": "LazyTAP: On-Demand Data Minimization for Trigger-Action Applications",
+      "authors": [
+        "Mohammad M. Ahmadpanah ( Chalmers University of Technology, Sweden",
+        "Daniel Hedin ( Chalmers University of Technology and MÃ¤lardalen University, Sweden",
+        "Andrei Sabelfeld ( Chalmers University of Technology, Sweden )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-blues-clues-practical-discovery-of-non-discoverable-bluetooth-devices",
+      "title": "Blue's Clues: Practical Discovery of Non-Discoverable Bluetooth Devices",
+      "authors": [
+        "Tyler Tucker ( University of Florida",
+        "Hunter Searle ( University of Florida",
+        "Kevin Butler ( University of Florida",
+        "Patrick Traynor ( University of Florida )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-dehirec-detecting-hidden-voice-recorders-via-adc-electromagnetic-radiation",
+      "title": "DeHiREC: Detecting Hidden Voice Recorders via ADC Electromagnetic Radiation",
+      "authors": [
+        "Ruochen Zhou ( Zhejiang University",
+        "Xiaoyu Ji ( Zhejiang University",
+        "Chen Yan ( Zhejiang University",
+        "Yi-Chao Chen ( Shanghai Jiao Tong University; Microsoft Research Asia",
+        "Wenyuan Xu ( Zhejiang University",
+        "Chaohao Li ( Zhejiang University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-from-5g-sniffing-to-harvesting-leakages-of-privacy-preserving-messengers",
+      "title": "From 5G Sniffing to Harvesting Leakages of Privacy-Preserving Messengers",
+      "authors": [
+        "Norbert Ludant ( Northeastern University, USA",
+        "Pieter Robyns ( Hasselt University - tUL - EDM and Belgian Cyber Command, Belgium",
+        "Guevara Noubir ( Northeastern University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-man-in-the-middle-attacks-without-rogue-ap-when-wpas-meet-icmp-redirects",
+      "title": "Man-in-the-Middle Attacks without Rogue AP: When WPAs Meet ICMP Redirects",
+      "authors": [
+        "Xuewei Feng ( Tsinghua University, China",
+        "Qi Li ( Tsinghua University and Zhongguancun Lab, China",
+        "Kun Sun ( George Mason University, USA",
+        "Yuxiang Yang ( Tsinghua University",
+        "Ke Xu ( Tsinghua University and Zhongguancun Lab, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-pcspoof-compromising-the-safety-of-time-triggered-ethernet",
+      "title": "PCspooF: Compromising the Safety of Time-Triggered Ethernet",
+      "authors": [
+        "Andrew Loveless ( University of Michigan; NASA Johnson Space Center",
+        "Linh Thi Xuan Phan ( University of Pennsylvania",
+        "Ronald Dreslinski ( University of Michigan",
+        "Baris Kasikci ( University of Michigan )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-blediff--scalable-and-property-agnostic-noncompliance-checking-for-ble-implement",
+      "title": "BLEDiff : Scalable and Property-Agnostic Noncompliance Checking for BLE Implementations",
+      "authors": [
+        "Imtiaz Karim ( Purdue University",
+        "Abdullah Al Ishtiaq ( Pennsylvania State University",
+        "Syed Rafiul Hussain ( Pennsylvania State University",
+        "Elisa Bertino ( Purdue University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-videzzo-dependency-aware-virtual-device-fuzzing",
+      "title": "VIDEZZO: Dependency-aware Virtual Device Fuzzing",
+      "authors": [
+        "Qiang Liu ( Zhejiang University, China; EPFL, Switzerland",
+        "Flavio Toffalini ( EPFL, Switzerland",
+        "Yajin Zhou ( Zhejiang University, China",
+        "Mathias Payer ( EPFL, Switzerland )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-devfuzz-automatic-device-model-guided-device-driver-fuzzing",
+      "title": "DEVFUZZ: Automatic Device Model-Guided Device Driver Fuzzing",
+      "authors": [
+        "Yilun Wu ( Stony Brook University",
+        "Tong Zhang ( Samsung Electronics",
+        "Changhee Jung ( Purdue University",
+        "Dongyoon Lee ( Stony Brook University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-syzdescribe-principled-automated-static-generation-of-syscall-descriptions-for-k",
+      "title": "SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers",
+      "authors": [
+        "Yu Hao ( University of California, Riverside",
+        "Guoren Li ( University of California, Riverside",
+        "Xiaochen Zou ( University of California, Riverside",
+        "Weiteng Chen ( University of California, Riverside",
+        "Shitong Zhu ( University of California, Riverside",
+        "Zhiyun Qian ( University of California, Riverside",
+        "Ardalan Amiri Sani ( University of California, Irvine )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-queryx-symbolic-query-on-decompiled-code-for-finding-bugs-in-cots-binaries",
+      "title": "QueryX: Symbolic Query on Decompiled Code for Finding Bugs in COTS Binaries",
+      "authors": [
+        "HyungSeok Han ( Theori Inc., KAIST",
+        "JeongOh Kyea ( Theori Inc.",
+        "Yonghwi Jin ( Theori Inc.",
+        "Jinoh Kang ( Theori Inc.",
+        "Brian Pak ( Theori Inc.",
+        "Insu Yun ( KAIST )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-pyfet-forensically-equivalent-transformation-for-python-binary-decompilation",
+      "title": "PyFET: Forensically Equivalent Transformation for Python Binary Decompilation",
+      "authors": [
+        "Ali Ahad ( University of Virginia, USA",
+        "Chijung Jung ( University of Virginia, USA",
+        "Ammar Askar ( Georgia Institute of Technology, USA",
+        "Doowon Kim ( University of Tennessee, USA",
+        "Taesoo Kim ( Georgia Institute of Technology, USA",
+        "Yonghwi Kwon ( University of Virginia, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-adaptive-risk-limiting-comparison-audits",
+      "title": "Adaptive Risk-Limiting Comparison Audits",
+      "authors": [
+        "Abigail Harrison ( University of Connecticut",
+        "Benjamin Fuller ( University of Connecticut",
+        "Alexander Russell ( University of Connecticut )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-blue-is-the-new-black-market-privacy-leaks-and-re-victimization-from-police-auct",
+      "title": "Blue Is the New Black (Market): Privacy Leaks and Re-Victimization from Police-Auctioned Cellphones",
+      "authors": [
+        "Richard Roberts, Julio Poveda, Raley Roberts, and Dave Levin ( University of Maryland, College Park )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-no-privacy-in-the-electronics-repair-industry",
+      "title": "No Privacy in the Electronics Repair Industry",
+      "authors": [
+        "Jason Ceci ( University of Guelph, Canada",
+        "Jonah Stegman ( University of Guelph, Canada",
+        "Hassan Khan ( University of Guelph, Canada )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-how-iot-re-using-threatens-your-sensitive-data-exploring-the-user-data-disposal-",
+      "title": "How IoT Re-using Threatens Your Sensitive Data: Exploring the User-Data Disposal in Used IoT Devices",
+      "authors": [
+        "Peiyu Liu ( Zhejiang University, China",
+        "Shouling Ji ( Zhejiang University, China",
+        "Lirong Fu ( Zhejiang University, China",
+        "Kangjie Lu ( University of Minnesota, USA",
+        "Xuhong Zhang ( Zhejiang University, China",
+        "Jingchang Qin ( Zhejiang University, China",
+        "Wenhai Wang ( Zhejiang University, China",
+        "Wenzhi Chen ( Zhejiang University, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-privacy-leakage-via-unrestricted-motion-position-sensors-in-the-age-of-virtual-r",
+      "title": "Privacy Leakage via Unrestricted Motion-Position Sensors in the Age of Virtual Reality: A Study of Snooping Typed Input on Virtual Keyboards",
+      "authors": [
+        "Yi Wu ( University of Tennessee, Knoxville, USA",
+        "Cong Shi ( New Jersey Institute of Technology, USA",
+        "Tianfang Zhang ( Rutgers University, USA",
+        "Payton Walker ( Texas A&M University, College Station, USA",
+        "Jian Liu ( University of Tennessee, Knoxville, USA",
+        "Nitesh Saxena ( Texas A&M University, College Station, USA",
+        "Yingying Chen ( Rutgers University, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-magbackdoor-beware-of-your-loudspeaker-as-a-backdoor-for-magnetic-injection-atta",
+      "title": "MagBackdoor: Beware of Your Loudspeaker as A Backdoor For Magnetic Injection Attacks",
+      "authors": [
+        "Tiantian Liu ( Zhejiang University, Hangzhou, Zhejiang, China",
+        "Feng Lin ( Zhejiang University, Hangzhou, Zhejiang, China",
+        "Zhangsen Wang ( Zhejiang University, Hangzhou, Zhejiang, China",
+        "Chao Wang ( Zhejiang University, Hangzhou, Zhejiang, China",
+        "Zhongjie Ba ( Zhejiang University, Hangzhou, Zhejiang, China",
+        "Li Lu ( Zhejiang University, Hangzhou, Zhejiang, China",
+        "Wenyao Xu ( University at Buffalo, Buffalo, New York, USA",
+        "Kui Ren ( Zhejiang University, Hangzhou, Zhejiang, China )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-private-eye-on-the-limits-of-textual-screen-peeking-via-eyeglass-reflections-in-",
+      "title": "Private Eye: On the Limits of Textual Screen Peeking via Eyeglass Reflections in Video Conferencing",
+      "authors": [
+        "Yan Long ( University of Michigan, USA",
+        "Chen Yan ( Zhejiang University, China",
+        "Shilin Xiao ( Zhejiang University, China",
+        "Shivan Prasad ( University of Michigan, USA",
+        "Wenyuan Xu ( Zhejiang University, China",
+        "Kevin Fu ( University of Michigan, USA )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "sp-2023-low-effort-vr-headset-user-authentication-using-head-reverberated-sounds-with-re",
+      "title": "Low-effort VR Headset User Authentication Using Head-reverberated Sounds with Replay Resistance",
+      "authors": [
+        "Ruxin Wang ( Louisiana State University",
+        "Long Huang ( Louisiana State University",
+        "Chen Wang ( Louisiana State University )"
+      ],
+      "abstract": "",
+      "pdf_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "doi": null,
+      "source": "IEEE S&P official",
+      "source_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    }
+  ]
+}

@@ -1,126 +1,895 @@
 ---
-const now = new Date();
-const currentYear = now.getFullYear();
-const years = Array.from({ length: 5 }, (_, i) => currentYear - i);
+const modules = [
+  {
+    title: '个人能力 OS',
+    text: '把远程当前主页的能力系统沉淀为一个模块：问题识别、判断、项目化、AI 执行、资产沉淀、业务放大。',
+    href: '#ability-os',
+    meta: 'Capability OS'
+  },
+  {
+    title: 'Java 架构',
+    text: 'Servlet、Spring Boot、中间件和系统设计，所有学习都落到个人知识系统。',
+    href: '#java-architecture',
+    meta: '每周一个中间件'
+  },
+  {
+    title: 'AI 安全',
+    text: 'LLM 应用安全、Agent 安全、RAG 风险、AI 红队和安全评测。',
+    href: '#ai-security',
+    meta: '工具 / 论文 / 风险'
+  },
+  {
+    title: '网络安全',
+    text: 'SOC、SIEM、XDR、日志分析、威胁狩猎和安全运营产品观察。',
+    href: '#cybersecurity',
+    meta: '工程视角'
+  },
+  {
+    title: '论文阅读',
+    text: 'NDSS、S&P、USENIX Security、CCS 四大安全顶会的结构化阅读。',
+    href: '/conf/ndss',
+    meta: '四大顶会'
+  },
+  {
+    title: '工具产品',
+    text: 'garak、PyRIT、Security Copilot、Google SecOps、XSIAM 等持续跟踪。',
+    href: '#tools-products',
+    meta: '趋势观察'
+  },
+  {
+    title: '带学社群',
+    text: '把自学过程拆成任务、作业、复盘和公开视频，形成可跟学路径。',
+    href: '#guided-learning',
+    meta: 'UP 主养成记'
+  }
+];
+
+const abilityTags = [
+  ['Signal', '识别真实问题', 1.42, '#ability-signal'],
+  ['Judgment', '价值判断', 1.56, '#ability-judgment'],
+  ['Project', '项目化交付', 1.32, '#ability-project'],
+  ['AI Execution', 'AI 提速执行', 1.5, '#ability-execution'],
+  ['Asset', '模板/清单/流程', 1.28, '#ability-asset'],
+  ['Business', '服务/产品放大', 1.22, '#ability-business'],
+  ['Java', '工程底座', 1.6, '#java-architecture'],
+  ['Middleware', '每周一个中间件', 1.46, '#weekly'],
+  ['AI Security', 'LLM / Agent / RAG 安全', 1.58, '#ai-security'],
+  ['Cybersecurity', 'SOC / XDR / 威胁狩猎', 1.44, '#cybersecurity'],
+  ['Paper Reading', '顶会论文思想', 1.38, '#security-conferences'],
+  ['UP 主带学', '自学到社群', 1.3, '#guided-learning'],
+  ['Tool Review', '工具与产品观察', 1.22, '#tools-products']
+];
+
+const conferences = [
+  ['NDSS', '网络与分布式系统安全', '/conf/ndss'],
+  ['IEEE S&P', '系统安全、隐私与安全基础研究', '/conf/sp'],
+  ['USENIX Security', '系统、网络、软件和应用安全', '/conf/usenix'],
+  ['ACM CCS', '计算机与通信安全综合顶会', '/conf/ccs']
+];
+
+const weekly = [
+  ['Week 1', 'Redis', '缓存、限流、热点数据', 'LLM 应用安全风险分类'],
+  ['Week 2', 'RabbitMQ', '异步任务、论文抓取、通知', '安全扫描任务队列'],
+  ['Week 3', 'Elasticsearch', '文章、论文、工具搜索', '安全知识库检索'],
+  ['Week 4', 'Nginx', '反向代理、访问控制', 'Web 入口防护']
+];
+
+const pillars = [
+  ['Java 架构与中间件', 'Redis、MQ、Kafka、Nginx、ES、网关、可观测性'],
+  ['AI 安全', 'LLM Top 10、Prompt Injection、Agent 安全、模型评测、数据泄露'],
+  ['网络安全工程', 'SIEM、SOAR、XDR、日志分析、告警研判、漏洞管理'],
+  ['论文思想', 'NDSS、USENIX Security、S&P、CCS、Black Hat 议题'],
+  ['行业应用', '金融、教育、企业办公、安全运营中心、开发安全']
+];
+
+const learningPath = [
+  ['自学者', '公开学习记录、踩坑、资料筛选'],
+  ['分享者', '把复杂概念拆成教程、路线图和复盘'],
+  ['带学者', '用作业、直播带练和点评推动行动'],
+  ['社群主理人', '沉淀打卡、共学、作品展示和优秀案例']
+];
+
+const references = [
+  ['OWASP LLM Top 10', 'LLM 应用安全风险框架', 'https://owasp.org/www-project-top-10-for-large-language-model-applications/'],
+  ['MITRE ATLAS', 'AI 攻击技术和案例知识库', 'https://atlas.mitre.org/'],
+  ['NIST AI RMF', 'AI 风险治理和评估框架', 'https://www.nist.gov/itl/ai-risk-management-framework'],
+  ['CISA AI Roadmap', '关键基础设施与 AI 安全路线', 'https://www.cisa.gov/resources-tools/resources/roadmap-artificial-intelligence']
+];
 ---
 
-<html lang="zh">
+<!doctype html>
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>NDSS 论文快览</title>
+    <meta
+      name="description"
+      content="AI + Cybersecurity + Java Architecture：Java 架构、中间件实战、AI 安全、网络安全论文和产品观察。"
+    />
+    <title>Yongfang190 Eng | AI Security & Java Architecture</title>
     <style>
-      :root { color-scheme: light dark; }
-      body { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; }
-      header h1 { font-size: 1.9rem; margin: 0 0 .4rem; }
-      header p { opacity: .8; margin: 0 0 .9rem; }
-      .toolbar { display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; }
-      select, input { padding:.55rem .65rem; border-radius:10px; border:1px solid color-mix(in oklab, CanvasText 20%, transparent); }
-      .grid { display:grid; gap:1rem; margin-top:1rem; }
-      .card { border:1px solid color-mix(in oklab, CanvasText 20%, transparent); border-radius:12px; padding:1rem; }
-      .title { margin:0 0 .25rem; font-size:1.05rem; }
-      .meta { opacity:.75; font-size:.9rem; margin:0 0 .5rem; }
-      .empty { opacity:.65; margin-top:1rem; }
-      nav a.clean { text-decoration:none; border:1px solid color-mix(in oklab, CanvasText 20%, transparent); padding:.35rem .65rem; border-radius:10px; }
-      nav a.clean:hover { outline:2px solid color-mix(in oklab, CanvasText 35%, transparent); }
+      :root {
+        color-scheme: light;
+        --paper: #fbfbf8;
+        --ink: #17211d;
+        --muted: #64716b;
+        --line: #d8ded8;
+        --panel: #ffffff;
+        --soft: #eef4ef;
+        --green: #1f6b5b;
+        --red: #b75237;
+        --blue: #2e5f8a;
+        --shadow: 0 18px 55px rgba(23, 33, 29, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Aptos, 'Gill Sans', 'PingFang SC', 'Noto Sans SC', sans-serif;
+        letter-spacing: 0;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid var(--line);
+        background: rgba(251, 251, 248, 0.94);
+        backdrop-filter: blur(16px);
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        min-height: 68px;
+      }
+
+      .brand {
+        display: grid;
+        gap: 2px;
+        text-decoration: none;
+      }
+
+      .brand strong {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 1.06rem;
+        font-weight: 700;
+      }
+
+      .brand span {
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .navlinks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 8px;
+      }
+
+      .navlinks a,
+      .button {
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        color: var(--ink);
+        font-size: 0.88rem;
+        line-height: 1;
+        padding: 11px 13px;
+        text-decoration: none;
+        transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+      }
+
+      .navlinks a:hover,
+      .button:hover {
+        border-color: var(--green);
+        background: var(--soft);
+        transform: translateY(-1px);
+      }
+
+      .button.primary {
+        border-color: var(--green);
+        background: var(--green);
+        color: #fff;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 340px;
+        gap: 44px;
+        align-items: end;
+        padding: 78px 0 42px;
+      }
+
+      .eyebrow {
+        color: var(--green);
+        font-size: 0.82rem;
+        font-weight: 700;
+        margin: 0 0 18px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        letter-spacing: 0;
+      }
+
+      h1 {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: clamp(2.35rem, 5vw, 5rem);
+        line-height: 0.98;
+        margin: 0;
+        max-width: 880px;
+      }
+
+      .lead {
+        color: #3e4944;
+        font-size: 1.12rem;
+        line-height: 1.8;
+        margin: 28px 0 0;
+        max-width: 780px;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 28px;
+      }
+
+      .status {
+        border-left: 3px solid var(--red);
+        padding-left: 18px;
+      }
+
+      .status p {
+        color: var(--muted);
+        line-height: 1.7;
+        margin: 0;
+      }
+
+      .status strong {
+        color: var(--ink);
+        display: block;
+        font-size: 1.35rem;
+        margin-bottom: 10px;
+      }
+
+      .module-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+        padding-bottom: 54px;
+      }
+
+      .module-card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: var(--shadow);
+        min-height: 184px;
+        padding: 22px;
+        text-decoration: none;
+        transition: border-color 160ms ease, transform 160ms ease;
+      }
+
+      .module-card:hover {
+        border-color: var(--green);
+        transform: translateY(-3px);
+      }
+
+      .module-card small {
+        color: var(--red);
+        display: block;
+        font-size: 0.78rem;
+        font-weight: 700;
+        margin-bottom: 18px;
+      }
+
+      .module-card h2 {
+        font-size: 1.28rem;
+        margin: 0 0 12px;
+      }
+
+      .module-card p {
+        color: var(--muted);
+        line-height: 1.7;
+        margin: 0;
+      }
+
+      .ability-os {
+        padding: 22px 0 58px;
+      }
+
+      .os-panel {
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(238, 244, 239, 0.86)),
+          radial-gradient(circle at 80% 0%, rgba(46, 95, 138, 0.14), transparent 22rem);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        box-shadow: var(--shadow);
+        display: grid;
+        gap: 28px;
+        grid-template-columns: 320px minmax(0, 1fr);
+        overflow: hidden;
+        padding: 28px;
+        position: relative;
+      }
+
+      .os-panel::before {
+        background: repeating-linear-gradient(
+          90deg,
+          rgba(23, 33, 29, 0.05) 0,
+          rgba(23, 33, 29, 0.05) 1px,
+          transparent 1px,
+          transparent 42px
+        );
+        content: '';
+        inset: 0;
+        pointer-events: none;
+        position: absolute;
+      }
+
+      .os-copy,
+      .tagcloud {
+        position: relative;
+      }
+
+      .os-copy h2 {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: clamp(1.85rem, 3vw, 2.65rem);
+        line-height: 1.08;
+        margin: 0 0 14px;
+      }
+
+      .os-copy p {
+        color: var(--muted);
+        line-height: 1.75;
+        margin: 0 0 18px;
+      }
+
+      .os-meta {
+        color: var(--red);
+        display: block;
+        font-size: 0.78rem;
+        font-weight: 800;
+        margin-bottom: 10px;
+      }
+
+      .tagcloud {
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 12px;
+      }
+
+      .tagcloud a {
+        --tag-size: 1rem;
+        background: rgba(255, 255, 255, 0.72);
+        border: 1px solid color-mix(in srgb, var(--line) 78%, var(--green));
+        border-radius: 999px;
+        color: var(--ink);
+        font-size: var(--tag-size);
+        line-height: 1;
+        padding: 10px 13px;
+        text-decoration: none;
+        transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+      }
+
+      .tagcloud a:hover {
+        background: #f5fbf7;
+        border-color: var(--green);
+        transform: translateY(-2px);
+      }
+
+      .band {
+        border-top: 1px solid var(--line);
+        padding: 58px 0;
+      }
+
+      .section-head {
+        display: grid;
+        grid-template-columns: 280px minmax(0, 1fr);
+        gap: 34px;
+        margin-bottom: 28px;
+      }
+
+      .section-kicker {
+        color: var(--red);
+        font-size: 0.78rem;
+        font-weight: 700;
+        margin: 0 0 10px;
+      }
+
+      .section-head h2 {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: clamp(1.8rem, 3vw, 2.65rem);
+        line-height: 1.1;
+        margin: 0;
+      }
+
+      .section-head p {
+        color: var(--muted);
+        font-size: 1rem;
+        line-height: 1.8;
+        margin: 0;
+        max-width: 760px;
+      }
+
+      .pillar-list {
+        display: grid;
+        border-top: 1px solid var(--line);
+      }
+
+      .pillar-row {
+        display: grid;
+        grid-template-columns: 260px minmax(0, 1fr);
+        gap: 28px;
+        border-bottom: 1px solid var(--line);
+        padding: 20px 0;
+      }
+
+      .pillar-row strong {
+        font-size: 1.02rem;
+      }
+
+      .pillar-row span {
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .timeline {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .week {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      .week b {
+        color: var(--blue);
+        display: block;
+        font-size: 0.82rem;
+        margin-bottom: 8px;
+      }
+
+      .week h3 {
+        font-size: 1.15rem;
+        margin: 0 0 12px;
+      }
+
+      .week p {
+        color: var(--muted);
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      .split {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 20px;
+      }
+
+      .path {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+      }
+
+      .path h3 {
+        margin: 0 0 18px;
+      }
+
+      .path ol {
+        display: grid;
+        gap: 14px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .path li {
+        border-left: 3px solid var(--green);
+        padding-left: 14px;
+      }
+
+      .path strong {
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .path span {
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
+      .reference-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .reference {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        min-height: 150px;
+        padding: 18px;
+        text-decoration: none;
+      }
+
+      .reference:hover {
+        border-color: var(--blue);
+        background: #f4f8fb;
+      }
+
+      .reference strong {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .reference span {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .conference-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin-bottom: 22px;
+      }
+
+      .conference-card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        min-height: 132px;
+        padding: 18px;
+        text-decoration: none;
+        transition: border-color 160ms ease, transform 160ms ease;
+      }
+
+      .conference-card:hover {
+        border-color: var(--blue);
+        transform: translateY(-2px);
+      }
+
+      .conference-card strong {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .conference-card span {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .footer {
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        padding: 30px 0 46px;
+      }
+
+      @media (max-width: 900px) {
+        .hero,
+        .os-panel,
+        .section-head,
+        .split {
+          grid-template-columns: 1fr;
+        }
+
+        .module-grid,
+        .timeline,
+        .conference-grid,
+        .reference-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .status {
+          max-width: 620px;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .shell {
+          width: min(100% - 24px, 1120px);
+        }
+
+        .nav {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 14px 0;
+        }
+
+        .navlinks {
+          justify-content: flex-start;
+        }
+
+        .navlinks a {
+          padding: 10px 11px;
+        }
+
+        .hero {
+          padding: 48px 0 34px;
+        }
+
+        .lead {
+          font-size: 1rem;
+        }
+
+        .module-grid,
+        .timeline,
+        .conference-grid,
+        .reference-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .pillar-row {
+          grid-template-columns: 1fr;
+          gap: 8px;
+        }
+      }
     </style>
   </head>
   <body>
-    <header>
-      <h1>NDSS 论文快览</h1>
-      <p>自动抓取近年 NDSS 论文，支持年份筛选与关键词搜索。</p>
-      <nav>
-        <a class="clean" href="/conf/ndss">进入会议页 /conf/ndss</a>
+    <header class="topbar">
+      <nav class="shell nav" aria-label="主导航">
+        <a class="brand" href="/">
+          <strong>Yongfang190 Eng</strong>
+          <span>AI Security · Java Architecture · Cybersecurity</span>
+        </a>
+        <div class="navlinks">
+          <a href="#modules">模块</a>
+          <a href="#ability-os">能力 OS</a>
+          <a href="#mainline">主线</a>
+          <a href="#weekly">周计划</a>
+          <a href="#guided-learning">带学</a>
+          <a href="/conf/ndss">NDSS</a>
+        </div>
       </nav>
     </header>
 
-    <div class="toolbar">
-      <label>年份：
-        <select id="yearSel">
-          {years.map((y) => <option value={y}>{y}</option>)}
-        </select>
-      </label>
-      <input id="qInput" placeholder="搜索 标题 / 作者 / 标签…" />
-      <span id="count" style="opacity:.7"></span>
-    </div>
+    <main>
+      <section class="shell hero" id="top">
+        <div>
+          <p class="eyebrow">https://yongfang190-eng.github.io</p>
+          <h1>AI 安全、网络安全与 Java 架构的个人知识入口</h1>
+          <p class="lead">
+            这里沉淀每周中间件实践、AI 安全工具与产品观察、网络安全论文阅读，以及“边学边带”的 UP 主成长方案。所有内容都尽量落到一个可演进的个人知识系统里。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#modules">查看模块入口</a>
+            <a class="button" href="/conf/ndss">进入四大顶会论文库</a>
+          </div>
+        </div>
+        <aside class="status" aria-label="站点当前主线">
+          <strong>主线不是资料堆叠，而是持续应用。</strong>
+          <p>
+            每周至少学习一个中间件，解释它在当前系统中的位置；每月跟踪 AI + 安全领域的论文、工具、产品和行业应用。
+          </p>
+        </aside>
+      </section>
 
-    <section id="cards" class="grid"></section>
+      <section class="shell module-grid" id="modules" aria-label="模块入口">
+        {modules.map((item) => (
+          <a class="module-card" href={item.href}>
+            <small>{item.meta}</small>
+            <h2>{item.title}</h2>
+            <p>{item.text}</p>
+          </a>
+        ))}
+      </section>
 
-    <script>
-      const yearSel = document.getElementById('yearSel');
-      const qInput  = document.getElementById('qInput');
-      const cards   = document.getElementById('cards');
-      const countEl = document.getElementById('count');
+      <section class="shell ability-os" id="ability-os" aria-label="个人能力 OS">
+        <div class="os-panel">
+          <div class="os-copy">
+            <span class="os-meta">CAPABILITY OS / FROM REMOTE HOME</span>
+            <h2>把远程主页的“个人能力 OS”变成本站长期模块</h2>
+            <p>
+              这个模块承接原主页的六层能力系统：从真实问题信号，到价值判断、项目化、AI 执行、资产沉淀和业务放大。它和 AI 安全、Java 架构、论文阅读不是并列资料夹，而是把学习转成作品和服务的操作系统。
+            </p>
+            <a class="button" href="https://yongfang190-eng.github.io/" target="_blank" rel="noopener">查看远程当前主页</a>
+          </div>
+          <div class="tagcloud" aria-label="能力 OS 标签云">
+            {abilityTags.map(([title, desc, size, href]) => (
+              <a href={href} title={desc} style={`--tag-size: ${size}rem`}>{title}</a>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      // 从 URL 初始化
-      const params = new URLSearchParams(location.search);
-      const nowYear = new Date().getFullYear();
-      let year = Number(params.get('year') || nowYear);
-      let q = (params.get('q') || '').toLowerCase();
-      yearSel.value = String(year);
-      qInput.value = q;
+      <section class="band" id="mainline">
+        <div class="shell">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">MAINLINE</p>
+              <h2>主线规划</h2>
+            </div>
+            <p>
+              用 Java 架构和中间件实战做工程底座，用 AI + 信息安全/网络安全作为长期内容方向，把学习过程转成个人站文章、B 站内容和社群带学。
+            </p>
+          </div>
 
-      async function fetchYear(y) {
-        const res = await fetch(`/data/ndss/${y}.json?ts=` + Date.now());
-        if (!res.ok) return { items: [] };
-        return res.json();
-      }
+          <div class="pillar-list">
+            {pillars.map(([title, text]) => (
+              <div
+                class="pillar-row"
+                id={title === 'AI 安全' ? 'ability-execution' : title === '行业应用' ? 'ability-business' : undefined}
+              >
+                <strong>{title}</strong>
+                <span>{text}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      function render(list) {
-        if (!list.length) {
-          cards.innerHTML = `<p class="empty">暂无结果，可更换年份或调整关键词。</p>`;
-          countEl.textContent = '0 条结果';
-          return;
-        }
-        const html = list.map(p => {
-          const authors = (p.authors || []).join(', ');
-          const date = p.published_at || p.year || '';
-          const href = p.pdf_url || '#';
-          return `
-            <article class="card">
-              <h3 class="title"><a href="${href}" target="_blank" rel="noopener">${p.title || ''}</a></h3>
-              <p class="meta">${authors} • ${date}</p>
-              ${p.llm_summary_zh ? `<p>${p.llm_summary_zh}</p>` : ''}
-            </article>`;
-        }).join('');
-        cards.innerHTML = html;
-        countEl.textContent = list.length + ' 条结果';
-      }
+      <section class="band" id="weekly">
+        <div class="shell">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">WEEKLY</p>
+              <h2>每周一个中间件</h2>
+            </div>
+            <p>
+              中间件不孤立学习，每一周都回答：它解决什么问题、当前系统哪里需要它、有什么安全风险、怎样转成一篇文章或一期视频。
+            </p>
+          </div>
 
-      async function load() {
-        const data = await fetchYear(year);
-        const items = (data.items || []).filter((p) => {
-          if (!q) return true;
-          const hay = [
-            p.title || '',
-            ...(p.authors || []),
-            ...(p.tags || []),
-            p.llm_summary_zh || ''
-          ].join(' ').toLowerCase();
-          return hay.includes(q);
-        });
-        render(items);
-      }
+          <div class="timeline">
+            {weekly.map(([week, name, scenario, security]) => (
+              <article class="week" id={name === 'Redis' ? 'java-architecture' : undefined}>
+                <b>{week}</b>
+                <h3>{name}</h3>
+                <p>{scenario}</p>
+                <p>{security}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      function syncUrl() {
-        const u = new URL(location.href);
-        u.searchParams.set('year', String(year));
-        q ? u.searchParams.set('q', q) : u.searchParams.delete('q');
-        history.replaceState(null, '', u);
-      }
+      <section class="band" id="guided-learning">
+        <div class="shell">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">GUIDED LEARNING</p>
+              <h2>UP 主带学方案</h2>
+            </div>
+            <p>
+              个人站负责沉淀结构化内容，B 站负责展示过程和建立信任。公开自学路线、作业、复盘和项目结果，让学习者从围观变成一起行动。
+            </p>
+          </div>
 
-      yearSel.addEventListener('change', () => {
-        year = Number(yearSel.value);
-        syncUrl();
-        load();
-      });
-      qInput.addEventListener('input', () => {
-        q = qInput.value.toLowerCase();
-        syncUrl();
-        load();
-      });
+          <div class="split">
+            <article class="path">
+              <h3>成长路径</h3>
+              <ol>
+                {learningPath.map(([role, text]) => (
+                  <li>
+                    <strong id={role === '自学者' ? 'ability-signal' : role === '分享者' ? 'ability-judgment' : role === '带学者' ? 'ability-project' : 'ability-asset'}>{role}</strong>
+                    <span>{text}</span>
+                  </li>
+                ))}
+              </ol>
+            </article>
+            <article class="path">
+              <h3>第一季主题</h3>
+              <ol>
+                <li>
+                  <strong>从 Servlet 到 Spring Boot</strong>
+                  <span>用 12 期内容讲清 Java Web 从繁到简的演进。</span>
+                </li>
+                <li>
+                  <strong>每期一个任务</strong>
+                  <span>从 Tomcat、Servlet、MVC 到 Spring Boot 接口，任务必须能提交作业。</span>
+                </li>
+                <li>
+                  <strong>社群复盘</strong>
+                  <span>每周收集卡点，沉淀高频问题和优秀作业。</span>
+                </li>
+                <li>
+                  <strong>项目收束</strong>
+                  <span>最终形成一个可展示的 Spring Boot 小项目。</span>
+                </li>
+              </ol>
+            </article>
+          </div>
+        </div>
+      </section>
 
-      load(); // 首次渲染
-    </script>
+      <section class="band" id="ai-security">
+        <div class="shell">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">RESEARCH</p>
+              <h2>AI 安全、网络安全与四大顶会</h2>
+            </div>
+            <p>
+              重点跟踪 LLM 应用安全、Agent 安全、AI for SOC、AI 红队、数据安全和软件供应链安全。论文入口扩展为 NDSS、S&P、USENIX Security、CCS 四大安全顶会。
+            </p>
+          </div>
+
+          <div class="conference-grid" id="security-conferences">
+            {conferences.map(([title, text, href]) => (
+              <a class="conference-card" href={href}>
+                <strong>{title}</strong>
+                <span>{text}</span>
+              </a>
+            ))}
+          </div>
+
+          <div class="reference-grid" id="cybersecurity">
+            {references.map(([title, text, href]) => (
+              <a class="reference" href={href} target="_blank" rel="noopener">
+                <strong>{title}</strong>
+                <span>{text}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section class="band" id="tools-products">
+        <div class="shell">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">TOOLS & PRODUCTS</p>
+              <h2>工具、产品、论文如何变成作品</h2>
+            </div>
+            <p>
+              每个工具或产品都按同一套问题拆解：解决什么场景、AI 能力在哪里、有哪些安全边界、当前系统能做什么简化版、能否转成视频和社群作业。
+            </p>
+          </div>
+
+          <div class="pillar-list">
+            <div class="pillar-row">
+              <strong>AI 安全工具</strong>
+              <span>garak、PyRIT、Purple Llama、MITRE ATLAS、OWASP LLM Top 10。</span>
+            </div>
+            <div class="pillar-row">
+              <strong>安全产品观察</strong>
+              <span>Microsoft Security Copilot、Google Security Operations、Cortex XSIAM、CrowdStrike Charlotte AI、Splunk AI。</span>
+            </div>
+            <div class="pillar-row">
+              <strong>系统应用</strong>
+              <span>缓存、搜索、异步任务、日志、监控、RAG 问答和安全审计都映射到个人知识系统。</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell">
+        <p>Yongfang190 Eng · AI Security · Cybersecurity · Java Architecture</p>
+      </div>
+    </footer>
   </body>
 </html>

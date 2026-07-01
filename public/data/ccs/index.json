@@ -1,0 +1,35 @@
+{
+  "conference": "ACM CCS",
+  "name": "ACM Conference on Computer and Communications Security",
+  "slug": "ccs",
+  "official_home": "https://www.sigsac.org/ccs.html",
+  "official_url_pattern": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+  "years": {
+    "2026": {
+      "count": 0,
+      "source": "empty",
+      "official_source_url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html"
+    },
+    "2025": {
+      "count": 70,
+      "source": "dblp_venue",
+      "official_source_url": "https://www.sigsac.org/ccs/CCS2025/program/accepted-papers.html"
+    },
+    "2024": {
+      "count": 55,
+      "source": "dblp_venue",
+      "official_source_url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html"
+    },
+    "2023": {
+      "count": 66,
+      "source": "dblp_venue",
+      "official_source_url": "https://www.sigsac.org/ccs/CCS2023/program/accepted-papers.html"
+    },
+    "2022": {
+      "count": 79,
+      "source": "dblp_venue",
+      "official_source_url": "https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html"
+    }
+  },
+  "last_updated": "2026-07-01T00:56:47.606041Z"
+}

@@ -1,0 +1,1018 @@
+{
+  "conference": "ACM CCS",
+  "name": "ACM Conference on Computer and Communications Security",
+  "slug": "ccs",
+  "year": 2024,
+  "source": "dblp_venue",
+  "official_source_url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html",
+  "items": [
+    {
+      "id": "ccs-2024-fuzzcache-optimizing-web-application-fuzzing-through-software-based-data-cache",
+      "title": "FuzzCache: Optimizing Web Application Fuzzing Through Software-Based Data Cache.",
+      "authors": [
+        "Penghui Li 0001",
+        "Mingxue Zhang 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670278",
+      "doi": "10.1145/3658644.3670278",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-physense-defending-physically-realizable-attacks-for-autonomous-systems-via-cons",
+      "title": "PhySense: Defending Physically Realizable Attacks for Autonomous Systems via Consistency Reasoning.",
+      "authors": [
+        "Zhiyuan Yu 0001",
+        "Ao Li 0006",
+        "Ruoyao Wen",
+        "Yijia Chen",
+        "Ning Zhang 0017"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690236",
+      "doi": "10.1145/3658644.3690236",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/00010WC024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-cancal-towards-real-time-and-lightweight-ransomware-detection-and-response-in-in",
+      "title": "CanCal: Towards Real-time and Lightweight Ransomware Detection and Response in Industrial Environments.",
+      "authors": [
+        "Shenao Wang 0001",
+        "Feng Dong 0008",
+        "Hangfeng Yang",
+        "Jingheng Xu",
+        "Haoyu Wang 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690269",
+      "doi": "10.1145/3658644.3690269",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/00010YX024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-aacd-24-11th-acm-workshop-on-adaptive-and-autonomous-cyber-defense",
+      "title": "AACD '24: 11th ACM Workshop on Adaptive and Autonomous Cyber Defense.",
+      "authors": [
+        "Neil Gong 0001",
+        "Qi Li 0002",
+        "Xiaoli Zhang 0003"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691333",
+      "doi": "10.1145/3658644.3691333",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/00010Z24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-catch-me-if-you-can-detecting-unauthorized-data-use-in-training-deep-learning-mo",
+      "title": "Catch Me if You Can: Detecting Unauthorized Data Use in Training Deep Learning Models.",
+      "authors": [
+        "Zitao Chen 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690858",
+      "doi": "10.1145/3658644.3690858",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/000124",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-on-kernels-safety-in-the-spectre-era-and-kaslr-is-formally-dead",
+      "title": "On Kernel's Safety in the Spectre Era (And KASLR is Formally Dead).",
+      "authors": [
+        "Davide Davoli 0001",
+        "Martin Avanzini",
+        "Tamara Rezk"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670332",
+      "doi": "10.1145/3658644.3670332",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001AR24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-tight-zk-cpu-batched-zk-branching-with-cost-proportional-to-evaluated-instructio",
+      "title": "Tight ZK CPU: Batched ZK Branching with Cost Proportional to Evaluated Instruction.",
+      "authors": [
+        "Yibin Yang 0001",
+        "David Heath",
+        "Carmit Hazay",
+        "Vladimir Kolesnikov",
+        "Muthuramakrishnan Venkitasubramaniam"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690289",
+      "doi": "10.1145/3658644.3690289",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001HHKV24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-fast-and-accurate-homomorphic-softmax-evaluation",
+      "title": "Fast and Accurate Homomorphic Softmax Evaluation.",
+      "authors": [
+        "Wonhee Cho 0001",
+        "Guillaume Hanrot",
+        "Taeseong Kim",
+        "Minje Park",
+        "Damien Stehlé"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670369",
+      "doi": "10.1145/3658644.3670369",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001HKPS24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-vmud-detecting-recurring-vulnerabilities-with-multiple-fixing-functions-via-func",
+      "title": "VMud: Detecting Recurring Vulnerabilities with Multiple Fixing Functions via Function Selection and Semantic Equivalent Statement Matching.",
+      "authors": [
+        "Kaifeng Huang 0001",
+        "Chenhao Lu",
+        "Yiheng Cao",
+        "Bihuan Chen 0001",
+        "Xin Peng 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690372",
+      "doi": "10.1145/3658644.3690372",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001LC0024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-scalable-and-adaptively-secure-any-trust-distributed-key-generation-and-all-hand",
+      "title": "Scalable and Adaptively Secure Any-Trust Distributed Key Generation and All-hands Checkpointing.",
+      "authors": [
+        "Hanwen Feng 0001",
+        "Tiancheng Mai",
+        "Qiang Tang 0005"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690253",
+      "doi": "10.1145/3658644.3690253",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001M024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-poster-context-based-effective-password-detection-in-plaintext",
+      "title": "Poster: Context-Based Effective Password Detection in Plaintext.",
+      "authors": [
+        "Manish Shukla 0001",
+        "Shubham Malaviya",
+        "Sachin Lodha"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691380",
+      "doi": "10.1145/3658644.3691380",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001ML24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-simple-and-practical-amortized-sublinear-private-information-retrieval-using-dum",
+      "title": "Simple and Practical Amortized Sublinear Private Information Retrieval using Dummy Subsets.",
+      "authors": [
+        "Ling Ren 0001",
+        "Muhammad Haris Mughees",
+        "I Sun"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690266",
+      "doi": "10.1145/3658644.3690266",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001MS24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-famulet-finding-finalization-failure-bugs-in-polygon-zkrollup",
+      "title": "fAmulet: Finding Finalization Failure Bugs in Polygon zkRollup.",
+      "authors": [
+        "Zihao Li 0001",
+        "Xinghao Peng",
+        "Zheyuan He",
+        "Xiapu Luo",
+        "Ting Chen 0002"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690243",
+      "doi": "10.1145/3658644.3690243",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001PHL024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-poster-a-secure-multiparty-computation-platform-for-squeaky-clean-data-rooms",
+      "title": "Poster: A Secure Multiparty Computation Platform for Squeaky-Clean Data Rooms.",
+      "authors": [
+        "Pankaj Dayama 0001",
+        "Vinayaka Pandit",
+        "Sikhar Patranabis",
+        "Abhishek Singh",
+        "Nitin Singh"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691371",
+      "doi": "10.1145/3658644.3691371",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001PPSS24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-multi-verifier-zero-knowledge-proofs-for-any-constant-fraction-of-corrupted-veri",
+      "title": "Multi-Verifier Zero-Knowledge Proofs for Any Constant Fraction of Corrupted Verifiers.",
+      "authors": [
+        "Daniel Escudero 0001",
+        "Antigoni Polychroniadou",
+        "Yifan Song 0001",
+        "Chenkai Weng"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670357",
+      "doi": "10.1145/3658644.3670357",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001PSW24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-on-the-tight-security-of-the-double-ratchet",
+      "title": "On the Tight Security of the Double Ratchet.",
+      "authors": [
+        "Daniel Collins 0001",
+        "Doreen Riepel",
+        "Si An Oliver Tran"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690360",
+      "doi": "10.1145/3658644.3690360",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001RT24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-mgtbench-benchmarking-machine-generated-text-detection",
+      "title": "MGTBench: Benchmarking Machine-Generated Text Detection.",
+      "authors": [
+        "Xinlei He 0001",
+        "Xinyue Shen 0001",
+        "Zeyuan Chen 0002",
+        "Michael Backes 0001",
+        "Yang Zhang 0016"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670344",
+      "doi": "10.1145/3658644.3670344",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001SC0024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-obfuscated-key-exchange",
+      "title": "Obfuscated Key Exchange.",
+      "authors": [
+        "Felix Günther 0001",
+        "Douglas Stebila",
+        "Shannon Veitch"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690220",
+      "doi": "10.1145/3658644.3690220",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001SV24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-leveraging-storage-semantics-to-enhance-data-security-and-privacy",
+      "title": "Leveraging Storage Semantics to Enhance Data Security and Privacy.",
+      "authors": [
+        "Weidong Zhu 0002"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690864",
+      "doi": "10.1145/3658644.3690864",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/000224",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-simpler-and-faster-bfv-bootstrapping-for-arbitrary-plaintext-modulus-from-ckks",
+      "title": "Simpler and Faster BFV Bootstrapping for Arbitrary Plaintext Modulus from CKKS.",
+      "authors": [
+        "Jaehyung Kim 0002",
+        "Jinyeong Seo",
+        "Yongsoo Song"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670302",
+      "doi": "10.1145/3658644.3670302",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0002SS24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-pleak-prompt-leaking-attacks-against-large-language-model-applications",
+      "title": "PLeak: Prompt Leaking Attacks against Large Language Model Applications.",
+      "authors": [
+        "Bo Hui 0002",
+        "Haolin Yuan",
+        "Neil Gong 0001",
+        "Philippe Burlina",
+        "Yinzhi Cao"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670370",
+      "doi": "10.1145/3658644.3670370",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0002Y0BC24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-tokenscout-early-detection-of-ethereum-scam-tokens-via-temporal-graph-learning",
+      "title": "TokenScout: Early Detection of Ethereum Scam Tokens via Temporal Graph Learning.",
+      "authors": [
+        "Cong Wu 0003",
+        "Jing Chen 0003",
+        "Ziming Zhao 0001",
+        "Kun He 0008",
+        "Guowen Xu",
+        "Yueming Wu 0001",
+        "Haijun Wang 0002",
+        "Hongwei Li 0001",
+        "Yang Liu 0003",
+        "Yang Xiang 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690234",
+      "doi": "10.1145/3658644.3690234",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0003C00X0WL0024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-efficient-scalable-multi-party-private-set-intersection-variants-from-bicentric-",
+      "title": "Efficient Scalable Multi-Party Private Set Intersection(-Variants) from Bicentric Zero-Sharing.",
+      "authors": [
+        "Ying Gao 0006",
+        "Yuanchao Luo",
+        "Longxin Wang",
+        "Xiang Liu",
+        "Lin Qi",
+        "Wei Wang 0420",
+        "Mengmeng Zhou"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690245",
+      "doi": "10.1145/3658644.3690245",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0006LWLQWZ24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-almost-instance-optimal-clipping-for-summation-problems-in-the-shuffle-model-of-",
+      "title": "Almost Instance-optimal Clipping for Summation Problems in the Shuffle Model of Differential Privacy.",
+      "authors": [
+        "Wei Dong 0007",
+        "Qiyao Luo",
+        "Giulia Fanti",
+        "Elaine Shi",
+        "Ke Yi 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690225",
+      "doi": "10.1145/3658644.3690225",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0007LFS024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-arcedb-an-arbitrary-precision-encrypted-database-via-amortized-modular-homomorph",
+      "title": "ArcEDB: An Arbitrary-Precision Encrypted Database via (Amortized) Modular Homomorphic Encryption.",
+      "authors": [
+        "Zhou Zhang 0016",
+        "Song Bian 0001",
+        "Zian Zhao",
+        "Ran Mao",
+        "Haoyi Zhou",
+        "Jiafeng Hua",
+        "Yier Jin",
+        "Zhenyu Guan 0002"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670384",
+      "doi": "10.1145/3658644.3670384",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/00160ZMZHJG24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-collapse-like-a-house-of-cards-hacking-building-automation-system-through-fuzzin",
+      "title": "Collapse Like A House of Cards: Hacking Building Automation System Through Fuzzing.",
+      "authors": [
+        "Yue Zhang 0025",
+        "Zhen Ling 0001",
+        "Michael Cash",
+        "Qiguang Zhang",
+        "Christopher Morales-Gonzalez",
+        "Qun Zhou Sun",
+        "Xinwen Fu"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690216",
+      "doi": "10.1145/3658644.3690216",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0025LCZMSF24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-when-compiler-optimizations-meet-symbolic-execution-an-empirical-study",
+      "title": "When Compiler Optimizations Meet Symbolic Execution: An Empirical Study.",
+      "authors": [
+        "Yue Zhang 0025",
+        "Melih Sirlanci",
+        "Ruoyu Wang 0001",
+        "Zhiqiang Lin 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670372",
+      "doi": "10.1145/3658644.3670372",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0025SWL24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-lamps-24-acm-ccs-workshop-on-large-ai-systems-and-models-with-privacy-and-safety",
+      "title": "LAMPS '24: ACM CCS Workshop on Large AI Systems and Models with Privacy and Safety Analysis.",
+      "authors": [
+        "Bo Li 0026",
+        "Wenyuan Xu 0001",
+        "Jieshan Chen",
+        "Yang Zhang 0016",
+        "Minhui Xue 0001",
+        "Shuo Wang 0012",
+        "Guangdong Bai",
+        "Xingliang Yuan"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691335",
+      "doi": "10.1145/3658644.3691335",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/00260CZ00BY24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-poster-a-full-stack-secure-deletion-framework-for-modern-computing-devices",
+      "title": "Poster: A Full-stack Secure Deletion Framework for Modern Computing Devices.",
+      "authors": [
+        "Bo Chen 0028",
+        "Caleb Rother",
+        "Josh Dafoe"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691369",
+      "doi": "10.1145/3658644.3691369",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0028RD24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-zero-knowledge-proofs-of-training-for-deep-neural-networks",
+      "title": "Zero-Knowledge Proofs of Training for Deep Neural Networks.",
+      "authors": [
+        "Kasra Abbaszadeh",
+        "Christodoulos Pappas",
+        "Jonathan Katz",
+        "Dimitrios Papadopoulos 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670316",
+      "doi": "10.1145/3658644.3670316",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AbbaszadehPK024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-jger-automated-telephone-call-traceback",
+      "title": "Jäger: Automated Telephone Call Traceback.",
+      "authors": [
+        "David Adei",
+        "Varun Madathil",
+        "Sathvik Prasad",
+        "Bradley Reaves",
+        "Alessandra Scafuro"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690290",
+      "doi": "10.1145/3658644.3690290",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AdeiMPRS24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-evaluations-of-machine-learning-privacy-defenses-are-misleading",
+      "title": "Evaluations of Machine Learning Privacy Defenses are Misleading.",
+      "authors": [
+        "Michael Aerni",
+        "Jie Zhang 0107",
+        "Florian Tramèr"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690194",
+      "doi": "10.1145/3658644.3690194",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AerniZT24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-secure-sorting-and-selection-via-function-secret-sharing",
+      "title": "Secure Sorting and Selection via Function Secret Sharing.",
+      "authors": [
+        "Amit Agarwal",
+        "Elette Boyle",
+        "Nishanth Chandran",
+        "Niv Gilboa",
+        "Divya Gupta 0001",
+        "Yuval Ishai",
+        "Mahimna Kelkar",
+        "Yiping Ma 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690359",
+      "doi": "10.1145/3658644.3690359",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AgarwalBCG0IK024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-peeking-through-the-window-fingerprinting-browser-extensions-through-page-visibl",
+      "title": "Peeking through the window: Fingerprinting Browser Extensions through Page-Visible Execution Traces and Interactions.",
+      "authors": [
+        "Shubham Agarwal 0006",
+        "Aurore Fass",
+        "Ben Stock"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670339",
+      "doi": "10.1145/3658644.3670339",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AgarwalFS24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-poster-flashguard-real-time-disruption-of-non-price-flash-loan-attacks-in-defi",
+      "title": "Poster: FlashGuard: Real-time Disruption of Non-Price Flash Loan Attacks in DeFi.",
+      "authors": [
+        "Abdulrahman Alhaidari",
+        "Balaji Palanisamy",
+        "Prashant Krishnamurthy"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691385",
+      "doi": "10.1145/3658644.3691385",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AlhaidariPK24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-unbundle-rewrite-rebundle-runtime-detection-and-rewriting-of-privacy-harming-cod",
+      "title": "Unbundle-Rewrite-Rebundle: Runtime Detection and Rewriting of Privacy-Harming Code in JavaScript Bundles.",
+      "authors": [
+        "Mir Masood Ali",
+        "Peter Snyder",
+        "Chris Kanich",
+        "Hamed Haddadi 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690262",
+      "doi": "10.1145/3658644.3690262",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AliSKH24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-strong-privacy-preserving-universally-composable-aka-protocol-with-seamless-hand",
+      "title": "Strong Privacy-Preserving Universally Composable AKA Protocol with Seamless Handover Support for Mobile Virtual Network Operator.",
+      "authors": [
+        "Rabiah Alnashwan",
+        "Yang Yang 0138",
+        "Yilu Dong",
+        "Prosanta Gope",
+        "Behzad Abdolmaleki",
+        "Syed Rafiul Hussain"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690331",
+      "doi": "10.1145/3658644.3690331",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AlnashwanYDGAH24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-the-privacy-utility-trade-off-in-the-topics-api",
+      "title": "The Privacy-Utility Trade-off in the Topics API.",
+      "authors": [
+        "Mário S. Alvim",
+        "Natasha Fernandes",
+        "Annabelle McIver",
+        "Gabriel H. Nunes"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670368",
+      "doi": "10.1145/3658644.3670368",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AlvimFMN24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-block-ciphers-in-idealized-models-automated-proofs-and-new-security-results",
+      "title": "Block Ciphers in Idealized Models: Automated Proofs and New Security Results.",
+      "authors": [
+        "Miguel Ambrona",
+        "Pooya Farshim",
+        "Patrick Harasser"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690222",
+      "doi": "10.1145/3658644.3690222",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AmbronaFH24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-conditional-encryption-with-applications-to-secure-personalized-password-typo-co",
+      "title": "Conditional Encryption with Applications to Secure Personalized Password Typo Correction.",
+      "authors": [
+        "Mohammad Hassan Ameri",
+        "Jeremiah Blocki"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690374",
+      "doi": "10.1145/3658644.3690374",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AmeriB24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-poster-how-do-visually-impaired-users-navigate-accessibility-challenges-in-an-ad",
+      "title": "Poster: How Do Visually Impaired Users Navigate Accessibility Challenges in an Ad-Driven Web?",
+      "authors": [
+        "Abdul Haddi Amjad",
+        "Muhammad Ali Gulzar"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691389",
+      "doi": "10.1145/3658644.3691389",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AmjadG24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-blocking-tracking-javascript-at-the-function-granularity",
+      "title": "Blocking Tracking JavaScript at the Function Granularity.",
+      "authors": [
+        "Abdul Haddi Amjad",
+        "Shaoor Munir",
+        "Zubair Shafiq",
+        "Muhammad Ali Gulzar"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670329",
+      "doi": "10.1145/3658644.3670329",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AmjadMSG24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-precio-private-aggregate-measurement-via-oblivious-shuffling",
+      "title": "Precio: Private Aggregate Measurement via Oblivious Shuffling.",
+      "authors": [
+        "Erik Anderson",
+        "Melissa Chase",
+        "F. Betül Durak",
+        "Kim Laine",
+        "Chenkai Weng"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670280",
+      "doi": "10.1145/3658644.3670280",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AndersonCDLW24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-defying-the-odds-solanas-unexpected-resilience-in-spite-of-the-security-challeng",
+      "title": "Defying the Odds: Solana's Unexpected Resilience in Spite of the Security Challenges Faced by Developers.",
+      "authors": [
+        "Sébastien Andreina",
+        "Tobias Cloosters",
+        "Lucas Davi",
+        "Jens-Rene Giesen",
+        "Marco Gutfleisch",
+        "Ghassan Karame",
+        "Alena Naiakshina",
+        "Houda Naji"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670333",
+      "doi": "10.1145/3658644.3670333",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AndreinaCDGGKNN24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-oblivious-single-access-machines---a-new-model-for-oblivious-computation",
+      "title": "Oblivious Single Access Machines - A New Model for Oblivious Computation.",
+      "authors": [
+        "Ananya Appan",
+        "David Heath",
+        "Ling Ren 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690352",
+      "doi": "10.1145/3658644.3690352",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AppanH024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-practical-post-quantum-signatures-for-privacy",
+      "title": "Practical Post-Quantum Signatures for Privacy.",
+      "authors": [
+        "Sven Argo",
+        "Tim Güneysu",
+        "Corentin Jeudy",
+        "Georg Land",
+        "Adeline Roux-Langlois",
+        "Olivier Sanders"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670297",
+      "doi": "10.1145/3658644.3670297",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/ArgoGJLRS24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-poster-protection-against-source-inference-attacks-in-federated-learning-using-u",
+      "title": "Poster: Protection against Source Inference Attacks in Federated Learning using Unary Encoding and Shuffling.",
+      "authors": [
+        "Andreas Athanasiou",
+        "Kangsoo Jung",
+        "Catuscia Palamidessi"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691411",
+      "doi": "10.1145/3658644.3691411",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AthanasiouJP24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-secure-parallel-computation-with-oblivious-state-transitions",
+      "title": "Secure Parallel Computation with Oblivious State Transitions.",
+      "authors": [
+        "Nuttapong Attrapadung",
+        "Kota Isayama",
+        "Kunihiko Sadakane",
+        "Kazunari Tozawa"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690315",
+      "doi": "10.1145/3658644.3690315",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AttrapadungIST24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-securing-lightning-channels-against-rational-miners",
+      "title": "Securing Lightning Channels against Rational Miners.",
+      "authors": [
+        "Lukas Aumayr",
+        "Zeta Avarikioti",
+        "Matteo Maffei",
+        "Subhra Mazumdar 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3670373",
+      "doi": "10.1145/3658644.3670373",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AumayrAM024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-wpes-24-23rd-workshop-on-privacy-in-the-electronic-society-wpes",
+      "title": "WPES '24: 23rd Workshop on Privacy in the Electronic Society (WPES).",
+      "authors": [
+        "Erman Ayday",
+        "Jaideep Vaidya"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691544",
+      "doi": "10.1145/3658644.3691544",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AydayV24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-demo-towards-reproducible-evaluations-of-ml-based-ids-using-data-driven-approach",
+      "title": "Demo: Towards Reproducible Evaluations of ML-Based IDS Using Data-Driven Approaches.",
+      "authors": [
+        "Solayman Ayoubi",
+        "Sébastien Tixeuil",
+        "Gregory Blanc",
+        "Houda Jmila"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3691368",
+      "doi": "10.1145/3658644.3691368",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AyoubiTBJ24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-surrogateprompt-bypassing-the-safety-filter-of-text-to-image-models-via-substitu",
+      "title": "SurrogatePrompt: Bypassing the Safety Filter of Text-to-Image Models via Substitution.",
+      "authors": [
+        "Zhongjie Ba",
+        "Jieming Zhong",
+        "Jiachen Lei",
+        "Peng Cheng 0007",
+        "Qinglong Wang 0003",
+        "Zhan Qin",
+        "Zhibo Wang 0001",
+        "Kui Ren 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690346",
+      "doi": "10.1145/3658644.3690346",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BaZL0WQ0024",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-grandline-adaptively-secure-dkg-and-randomness-beacon-with-log-quadratic-communi",
+      "title": "GRandLine: Adaptively Secure DKG and Randomness Beacon with (Log-)Quadratic Communication Complexity.",
+      "authors": [
+        "Renas Bacho",
+        "Christoph Lenzen 0001",
+        "Julian Loss",
+        "Simon Ochsenreither",
+        "Dimitrios Papachristoudis"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690287",
+      "doi": "10.1145/3658644.3690287",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/Bacho0LOP24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-what-did-come-out-of-it-analysis-and-improvements-of-didcomm-messaging",
+      "title": "What Did Come Out of It? Analysis and Improvements of DIDComm Messaging.",
+      "authors": [
+        "Christian Badertscher",
+        "Fabio Banfi",
+        "Jesus Diaz"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690300",
+      "doi": "10.1145/3658644.3690300",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BadertscherBD24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ccs-2024-foundations-for-cryptographic-reductions-in-ccsa-logics",
+      "title": "Foundations for Cryptographic Reductions in CCSA Logics.",
+      "authors": [
+        "David Baelde",
+        "Adrien Koutsos",
+        "Justine Sauvage"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3658644.3690193",
+      "doi": "10.1145/3658644.3690193",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BaeldeKS24",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

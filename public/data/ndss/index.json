@@ -1,21 +1,35 @@
 {
   "conference": "NDSS",
+  "name": "Network and Distributed System Security Symposium",
+  "slug": "ndss",
+  "official_home": "https://www.ndss-symposium.org/",
+  "official_url_pattern": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
   "years": {
     "2026": {
-      "count": 100
+      "count": 256,
+      "source": "official",
+      "official_source_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/"
     },
     "2025": {
-      "count": 0
+      "count": 207,
+      "source": "official",
+      "official_source_url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/"
     },
     "2024": {
-      "count": 0
+      "count": 134,
+      "source": "official",
+      "official_source_url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/"
     },
     "2023": {
-      "count": 0
+      "count": 85,
+      "source": "official",
+      "official_source_url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/"
     },
     "2022": {
-      "count": 0
+      "count": 79,
+      "source": "official",
+      "official_source_url": "https://www.ndss-symposium.org/ndss2022/accepted-papers/"
     }
   },
-  "last_updated": "2026-06-24T06:48:27.069596Z"
+  "last_updated": "2026-07-01T00:51:51.220753Z"
 }

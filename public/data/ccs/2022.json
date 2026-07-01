@@ -1,0 +1,1468 @@
+{
+  "conference": "ACM CCS",
+  "name": "ACM Conference on Computer and Communications Security",
+  "slug": "ccs",
+  "year": 2022,
+  "source": "dblp_venue",
+  "official_source_url": "https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html",
+  "items": [
+    {
+      "id": "ccs-2022-private-and-reliable-neural-network-inference",
+      "title": "Private and Reliable Neural Network Inference.",
+      "authors": [
+        "Nikola Jovanovic 0001",
+        "Marc Fischer 0002",
+        "Samuel Steffen",
+        "Martin T. Vechev"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560709",
+      "doi": "10.1145/3548606.3560709",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/00010SV22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-strengthening-order-preserving-encryption-with-differential-privacy",
+      "title": "Strengthening Order Preserving Encryption with Differential Privacy.",
+      "authors": [
+        "Amrita Roy Chowdhury 0001",
+        "Bolin Ding",
+        "Somesh Jha",
+        "Weiran Liu",
+        "Jingren Zhou 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560610",
+      "doi": "10.1145/3548606.3560610",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001DJLZ22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-distributed-private-sparse-histograms-in-the-two-server-model",
+      "title": "Distributed, Private, Sparse Histograms in the Two-Server Model.",
+      "authors": [
+        "James Bell 0001",
+        "Adrià Gascón",
+        "Badih Ghazi",
+        "Ravi Kumar 0001",
+        "Pasin Manurangsi",
+        "Mariana Raykova 0001",
+        "Phillipp Schoppmann"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559383",
+      "doi": "10.1145/3548606.3559383",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001GG0M0S22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-eiffel-ensuring-integrity-for-federated-learning",
+      "title": "EIFFeL: Ensuring Integrity for Federated Learning.",
+      "authors": [
+        "Amrita Roy Chowdhury 0001",
+        "Chuan Guo 0001",
+        "Somesh Jha",
+        "Laurens van der Maaten"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560611",
+      "doi": "10.1145/3548606.3560611",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001GJM22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-turbopack-honest-majority-mpc-with-constant-online-communication",
+      "title": "TurboPack: Honest Majority MPC with Constant Online Communication.",
+      "authors": [
+        "Daniel Escudero 0001",
+        "Vipul Goyal",
+        "Antigoni Polychroniadou",
+        "Yifan Song 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560633",
+      "doi": "10.1145/3548606.3560633",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001GPS22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-reinforced-concrete-a-fast-hash-function-for-verifiable-computation",
+      "title": "Reinforced Concrete: A Fast Hash Function for Verifiable Computation.",
+      "authors": [
+        "Lorenzo Grassi 0001",
+        "Dmitry Khovratovich",
+        "Reinhard Lüftenegger",
+        "Christian Rechberger",
+        "Markus Schofnegger",
+        "Roman Walch"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560686",
+      "doi": "10.1145/3548606.3560686",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001KLRSW22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-bolt-dumbo-transformer-asynchronous-consensus-as-fast-as-the-pipelined-bft",
+      "title": "Bolt-Dumbo Transformer: Asynchronous Consensus As Fast As the Pipelined BFT.",
+      "authors": [
+        "Yuan Lu 0001",
+        "Zhenliang Lu",
+        "Qiang Tang 0005"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559346",
+      "doi": "10.1145/3548606.3559346",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001L022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-enhanced-membership-inference-attacks-against-machine-learning-models",
+      "title": "Enhanced Membership Inference Attacks against Machine Learning Models.",
+      "authors": [
+        "Jiayuan Ye 0001",
+        "Aadyaa Maddi",
+        "Sasi Kumar Murakonda",
+        "Vincent Bindschaedler",
+        "Reza Shokri"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560675",
+      "doi": "10.1145/3548606.3560675",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001MMBS22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-the-multi-user-security-of-triple-encryption-revisited-exact-security-strengthen",
+      "title": "The Multi-User Security of Triple Encryption, Revisited: Exact Security, Strengthening, and Application to TDES.",
+      "authors": [
+        "Yusuke Naito 0001",
+        "Yu Sasaki 0001",
+        "Takeshi Sugawara 0001",
+        "Kan Yasuda"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560674",
+      "doi": "10.1145/3548606.3560674",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001S0Y22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-efficient-zero-knowledge-proofs-on-signed-data-with-applications-to-verifiable-c",
+      "title": "Efficient Zero-Knowledge Proofs on Signed Data with Applications to Verifiable Computation on Data Streams.",
+      "authors": [
+        "Dario Fiore 0001",
+        "Ida Tucker"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560630",
+      "doi": "10.1145/3548606.3560630",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0001T22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-poster-a-post-quantum-oblivious-prf-from-isogenies",
+      "title": "Poster: A Post-Quantum Oblivious PRF from Isogenies.",
+      "authors": [
+        "Andrea Basso 0002"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563542",
+      "doi": "10.1145/3548606.3563542",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/000222",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-understanding-security-issues-in-the-nft-ecosystem",
+      "title": "Understanding Security Issues in the NFT Ecosystem.",
+      "authors": [
+        "Dipanjan Das 0002",
+        "Priyanka Bose",
+        "Nicola Ruaro",
+        "Christopher Kruegel",
+        "Giovanni Vigna"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559342",
+      "doi": "10.1145/3548606.3559342",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0002BRKV22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-querysnout-automating-the-discovery-of-attribute-inference-attacks-against-query",
+      "title": "QuerySnout: Automating the Discovery of Attribute Inference Attacks against Query-Based Systems.",
+      "authors": [
+        "Ana-Maria Cretu 0002",
+        "Florimond Houssiau",
+        "Antoine Cully",
+        "Yves-Alexandre de Montjoye"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560581",
+      "doi": "10.1145/3548606.3560581",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0002HCM22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-microarchitectural-leakage-templates-and-their-application-to-cache-based-side-c",
+      "title": "Microarchitectural Leakage Templates and Their Application to Cache-Based Side Channels.",
+      "authors": [
+        "Ahmad Ibrahim 0002",
+        "Hamed Nemati",
+        "Till Schlüter",
+        "Nils Ole Tippenhauer",
+        "Christian Rossow"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560613",
+      "doi": "10.1145/3548606.3560613",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0002NSTR22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-echohand-high-accuracy-and-presentation-attack-resistant-hand-authentication-on-",
+      "title": "EchoHand: High Accuracy and Presentation Attack Resistant Hand Authentication on Commodity Mobile Devices.",
+      "authors": [
+        "Cong Wu 0003",
+        "Jing Chen 0003",
+        "Kun He 0008",
+        "Ziming Zhao 0001",
+        "Ruiying Du",
+        "Chen Zhang"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560553",
+      "doi": "10.1145/3548606.3560553",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0003000DZ22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-wahc22-10th-workshop-on-encrypted-computing-and-applied-homomorphic-cryptography",
+      "title": "WAHC'22: 10th Workshop on Encrypted Computing and Applied Homomorphic Cryptography.",
+      "authors": [
+        "Michael Brenner 0003",
+        "Anamaria Costache",
+        "Kurt Rohloff"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563287",
+      "doi": "10.1145/3548606.3563287",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0003CR22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-poster-privacy-preserving-epidemiological-modeling-on-mobile-graphs",
+      "title": "Poster: Privacy-Preserving Epidemiological Modeling on Mobile Graphs.",
+      "authors": [
+        "Daniel Günther 0004",
+        "Marco Holz",
+        "Benjamin Judkewitz",
+        "Helen Möllering",
+        "Benny Pinkas",
+        "Thomas Schneider 0003",
+        "Ajith Suresh"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563497",
+      "doi": "10.1145/3548606.3563497",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0004HJMP0S22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-dpis-an-enhanced-mechanism-for-differentially-private-sgd-with-importance-sampli",
+      "title": "DPIS: An Enhanced Mechanism for Differentially Private SGD with Importance Sampling.",
+      "authors": [
+        "Jianxin Wei 0005",
+        "Ergute Bao",
+        "Xiaokui Xiao",
+        "Yin Yang 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560562",
+      "doi": "10.1145/3548606.3560562",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0005BX022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-engraft-enclave-guarded-raft-on-byzantine-faulty-nodes",
+      "title": "ENGRAFT: Enclave-guarded Raft on Byzantine Faulty Nodes.",
+      "authors": [
+        "Weili Wang 0005",
+        "Sen Deng",
+        "Jianyu Niu",
+        "Michael K. Reiter",
+        "Yinqian Zhang"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560639",
+      "doi": "10.1145/3548606.3560639",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0005DNRZ22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-helping-or-hindering-how-browser-extensions-undermine-security",
+      "title": "Helping or Hindering?: How Browser Extensions Undermine Security.",
+      "authors": [
+        "Shubham Agarwal 0006"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560685",
+      "doi": "10.1145/3548606.3560685",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/000622",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-when-good-becomes-evil-tracking-bluetooth-low-energy-devices-via-allowlist-based",
+      "title": "When Good Becomes Evil: Tracking Bluetooth Low Energy Devices via Allowlist-based Side Channel and Its Countermeasure.",
+      "authors": [
+        "Yue Zhang 0025",
+        "Zhiqiang Lin 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559372",
+      "doi": "10.1145/3548606.3559372",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/0025L22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-poster-backdoor-attacks-on-spiking-nns-and-neuromorphic-datasets",
+      "title": "Poster: Backdoor Attacks on Spiking NNs and Neuromorphic Datasets.",
+      "authors": [
+        "Gorka Abad",
+        "Oguzhan Ersoy",
+        "Stjepan Picek",
+        "Víctor Julio Ramírez-Durán",
+        "Aitor Urbieta"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563532",
+      "doi": "10.1145/3548606.3563532",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AbadEPRU22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-poster-correctness-of-n-parties-ecdsa-by-the-claim-of-byzantine-agreement",
+      "title": "Poster: Correctness of n-parties ECDSA By the Claim of Byzantine Agreement.",
+      "authors": [
+        "Akshit Aggarwal",
+        "Srinibas Swain"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563546",
+      "doi": "10.1145/3548606.3563546",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AggarwalS22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-practical-round-optimal-lattice-based-blind-signatures",
+      "title": "Practical, Round-Optimal Lattice-Based Blind Signatures.",
+      "authors": [
+        "Shweta Agrawal 0001",
+        "Elena Kirshanova",
+        "Damien Stehlé",
+        "Anshu Yadav"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560650",
+      "doi": "10.1145/3548606.3560650",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AgrawalKSY22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-blacktooth-breaking-through-the-defense-of-bluetooth-in-silence",
+      "title": "Blacktooth: Breaking through the Defense of Bluetooth in Silence.",
+      "authors": [
+        "Mingrui Ai",
+        "Kaiping Xue",
+        "Bo Luo",
+        "Lutong Chen",
+        "Nenghai Yu",
+        "Qibin Sun",
+        "Feng Wu 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560668",
+      "doi": "10.1145/3548606.3560668",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AiXLCYS022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-poster-ontology-enabled-chatbot-for-applying-privacy-by-design-in-iot-systems",
+      "title": "Poster: Ontology Enabled Chatbot for Applying Privacy by Design in IoT Systems.",
+      "authors": [
+        "Lamya Alkhariji",
+        "Suparna De",
+        "Omer F. Rana",
+        "Charith Perera"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563504",
+      "doi": "10.1145/3548606.3563504",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AlkharijiDRP22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-server-aided-continuous-group-key-agreement",
+      "title": "Server-Aided Continuous Group Key Agreement.",
+      "authors": [
+        "Joël Alwen",
+        "Dominik Hartmann",
+        "Eike Kiltz",
+        "Marta Mularczyk"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560632",
+      "doi": "10.1145/3548606.3560632",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AlwenHKM22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-post-quantum-noise",
+      "title": "Post Quantum Noise.",
+      "authors": [
+        "Yawning Angel",
+        "Benjamin Dowling",
+        "Andreas Hülsing",
+        "Peter Schwabe",
+        "Florian Weber"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560577",
+      "doi": "10.1145/3548606.3560577",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AngelDHSW22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-laconic-private-set-intersection-from-pairings",
+      "title": "Laconic Private Set-Intersection From Pairings.",
+      "authors": [
+        "Diego F. Aranha",
+        "Chuanwei Lin",
+        "Claudio Orlandi",
+        "Mark Simkin 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560642",
+      "doi": "10.1145/3548606.3560642",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AranhaLO022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-efficient-secure-three-party-sorting-with-applications-to-data-analysis-and-heav",
+      "title": "Efficient Secure Three-Party Sorting with Applications to Data Analysis and Heavy Hitters.",
+      "authors": [
+        "Gilad Asharov",
+        "Koki Hamada",
+        "Dai Ikarashi",
+        "Ryo Kikuchi",
+        "Ariel Nof",
+        "Benny Pinkas",
+        "Katsumi Takahashi",
+        "Junichi Tomida"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560691",
+      "doi": "10.1145/3548606.3560691",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AsharovHIKNPTT22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-chaghri---a-fhe-friendly-block-cipher",
+      "title": "Chaghri - A FHE-friendly Block Cipher.",
+      "authors": [
+        "Tomer Ashur",
+        "Mohammad Mahzoun",
+        "Dilara Toprakhisar"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559364",
+      "doi": "10.1145/3548606.3559364",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AshurMT22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-secure-parallel-computation-on-privately-partitioned-data-and-applications",
+      "title": "Secure Parallel Computation on Privately Partitioned Data and Applications.",
+      "authors": [
+        "Nuttapong Attrapadung",
+        "Hiraku Morita",
+        "Kazuma Ohara",
+        "Jacob C. N. Schuldt",
+        "Tadanori Teruya",
+        "Kazunari Tozawa"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560695",
+      "doi": "10.1145/3548606.3560695",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AttrapadungMOST22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-thora-atomic-and-privacy-preserving-multi-channel-updates",
+      "title": "Thora: Atomic and Privacy-Preserving Multi-Channel Updates.",
+      "authors": [
+        "Lukas Aumayr",
+        "Kasra Abbaszadeh",
+        "Matteo Maffei"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560556",
+      "doi": "10.1145/3548606.3560556",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AumayrAM22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-sleepy-channels-bi-directional-payment-channels-without-watchtowers",
+      "title": "Sleepy Channels: Bi-directional Payment Channels without Watchtowers.",
+      "authors": [
+        "Lukas Aumayr",
+        "Sri Aravinda Krishnan Thyagarajan",
+        "Giulio Malavolta",
+        "Pedro Moreno-Sanchez",
+        "Matteo Maffei"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559370",
+      "doi": "10.1145/3548606.3559370",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/AumayrTMMM22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-on-the-adaptive-security-of-the-threshold-bls-signature-scheme",
+      "title": "On the Adaptive Security of the Threshold BLS Signature Scheme.",
+      "authors": [
+        "Renas Bacho",
+        "Julian Loss"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560656",
+      "doi": "10.1145/3548606.3560656",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BachoL22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-secret-shared-joins-with-multiplicity-from-aggregation-trees",
+      "title": "Secret-Shared Joins with Multiplicity from Aggregation Trees.",
+      "authors": [
+        "Saikrishna Badrinarayanan",
+        "Sourav Das 0001",
+        "Gayathri Garimella",
+        "Srinivasan Raghuraman",
+        "Peter Rindal"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560670",
+      "doi": "10.1145/3548606.3560670",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BadrinarayananD22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-meta-bts-bootstrapping-precision-beyond-the-limit",
+      "title": "META-BTS: Bootstrapping Precision Beyond the Limit.",
+      "authors": [
+        "Youngjin Bae",
+        "Jung Hee Cheon",
+        "Wonhee Cho 0001",
+        "Jaehyung Kim 0002",
+        "Taekyung Kim"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560696",
+      "doi": "10.1145/3548606.3560696",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BaeC0KK22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-i-tire-incremental-timed-release-encryption-or-how-to-use-timed-release-encrypti",
+      "title": "i-TiRE: Incremental Timed-Release Encryption or How to use Timed-Release Encryption on Blockchains?",
+      "authors": [
+        "Leemon Baird",
+        "Pratyay Mukherjee",
+        "Rohit Sinha 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560704",
+      "doi": "10.1145/3548606.3560704",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BairdM022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-membership-inference-attacks-and-generalization-a-causal-perspective",
+      "title": "Membership Inference Attacks and Generalization: A Causal Perspective.",
+      "authors": [
+        "Teodora Baluta",
+        "Shiqi Shen",
+        "S. Hitarth",
+        "Shruti Tople",
+        "Prateek Saxena"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560694",
+      "doi": "10.1145/3548606.3560694",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BalutaSHTS22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-tidy-symbolic-verification-of-timed-cryptographic-protocols",
+      "title": "Tidy: Symbolic Verification of Timed Cryptographic Protocols.",
+      "authors": [
+        "Gilles Barthe",
+        "Ugo Dal Lago",
+        "Giulio Malavolta",
+        "Itsaka Rakotonirina"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559343",
+      "doi": "10.1145/3548606.3559343",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BartheLMR22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-a-wolf-in-sheeps-clothing-spreading-deadly-pathogens-under-the-disguise-of-popul",
+      "title": "A Wolf in Sheep's Clothing: Spreading Deadly Pathogens Under the Disguise of Popular Music.",
+      "authors": [
+        "Anomadarshi Barua",
+        "Yonatan Gizachew Achamyeleh",
+        "Mohammad Abdullah Al Faruque"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560643",
+      "doi": "10.1145/3548606.3560643",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BaruaAF22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-feta-efficient-threshold-designated-verifier-zero-knowledge-proofs",
+      "title": "Feta: Efficient Threshold Designated-Verifier Zero-Knowledge Proofs.",
+      "authors": [
+        "Carsten Baum",
+        "Robin Jadoul",
+        "Emmanuela Orsini",
+        "Peter Scholl",
+        "Nigel P. Smart"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559354",
+      "doi": "10.1145/3548606.3559354",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BaumJOSS22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-threshold-cryptography-as-a-service-in-the-multiserver-and-yoso-models",
+      "title": "Threshold Cryptography as a Service (in the Multiserver and YOSO Models).",
+      "authors": [
+        "Fabrice Benhamouda",
+        "Shai Halevi",
+        "Hugo Krawczyk",
+        "Alex Miao",
+        "Tal Rabin"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559397",
+      "doi": "10.1145/3548606.3559397",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BenhamoudaHKMR22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-privacy-limitations-of-interest-based-advertising-on-the-web-a-post-mortem-empir",
+      "title": "Privacy Limitations of Interest-based Advertising on The Web: A Post-mortem Empirical Analysis of Google's FLoC.",
+      "authors": [
+        "Alex Berke",
+        "Dan Calacci"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560626",
+      "doi": "10.1145/3548606.3560626",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BerkeC22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-jit-picking-differential-fuzzing-of-javascript-engines",
+      "title": "JIT-Picking: Differential Fuzzing of JavaScript Engines.",
+      "authors": [
+        "Lukas Bernhard",
+        "Tobias Scharnowski",
+        "Moritz Schloegel",
+        "Tim Blazytko",
+        "Thorsten Holz"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560624",
+      "doi": "10.1145/3548606.3560624",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BernhardSSBH22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-a-symbolic-analysis-of-privacy-for-tls-13-with-encrypted-client-hello",
+      "title": "A Symbolic Analysis of Privacy for TLS 1.3 with Encrypted Client Hello.",
+      "authors": [
+        "Karthikeyan Bhargavan",
+        "Vincent Cheval",
+        "Christopher A. Wood"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559360",
+      "doi": "10.1145/3548606.3559360",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BhargavanCW22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-power-contracts-provably-complete-power-leakage-models-for-processors",
+      "title": "Power Contracts: Provably Complete Power Leakage Models for Processors.",
+      "authors": [
+        "Roderick Bloem",
+        "Barbara Gigerl",
+        "Marc Gourjon",
+        "Vedad Hadzic",
+        "Stefan Mangard",
+        "Robert Primas"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560600",
+      "doi": "10.1145/3548606.3560600",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BloemGGHMP22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-themis-an-on-site-voting-system-with-systematic-cast-as-intended-verification-an",
+      "title": "Themis: An On-Site Voting System with Systematic Cast-as-intended Verification and Partial Accountability.",
+      "authors": [
+        "Mikael Bougon",
+        "Hervé Chabanne",
+        "Véronique Cortier",
+        "Alexandre Debant",
+        "Emmanuelle Dottax",
+        "Jannik Dreier",
+        "Pierrick Gaudry",
+        "Mathieu Turuani"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560563",
+      "doi": "10.1145/3548606.3560563",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BougonCCDDDGT22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-poster-efficient-three-party-shuffling-using-precomputation",
+      "title": "Poster: Efficient Three-Party Shuffling Using Precomputation.",
+      "authors": [
+        "Andreas Brüggemann",
+        "Thomas Schneider 0003",
+        "Ajith Suresh",
+        "Hossein Yalame"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563511",
+      "doi": "10.1145/3548606.3563511",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/Bruggemann0SY22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-victory-by-ko-attacking-openpgp-using-key-overwriting",
+      "title": "Victory by KO: Attacking OpenPGP Using Key Overwriting.",
+      "authors": [
+        "Lara Bruseghini",
+        "Daniel Huigens",
+        "Kenneth G. Paterson"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559363",
+      "doi": "10.1145/3548606.3559363",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BruseghiniHP22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-do-opt-outs-really-opt-me-out",
+      "title": "Do Opt-Outs Really Opt Me Out?",
+      "authors": [
+        "Duc Bui",
+        "Brian Tang",
+        "Kang G. Shin"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560574",
+      "doi": "10.1145/3548606.3560574",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/BuiTS22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-vizard-a-metadata-hiding-data-analytic-system-with-end-to-end-policy-controls",
+      "title": "Vizard: A Metadata-hiding Data Analytic System with End-to-End Policy Controls.",
+      "authors": [
+        "Chengjun Cai",
+        "Yichen Zang",
+        "Cong Wang 0001",
+        "Xiaohua Jia",
+        "Qian Wang 0002"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559349",
+      "doi": "10.1145/3548606.3559349",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/CaiZWJW22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-succinct-zero-knowledge-batch-proofs-for-set-accumulators",
+      "title": "Succinct Zero-Knowledge Batch Proofs for Set Accumulators.",
+      "authors": [
+        "Matteo Campanelli",
+        "Dario Fiore 0001",
+        "Semin Han",
+        "Jihye Kim 0001",
+        "Dimitris Kolonelos",
+        "Hyunok Oh"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560677",
+      "doi": "10.1145/3548606.3560677",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/Campanelli0HKKO22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-widespread-underestimation-of-sensitivity-in-differentially-private-libraries-an",
+      "title": "Widespread Underestimation of Sensitivity in Differentially Private Libraries and How to Fix It.",
+      "authors": [
+        "Sílvia Casacuberta",
+        "Michael Shoemate",
+        "Salil P. Vadhan",
+        "Connor Wagaman"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560708",
+      "doi": "10.1145/3548606.3560708",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/CasacubertaSVW22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-ashes-2022---6th-workshop-on-attacks-and-solutions-in-hardware-security",
+      "title": "ASHES 2022 - 6th Workshop on Attacks and Solutions in Hardware Security.",
+      "authors": [
+        "Chip-Hong Chang",
+        "Domenic Forte",
+        "Debdeep Mukhopadhyay",
+        "Ulrich Rührmair"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563763",
+      "doi": "10.1145/3548606.3563763",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/ChangFMR22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-graph-unlearning",
+      "title": "Graph Unlearning.",
+      "authors": [
+        "Min Chen 0032",
+        "Zhikun Zhang 0001",
+        "Tianhao Wang 0001",
+        "Michael Backes 0001",
+        "Mathias Humbert",
+        "Yang Zhang 0016"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559352",
+      "doi": "10.1145/3548606.3559352",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/Chen000H022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-sfuzz-slice-based-fuzzing-for-real-time-operating-systems",
+      "title": "SFuzz: Slice-based Fuzzing for Real-Time Operating Systems.",
+      "authors": [
+        "Libo Chen 0001",
+        "Quanpu Cai",
+        "Zhenbang Ma",
+        "Yanhao Wang",
+        "Hong Hu 0004",
+        "Minghang Shen",
+        "Yue Liu",
+        "Shanqing Guo",
+        "Haixin Duan",
+        "Kaida Jiang",
+        "Zhi Xue"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559367",
+      "doi": "10.1145/3548606.3559367",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/ChenCMW0SLGDJX22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-poster-data-recovery-from-ransomware-attacks-via-file-system-forensics-and-flash",
+      "title": "Poster: Data Recovery from Ransomware Attacks via File System Forensics and Flash Translation Layer Data Extraction.",
+      "authors": [
+        "Niusen Chen",
+        "Josh Dafoe",
+        "Bo Chen 0028"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563538",
+      "doi": "10.1145/3548606.3563538",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/ChenDC22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-metaemu-an-architecture-agnostic-rehosting-framework-for-automotive-firmware",
+      "title": "MetaEmu: An Architecture Agnostic Rehosting Framework for Automotive Firmware.",
+      "authors": [
+        "Zitai Chen",
+        "Sam L. Thomas",
+        "Flavio D. Garcia"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559338",
+      "doi": "10.1145/3548606.3559338",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/ChenTG22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-psi-from-ring-ole",
+      "title": "PSI from Ring-OLE.",
+      "authors": [
+        "Wutichai Chongchitmate",
+        "Yuval Ishai",
+        "Steve Lu 0001",
+        "Rafail Ostrovsky"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559378",
+      "doi": "10.1145/3548606.3559378",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/ChongchitmateIL22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-hammerscope-observing-dram-power-consumption-using-rowhammer",
+      "title": "HammerScope: Observing DRAM Power Consumption Using Rowhammer.",
+      "authors": [
+        "Yaakov Cohen",
+        "Kevin Sam Tharayil",
+        "Arie Haenel",
+        "Daniel Genkin",
+        "Angelos D. Keromytis",
+        "Yossi Oren",
+        "Yuval Yarom"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560688",
+      "doi": "10.1145/3548606.3560688",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/CohenTHGKOY22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-sortinghat-efficient-private-decision-tree-evaluation-via-homomorphic-encryption",
+      "title": "SortingHat: Efficient Private Decision Tree Evaluation via Homomorphic Encryption and Transciphering.",
+      "authors": [
+        "Kelong Cong",
+        "Debajyoti Das 0001",
+        "Jeongeun Park 0001",
+        "Hilder V. L. Pereira"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560702",
+      "doi": "10.1145/3548606.3560702",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/Cong00P22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-sslguard-a-watermarking-scheme-for-self-supervised-learning-pre-trained-encoders",
+      "title": "SSLGuard: A Watermarking Scheme for Self-supervised Learning Pre-trained Encoders.",
+      "authors": [
+        "Tianshuo Cong",
+        "Xinlei He 0001",
+        "Yang Zhang 0016"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559355",
+      "doi": "10.1145/3548606.3559355",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/CongHZ22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-the-generals-scuttlebutt-byzantine-resilient-gossip-protocols",
+      "title": "The Generals' Scuttlebutt: Byzantine-Resilient Gossip Protocols.",
+      "authors": [
+        "Sandro Coretti",
+        "Aggelos Kiayias",
+        "Cristopher Moore",
+        "Alexander Russell"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560638",
+      "doi": "10.1145/3548606.3560638",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/CorettiKMR22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-sharp-short-relaxed-range-proofs",
+      "title": "Sharp: Short Relaxed Range Proofs.",
+      "authors": [
+        "Geoffroy Couteau",
+        "Dahmun Goudarzi",
+        "Michael Klooß",
+        "Michael Reichle"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560628",
+      "doi": "10.1145/3548606.3560628",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/CouteauGKR22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-vrust-automated-vulnerability-detection-for-solana-smart-contracts",
+      "title": "VRust: Automated Vulnerability Detection for Solana Smart Contracts.",
+      "authors": [
+        "Siwei Cui",
+        "Gang Zhao",
+        "Yifei Gao",
+        "Tien Tavu",
+        "Jeff Huang 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560552",
+      "doi": "10.1145/3548606.3560552",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/CuiZGT022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-fast-fully-secure-multi-party-computation-over-any-ring-with-two-thirds-honest-m",
+      "title": "Fast Fully Secure Multi-Party Computation over Any Ring with Two-Thirds Honest Majority.",
+      "authors": [
+        "Anders P. K. Dalskov",
+        "Daniel Escudero 0001",
+        "Ariel Nof"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559389",
+      "doi": "10.1145/3548606.3559389",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/Dalskov0N22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-gearbox-optimal-size-shard-committees-by-leveraging-the-safety-liveness-dichotom",
+      "title": "GearBox: Optimal-size Shard Committees by Leveraging the Safety-Liveness Dichotomy.",
+      "authors": [
+        "Bernardo David",
+        "Bernardo Magri",
+        "Christian Matt 0002",
+        "Jesper Buus Nielsen",
+        "Daniel Tschudi"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559375",
+      "doi": "10.1145/3548606.3559375",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DavidM0NT22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-star-secret-sharing-for-private-threshold-aggregation-reporting",
+      "title": "STAR: Secret Sharing for Private Threshold Aggregation Reporting.",
+      "authors": [
+        "Alex Davidson",
+        "Peter Snyder",
+        "E. B. Quirk",
+        "Joseph Genereux",
+        "Benjamin Livshits",
+        "Hamed Haddadi 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560631",
+      "doi": "10.1145/3548606.3560631",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DavidsonSQGLH22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-aisec-22-15th-acm-workshop-on-artificial-intelligence-and-security",
+      "title": "AISec '22: 15th ACM Workshop on Artificial Intelligence and Security.",
+      "authors": [
+        "Ambra Demontis",
+        "Xinyun Chen",
+        "Florian Tramèr"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563683",
+      "doi": "10.1145/3548606.3563683",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DemontisCT22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-understanding-real-world-threats-to-deep-learning-models-in-android-apps",
+      "title": "Understanding Real-world Threats to Deep Learning Models in Android Apps.",
+      "authors": [
+        "Zizhuang Deng",
+        "Kai Chen 0012",
+        "Guozhu Meng",
+        "Xiaodong Zhang 0014",
+        "Ke Xu",
+        "Yao Cheng"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559388",
+      "doi": "10.1145/3548606.3559388",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DengCMZXC22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-fencesitter-black-box-content-agnostic-and-synchronization-free-enrollment-phase",
+      "title": "FenceSitter: Black-box, Content-Agnostic, and Synchronization-Free Enrollment-Phase Attacks on Speaker Recognition Systems.",
+      "authors": [
+        "Jiangyi Deng",
+        "Yanjiao Chen",
+        "Wenyuan Xu 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559357",
+      "doi": "10.1145/3548606.3559357",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DengCX22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-strongbox-a-gpu-tee-on-arm-endpoints",
+      "title": "StrongBox: A GPU TEE on Arm Endpoints.",
+      "authors": [
+        "Yunjie Deng 0001",
+        "Chenxu Wang 0005",
+        "Shunchang Yu",
+        "Shiqing Liu",
+        "Zhenyu Ning",
+        "Kevin Leach",
+        "Jin Li 0002",
+        "Shoumeng Yan",
+        "Zhengyu He",
+        "Jiannong Cao 0001",
+        "Fengwei Zhang"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560627",
+      "doi": "10.1145/3548606.3560627",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DengWYLNLLYHCZ22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-on-the-insecurity-of-secure-ros2",
+      "title": "On the (In)Security of Secure ROS2.",
+      "authors": [
+        "Gelei Deng",
+        "Guowen Xu",
+        "Yuan Zhou 0005",
+        "Tianwei Zhang 0004",
+        "Yang Liu 0003"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560681",
+      "doi": "10.1145/3548606.3560681",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DengXZ0022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-designing-hardware-for-cryptography-and-cryptography-for-hardware",
+      "title": "Designing Hardware for Cryptography and Cryptography for Hardware.",
+      "authors": [
+        "Srinivas Devadas",
+        "Simon Langowski",
+        "Nikola Samardzic",
+        "Sacha Servan-Schreiber",
+        "Daniel Sánchez 0003"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559393",
+      "doi": "10.1145/3548606.3559393",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DevadasLSS022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-a-run-a-day-wont-keep-the-hacker-away-inference-attacks-on-endpoint-privacy-zone",
+      "title": "A Run a Day Won't Keep the Hacker Away: Inference Attacks on Endpoint Privacy Zones in Fitness Tracking Social Networks.",
+      "authors": [
+        "Karel Dhondt",
+        "Victor Le Pochat",
+        "Alexios Voulimeneas",
+        "Wouter Joosen",
+        "Stijn Volckaert"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560616",
+      "doi": "10.1145/3548606.3560616",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DhondtPVJV22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-second-order-low-randomness-d--1-hardware-sharing-of-the-aes",
+      "title": "Second-Order Low-Randomness d + 1 Hardware Sharing of the AES.",
+      "authors": [
+        "Siemen Dhooghe",
+        "Aein Rezaei Shahmirzadi",
+        "Amir Moradi 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3560634",
+      "doi": "10.1145/3548606.3560634",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DhoogheS022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-ccsw-22-the-2022-cloud-computing-security-workshop",
+      "title": "CCSW '22: The 2022 Cloud Computing Security Workshop.",
+      "authors": [
+        "Marten van Dijk",
+        "Francesco Regazzoni 0001"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3563821",
+      "doi": "10.1145/3548606.3563821",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/Dijk022",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ccs-2022-improving-line-point-zero-knowledge-two-multiplications-for-the-price-of-one",
+      "title": "Improving Line-Point Zero Knowledge: Two Multiplications for the Price of One.",
+      "authors": [
+        "Samuel Dittmer",
+        "Yuval Ishai",
+        "Steve Lu 0001",
+        "Rafail Ostrovsky"
+      ],
+      "abstract": "",
+      "pdf_url": "https://doi.org/10.1145/3548606.3559385",
+      "doi": "10.1145/3548606.3559385",
+      "source": "DBLP fallback",
+      "source_url": "https://dblp.org/rec/conf/ccs/DittmerILO22",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    }
+  ]
+}

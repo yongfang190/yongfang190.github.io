@@ -1,0 +1,35 @@
+{
+  "conference": "USENIX Security",
+  "name": "USENIX Security Symposium",
+  "slug": "usenix",
+  "official_home": "https://www.usenix.org/conferences/byname/108",
+  "official_url_pattern": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+  "years": {
+    "2026": {
+      "count": 359,
+      "source": "official",
+      "official_source_url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions"
+    },
+    "2025": {
+      "count": 439,
+      "source": "official",
+      "official_source_url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions"
+    },
+    "2024": {
+      "count": 406,
+      "source": "official",
+      "official_source_url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions"
+    },
+    "2023": {
+      "count": 405,
+      "source": "official",
+      "official_source_url": "https://www.usenix.org/conference/usenixsecurity23/technical-sessions"
+    },
+    "2022": {
+      "count": 245,
+      "source": "official",
+      "official_source_url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions"
+    }
+  },
+  "last_updated": "2026-07-01T00:52:06.930722Z"
+}

@@ -4,6 +4,6 @@ export default defineConfig({
   
   // https://astro.build/config
   output: 'static',
-  site: 'https://yongfang190.github.io', // ✅ 填完整 URL
+  site: 'https://yongfang190-eng.github.io',
   // base: '/'  // 用户主页不需要改 base
 });
