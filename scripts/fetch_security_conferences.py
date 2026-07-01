@@ -16,11 +16,16 @@ import re
 import subprocess
 from dataclasses import dataclass
 from html import unescape
+from html.parser import HTMLParser
 from typing import Iterable
 from urllib.parse import urlencode, urljoin
 
 import requests
-from bs4 import BeautifulSoup
+
+try:
+    from bs4 import BeautifulSoup
+except ImportError:  # GitHub's existing workflow only installs requests.
+    BeautifulSoup = None
 
 
 DBLP_API = "https://dblp.org/search/publ/api"
@@ -183,7 +188,68 @@ def fetch_html(url: str) -> str | None:
             return None
 
 
+class CandidateParser(HTMLParser):
+    def __init__(self, source_url: str):
+        super().__init__(convert_charrefs=True)
+        self.source_url = source_url
+        self.stack: list[dict] = []
+        self.candidates: list[tuple[str, str | None]] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag not in {"a", "b", "h2", "h3", "h4", "li"}:
+            return
+        attr_map = {key: value for key, value in attrs}
+        href = urljoin(self.source_url, attr_map["href"]) if attr_map.get("href") else None
+        self.stack.append({"tag": tag, "href": href, "parts": []})
+
+    def handle_data(self, data: str) -> None:
+        for item in self.stack:
+            item["parts"].append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if not self.stack:
+            return
+        item = self.stack[-1]
+        if item["tag"] != tag:
+            return
+        self.stack.pop()
+        text = clean_text(" ".join(item["parts"]))
+        if looks_like_title(text):
+            self.candidates.append((text, item["href"]))
+
+
+def parse_official_fallback(html: str, conf: Conference, year: int, source_url: str) -> list[dict]:
+    parser = CandidateParser(source_url)
+    parser.feed(html)
+    seen: set[str] = set()
+    items: list[dict] = []
+    for title, href in parser.candidates:
+        key = re.sub(r"\W+", "", title.lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        items.append(
+            {
+                "id": f"{conf.slug}-{year}-{slugify(title)}",
+                "title": title,
+                "authors": [],
+                "abstract": "",
+                "pdf_url": href,
+                "doi": None,
+                "source": f"{conf.short_name} official",
+                "source_url": source_url,
+                "published_at": f"{year}-01-01",
+                "year": year,
+                "tags": [],
+            }
+        )
+    return items
+
+
 def parse_official_page(html: str, conf: Conference, year: int, source_url: str) -> list[dict]:
+    if BeautifulSoup is None:
+        return parse_official_fallback(html, conf, year, source_url)
+
     soup = BeautifulSoup(html, "html.parser")
     for node in soup(["script", "style", "noscript", "svg", "header", "footer", "nav"]):
         node.decompose()
@@ -390,6 +456,8 @@ def fetch_dblp_venue(conf: Conference, year: int, min_year: int, max_year: int) 
 
 
 def fetch_dblp_html(conf: Conference, year: int) -> list[dict]:
+    if BeautifulSoup is None:
+        return []
     source_url = f"https://dblp.org/db/conf/{conf.dblp_toc_prefix}/{conf.dblp_toc_prefix}{year}.html"
     html = fetch_html(source_url)
     if not html:
