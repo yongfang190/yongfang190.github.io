@@ -7,6 +7,19 @@
   "official_source_url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
   "items": [
     {
+      "id": "ndss-2024-previous-events-previous-ndss-symposia-previous-co-located-events",
+      "title": "Previous Events Previous NDSS Symposia Previous Co-located Events",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": null,
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
       "id": "ndss-2024-50-shades-of-support-a-device-centric-analysis-of-android-security-updates",
       "title": "50 Shades of Support: A Device-Centric Analysis of Android Security Updates",
       "authors": [],
@@ -1741,6 +1754,19 @@
       "authors": [],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/you-can-use-but-cannot-recognize-preserving-visual-privacy-in-deep-neural-networks/",
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "published_at": "2024-01-01",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "ndss-2024-join-us-to-keep-the-internet-and-its-systems-secure-and-resilient",
+      "title": "Join us to keep the Internet and its systems secure and resilient",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": "https://www.internetsociety.org/about-internet-society/",
       "doi": null,
       "source": "NDSS official",
       "source_url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",

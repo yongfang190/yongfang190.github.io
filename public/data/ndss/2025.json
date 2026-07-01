@@ -7,6 +7,19 @@
   "official_source_url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
   "items": [
     {
+      "id": "ndss-2025-previous-events-previous-ndss-symposia-previous-co-located-events",
+      "title": "Previous Events Previous NDSS Symposia Previous Co-located Events",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": null,
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
+      "published_at": "2025-01-01",
+      "year": 2025,
+      "tags": []
+    },
+    {
       "id": "ndss-2025-who-is-trying-to-access-my-account-exploring-user-perceptions-and-reactions-to-r",
       "title": "”Who is Trying to Access My Account?” Exploring User Perceptions and Reactions to Risk-based Authentication Notifications",
       "authors": [],
@@ -2690,6 +2703,19 @@
       "authors": [],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/yurascanner-leveraging-llms-for-task-driven-web-app-scanning/",
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
+      "published_at": "2025-01-01",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "ndss-2025-join-us-to-keep-the-internet-and-its-systems-secure-and-resilient",
+      "title": "Join us to keep the Internet and its systems secure and resilient",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": "https://www.internetsociety.org/about-internet-society/",
       "doi": null,
       "source": "NDSS official",
       "source_url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",

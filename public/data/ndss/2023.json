@@ -7,6 +7,19 @@
   "official_source_url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
   "items": [
     {
+      "id": "ndss-2023-previous-events-previous-ndss-symposia-previous-co-located-events",
+      "title": "Previous Events Previous NDSS Symposia Previous Co-located Events",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": null,
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
       "id": "ndss-2023-a-robust-counting-sketch-for-data-plane-intrusion-detection",
       "title": "A Robust Counting Sketch for Data Plane Intrusion Detection",
       "authors": [],
@@ -1104,6 +1117,19 @@
       "authors": [],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/your-router-is-my-prober-measuring-ipv6-networks-via-icmp-rate-limiting-side-channels/",
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "published_at": "2023-01-01",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "ndss-2023-join-us-to-keep-the-internet-and-its-systems-secure-and-resilient",
+      "title": "Join us to keep the Internet and its systems secure and resilient",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": "https://www.internetsociety.org/about-internet-society/",
       "doi": null,
       "source": "NDSS official",
       "source_url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",

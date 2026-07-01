@@ -7,6 +7,19 @@
   "official_source_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
   "items": [
     {
+      "id": "ndss-2026-previous-events-previous-ndss-symposia-previous-co-located-events",
+      "title": "Previous Events Previous NDSS Symposia Previous Co-located Events",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": null,
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "published_at": "2026-01-01",
+      "year": 2026,
+      "tags": []
+    },
+    {
       "id": "ndss-2026-a-causal-perspective-for-enhancing-jailbreak-attack-and-defense",
       "title": "A Causal Perspective for Enhancing Jailbreak Attack and Defense",
       "authors": [],
@@ -3327,6 +3340,19 @@
       "authors": [],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/zksl-verifiable-and-efficient-split-federated-learning-via-asynchronous-zero-knowledge-proofs/",
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "published_at": "2026-01-01",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "ndss-2026-join-us-to-keep-the-internet-and-its-systems-secure-and-resilient",
+      "title": "Join us to keep the Internet and its systems secure and resilient",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": "https://www.internetsociety.org/about-internet-society/",
       "doi": null,
       "source": "NDSS official",
       "source_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",

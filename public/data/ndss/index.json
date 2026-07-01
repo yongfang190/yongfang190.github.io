@@ -6,30 +6,30 @@
   "official_url_pattern": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
   "years": {
     "2026": {
-      "count": 256,
+      "count": 258,
       "source": "official",
       "official_source_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/"
     },
     "2025": {
-      "count": 207,
+      "count": 209,
       "source": "official",
       "official_source_url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/"
     },
     "2024": {
-      "count": 134,
+      "count": 136,
       "source": "official",
       "official_source_url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/"
     },
     "2023": {
-      "count": 85,
+      "count": 87,
       "source": "official",
       "official_source_url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/"
     },
     "2022": {
-      "count": 79,
+      "count": 81,
       "source": "official",
       "official_source_url": "https://www.ndss-symposium.org/ndss2022/accepted-papers/"
     }
   },
-  "last_updated": "2026-07-01T00:51:51.220753Z"
+  "last_updated": "2026-07-01T01:27:21.320900Z"
 }

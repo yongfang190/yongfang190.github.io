@@ -7,6 +7,19 @@
   "official_source_url": "https://www.ndss-symposium.org/ndss2022/accepted-papers/",
   "items": [
     {
+      "id": "ndss-2022-previous-events-previous-ndss-symposia-previous-co-located-events",
+      "title": "Previous Events Previous NDSS Symposia Previous Co-located Events",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": null,
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2022/accepted-papers/",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
       "id": "ndss-2022-above-and-beyond-organizational-efforts-to-complement-us-digital-security-compli",
       "title": "Above and Beyond: Organizational Efforts to Complement U.S. Digital Security Compliance Mandates",
       "authors": [],
@@ -1026,6 +1039,19 @@
       "authors": [],
       "abstract": "",
       "pdf_url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-226/",
+      "doi": null,
+      "source": "NDSS official",
+      "source_url": "https://www.ndss-symposium.org/ndss2022/accepted-papers/",
+      "published_at": "2022-01-01",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "ndss-2022-join-us-to-keep-the-internet-and-its-systems-secure-and-resilient",
+      "title": "Join us to keep the Internet and its systems secure and resilient",
+      "authors": [],
+      "abstract": "",
+      "pdf_url": "https://www.internetsociety.org/about-internet-society/",
       "doi": null,
       "source": "NDSS official",
       "source_url": "https://www.ndss-symposium.org/ndss2022/accepted-papers/",
