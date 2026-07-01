@@ -60,6 +60,45 @@ const abilityTags = [
   ['Tool Review', '工具与产品观察', 1.22, '#tools-products']
 ];
 
+const osLayers = [
+  {
+    code: '01',
+    name: 'Signal',
+    title: '识别真实问题',
+    body: '不追热点，先抓真实抱怨、支付动作和重复出现的需求。'
+  },
+  {
+    code: '02',
+    name: 'Judgment',
+    title: '选择高价值问题',
+    body: '用价值、可交付性、AI 放大空间和复用潜力筛掉噪音。'
+  },
+  {
+    code: '03',
+    name: 'Project',
+    title: '变成可交付任务',
+    body: '把模糊想法切成有边界、有产出、有验收标准的项目。'
+  },
+  {
+    code: '04',
+    name: 'Execution',
+    title: '借助 AI 快速执行',
+    body: '用 AI 提速，但保留人的判断、取舍、审稿和交付责任。'
+  },
+  {
+    code: '05',
+    name: 'Sedimentation',
+    title: '沉淀成资产',
+    body: '把一次交付整理成模板、清单、流程、文档和可复用技能。'
+  },
+  {
+    code: '06',
+    name: 'Enlargement',
+    title: '放大为业务',
+    body: '只放大已验证的能力，变成服务、产品、流程或公开资产。'
+  }
+];
+
 const conferences = [
   ['NDSS', '网络与分布式系统安全', '/conf/ndss'],
   ['IEEE S&P', '系统安全、隐私与安全基础研究', '/conf/sp'],
@@ -351,6 +390,7 @@ const references = [
       }
 
       .os-copy,
+      .layer-stack,
       .tagcloud {
         position: relative;
       }
@@ -374,6 +414,51 @@ const references = [
         font-size: 0.78rem;
         font-weight: 800;
         margin-bottom: 10px;
+      }
+
+      .layer-stack {
+        display: grid;
+        grid-column: 1 / -1;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .layer-card {
+        background: rgba(255, 255, 255, 0.78);
+        border: 1px solid color-mix(in srgb, var(--line) 72%, var(--green));
+        border-radius: 10px;
+        min-height: 164px;
+        padding: 18px;
+      }
+
+      .layer-card b {
+        color: var(--red);
+        display: block;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 1.35rem;
+        line-height: 1;
+        margin-bottom: 12px;
+      }
+
+      .layer-card small {
+        color: var(--green);
+        display: block;
+        font-size: 0.76rem;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+      }
+
+      .layer-card h3 {
+        font-size: 1.04rem;
+        margin: 0 0 10px;
+      }
+
+      .layer-card p {
+        color: var(--muted);
+        line-height: 1.65;
+        margin: 0;
       }
 
       .tagcloud {
@@ -605,6 +690,7 @@ const references = [
         }
 
         .module-grid,
+        .layer-stack,
         .timeline,
         .conference-grid,
         .reference-grid {
@@ -644,6 +730,7 @@ const references = [
         }
 
         .module-grid,
+        .layer-stack,
         .timeline,
         .conference-grid,
         .reference-grid {
@@ -715,6 +802,16 @@ const references = [
               这个模块承接原主页的六层能力系统：从真实问题信号，到价值判断、项目化、AI 执行、资产沉淀和业务放大。它和 AI 安全、Java 架构、论文阅读不是并列资料夹，而是把学习转成作品和服务的操作系统。
             </p>
             <a class="button" href="https://yongfang190-eng.github.io/" target="_blank" rel="noopener">查看远程当前主页</a>
+          </div>
+          <div class="layer-stack" aria-label="六层个人能力系统">
+            {osLayers.map((layer) => (
+              <article class="layer-card" id={`os-layer-${layer.name.toLowerCase()}`}>
+                <b>{layer.code}</b>
+                <small>{layer.name}</small>
+                <h3>{layer.title}</h3>
+                <p>{layer.body}</p>
+              </article>
+            ))}
           </div>
           <div class="tagcloud" aria-label="能力 OS 标签云">
             {abilityTags.map(([title, desc, size, href]) => (
